@@ -1,0 +1,20 @@
+[
+  {
+    "interaction_id": 1,
+    "character_name": "主角",
+    "interaction_name": "睡觉",
+    "interaction_room": "卧室",
+    "interaction_placement_type": "床",
+    "interaction_particular_placement_name": "",
+    "res_url": ""
+  },
+  {
+    "interaction_id": 2,
+    "character_name": "主角",
+    "interaction_name": "美梦",
+    "interaction_room": "卧室",
+    "interaction_placement_type": "",
+    "interaction_particular_placement_name": "豪华床",
+    "res_url": ""
+  }
+]

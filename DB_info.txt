@@ -1,0 +1,11 @@
+Local
+192.168.31.184
+5435
+postgres
+project_mouse_ver_002
+a2deeac1608
+
+Romote
+47.116.175.125
+34432
+iG1CzeW84Fl7Ql

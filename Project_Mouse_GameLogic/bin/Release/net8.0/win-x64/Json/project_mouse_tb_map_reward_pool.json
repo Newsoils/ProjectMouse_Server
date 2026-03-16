@@ -1,0 +1,62 @@
+[
+  {
+    "map_name": "面包店",
+    "reward_count_weight_list": [
+      30,
+      19,
+      1
+    ],
+    "reward_item_name_list": [
+      "普通花盆",
+      "薄荷叶"
+    ]
+  },
+  {
+    "map_name": "咖啡厅",
+    "reward_count_weight_list": [
+      20,
+      25,
+      5
+    ],
+    "reward_item_name_list": [
+      "普通花盆",
+      "咖啡豆"
+    ]
+  },
+  {
+    "map_name": "修理厂",
+    "reward_count_weight_list": [
+      15,
+      27,
+      8
+    ],
+    "reward_item_name_list": [
+      "珍稀花盆",
+      "螺丝"
+    ]
+  },
+  {
+    "map_name": "酒吧",
+    "reward_count_weight_list": [
+      10,
+      29,
+      11
+    ],
+    "reward_item_name_list": [
+      "珍稀花盆",
+      "柠檬片"
+    ]
+  },
+  {
+    "map_name": "漫画店",
+    "reward_count_weight_list": [
+      11,
+      30,
+      12
+    ],
+    "reward_item_name_list": [
+      "珍稀花盆",
+      "柠檬片"
+    ]
+  }
+]

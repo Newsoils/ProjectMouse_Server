@@ -1,0 +1,20 @@
+[
+  {
+    "fertilizer_id": 1,
+    "fertilizer_name": "特效生长肥料",
+    "first_category": 3,
+    "second_category": 301,
+    "is_to_mature": true,
+    "speed_up_rate": 999999,
+    "hided_variant_plus": 0
+  },
+  {
+    "fertilizer_id": 2,
+    "fertilizer_name": "强力有机肥料",
+    "first_category": 3,
+    "second_category": 302,
+    "is_to_mature": false,
+    "speed_up_rate": 0,
+    "hided_variant_plus": 0.1
+  }
+]

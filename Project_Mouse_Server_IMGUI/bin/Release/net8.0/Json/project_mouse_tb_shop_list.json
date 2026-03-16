@@ -1,0 +1,184 @@
+[
+  {
+    "shop_list_id": 1,
+    "shop_list_name": "服装商品列表_001",
+    "shop_list_type": "服装商品列表",
+    "is_limited": true,
+    "single_shop_item_list": [
+      {
+        "item_name": "玳瑁方框眼镜",
+        "item_count": 1
+      },
+      {
+        "item_name": "蓝色条纹衬衫",
+        "item_count": 1
+      },
+      {
+        "item_name": "棕色办公裤子",
+        "item_count": 1
+      },
+      {
+        "item_name": "办公皮鞋",
+        "item_count": -1
+      }
+    ],
+    "group_shop_item_list": []
+  },
+  {
+    "shop_list_id": 2,
+    "shop_list_name": "家具商品列表_001",
+    "shop_list_type": "家具商品列表",
+    "is_limited": true,
+    "single_shop_item_list": [
+      {
+        "item_name": "柠檬绿格子坐地椅",
+        "item_count": -1
+      },
+      {
+        "item_name": "黑色格子方凳",
+        "item_count": -1
+      },
+      {
+        "item_name": "原木基础床",
+        "item_count": -1
+      },
+      {
+        "item_name": "原木置物架",
+        "item_count": -1
+      }
+    ],
+    "group_shop_item_list": []
+  },
+  {
+    "shop_list_id": 3,
+    "shop_list_name": "种植商品列表_001",
+    "shop_list_type": "种植商品列表",
+    "is_limited": false,
+    "single_shop_item_list": [
+      {
+        "item_name": "草莓种子",
+        "item_count": -1
+      },
+      {
+        "item_name": "柠檬幼苗",
+        "item_count": -1
+      },
+      {
+        "item_name": "特效生长肥料",
+        "item_count": -1
+      },
+      {
+        "item_name": "盆景枫树幼苗",
+        "item_count": -1
+      },
+      {
+        "item_name": "蓝莓种子",
+        "item_count": -1
+      },
+      {
+        "item_name": "强力有机肥料",
+        "item_count": -1
+      },
+      {
+        "item_name": "浅蓝色做旧圆形大花盆",
+        "item_count": -1
+      },
+      {
+        "item_name": "绿色做旧椭圆切角中花盆",
+        "item_count": -1
+      },
+      {
+        "item_name": "绿色做旧方形小花盆",
+        "item_count": -1
+      }
+    ],
+    "group_shop_item_list": []
+  },
+  {
+    "shop_list_id": 4,
+    "shop_list_name": "携带物商品列表_001",
+    "shop_list_type": "携带物商品列表",
+    "is_limited": false,
+    "single_shop_item_list": [
+      {
+        "item_name": "金枪鱼饭团",
+        "item_count": -1
+      },
+      {
+        "item_name": "肉松饭团",
+        "item_count": -1
+      },
+      {
+        "item_name": "猫真的很好",
+        "item_count": -1
+      },
+      {
+        "item_name": "小熊钥匙扣",
+        "item_count": -1
+      },
+      {
+        "item_name": "蜡笔",
+        "item_count": -1
+      },
+      {
+        "item_name": "魔法少女&娜娜",
+        "item_count": -1
+      },
+      {
+        "item_name": "深海鱼饭团",
+        "item_count": -1
+      },
+      {
+        "item_name": "发卡",
+        "item_count": -1
+      },
+      {
+        "item_name": "一杯柠檬水",
+        "item_count": -1
+      }
+    ],
+    "group_shop_item_list": []
+  },
+  {
+    "shop_list_id": 5,
+    "shop_list_name": "套装服装商品列表_001",
+    "shop_list_type": "套装服装商品列表",
+    "is_limited": true,
+    "single_shop_item_list": [],
+    "group_shop_item_list": [
+      "柔边蝴蝶结套装",
+      "黄色柔边蝴蝶结套装"
+    ]
+  },
+  {
+    "shop_list_id": 6,
+    "shop_list_name": "套装服装商品列表_002",
+    "shop_list_type": "套装服装商品列表",
+    "is_limited": true,
+    "single_shop_item_list": [],
+    "group_shop_item_list": [
+      "黄色柔边蝴蝶结套装"
+    ]
+  },
+  {
+    "shop_list_id": 7,
+    "shop_list_name": "套组家具商品列表_001",
+    "shop_list_type": "套组家具商品列表",
+    "is_limited": true,
+    "single_shop_item_list": [],
+    "group_shop_item_list": [
+      "花仙子套组",
+      "下午茶套组"
+    ]
+  },
+  {
+    "shop_list_id": 8,
+    "shop_list_name": "超稀有套组家具商品列表",
+    "shop_list_type": "套组家具商品列表",
+    "is_limited": true,
+    "single_shop_item_list": [],
+    "group_shop_item_list": [
+      "下午茶套组"
+    ]
+  }
+]

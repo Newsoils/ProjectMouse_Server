@@ -1,0 +1,20 @@
+[
+  {
+    "fertilizerId": 1,
+    "fertilizerName": "特效生长肥料",
+    "category": 301,
+    "effectDescription": "施肥后植物直接进入【成熟待收期】",
+    "effectKey": "Grow",
+    "effectParams": []
+  },
+  {
+    "fertilizerId": 2,
+    "fertilizerName": "强力有机肥料",
+    "category": 302,
+    "effectDescription": "施肥后出现隐藏款植物的概率提升到{0}%",
+    "effectKey": "ChangeVariantChance",
+    "effectParams": [
+      10
+    ]
+  }
+]

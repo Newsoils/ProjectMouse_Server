@@ -1,0 +1,66 @@
+[
+  {
+    "favor_lv": 0,
+    "levelUp_ExpNeed": 50
+  },
+  {
+    "favor_lv": 1,
+    "levelUp_ExpNeed": 150
+  },
+  {
+    "favor_lv": 2,
+    "levelUp_ExpNeed": 300
+  },
+  {
+    "favor_lv": 3,
+    "levelUp_ExpNeed": 500
+  },
+  {
+    "favor_lv": 4,
+    "levelUp_ExpNeed": 750
+  },
+  {
+    "favor_lv": 5,
+    "levelUp_ExpNeed": 1050
+  },
+  {
+    "favor_lv": 6,
+    "levelUp_ExpNeed": 1400
+  },
+  {
+    "favor_lv": 7,
+    "levelUp_ExpNeed": 1800
+  },
+  {
+    "favor_lv": 8,
+    "levelUp_ExpNeed": 2250
+  },
+  {
+    "favor_lv": 9,
+    "levelUp_ExpNeed": 2750
+  },
+  {
+    "favor_lv": 10,
+    "levelUp_ExpNeed": 3350
+  },
+  {
+    "favor_lv": 11,
+    "levelUp_ExpNeed": 4050
+  },
+  {
+    "favor_lv": 12,
+    "levelUp_ExpNeed": 4850
+  },
+  {
+    "favor_lv": 13,
+    "levelUp_ExpNeed": 5850
+  },
+  {
+    "favor_lv": 14,
+    "levelUp_ExpNeed": 7350
+  },
+  {
+    "favor_lv": 15,
+    "levelUp_ExpNeed": 2147483647
+  }
+]

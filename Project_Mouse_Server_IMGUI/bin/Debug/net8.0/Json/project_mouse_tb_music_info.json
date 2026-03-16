@@ -1,0 +1,173 @@
+[
+  {
+    "id": 1,
+    "wavName": "猫真的很好",
+    "wavFileName": "catIsGood",
+    "type": 0,
+    "volume": 0.7,
+    "refKeys": [],
+    "resKey": "WAV_CATISGOOD"
+  },
+  {
+    "id": 2,
+    "wavName": "魔法少女&娜娜",
+    "wavFileName": "MaHouShaoJiu_NaNa",
+    "type": 0,
+    "volume": 0.7,
+    "refKeys": [],
+    "resKey": "WAV_MAHOUSHAOJIU_NANA"
+  },
+  {
+    "id": 3,
+    "wavName": "苔语",
+    "wavFileName": "Tai's Whisper",
+    "type": 0,
+    "volume": 0.7,
+    "refKeys": [],
+    "resKey": "WAV_TAI_S_WHISPER"
+  },
+  {
+    "id": 4,
+    "wavName": "一杯柠檬水",
+    "wavFileName": "Lemmonnade",
+    "type": 0,
+    "volume": 0.7,
+    "refKeys": [],
+    "resKey": "WAV_LEMMONNADE"
+  },
+  {
+    "id": 5,
+    "wavName": "白天小苔屋",
+    "wavFileName": "Day",
+    "type": 0,
+    "volume": 0.7,
+    "refKeys": [],
+    "resKey": "WAV_DAY"
+  },
+  {
+    "id": 6,
+    "wavName": "夜晚小苔屋",
+    "wavFileName": "Night",
+    "type": 0,
+    "volume": 0.7,
+    "refKeys": [],
+    "resKey": "WAV_NIGHT"
+  },
+  {
+    "id": 7,
+    "wavName": "登录界面",
+    "wavFileName": "Login",
+    "type": 0,
+    "volume": 0.7,
+    "refKeys": [],
+    "resKey": "WAV_LOGIN"
+  },
+  {
+    "id": 101,
+    "wavName": "通用点击音效",
+    "wavFileName": "pop 1",
+    "type": 1,
+    "volume": 1,
+    "refKeys": [
+      "button"
+    ],
+    "resKey": ""
+  },
+  {
+    "id": 102,
+    "wavName": "手机打开",
+    "wavFileName": "Flip phone open 3",
+    "type": 1,
+    "volume": 1,
+    "refKeys": [
+      "openPhone"
+    ],
+    "resKey": ""
+  },
+  {
+    "id": 103,
+    "wavName": "手机闭合",
+    "wavFileName": "Flip phone close 3",
+    "type": 1,
+    "volume": 1,
+    "refKeys": [
+      "closePhone"
+    ],
+    "resKey": ""
+  },
+  {
+    "id": 104,
+    "wavName": "浇水",
+    "wavFileName": "water 3",
+    "type": 1,
+    "volume": 1,
+    "refKeys": [
+      "water"
+    ],
+    "resKey": ""
+  },
+  {
+    "id": 105,
+    "wavName": "家具、花盆|（取）",
+    "wavFileName": "Getting objects 2",
+    "type": 1,
+    "volume": 1,
+    "refKeys": [
+      "getPlacement"
+    ],
+    "resKey": ""
+  },
+  {
+    "id": 106,
+    "wavName": "家具、花盆|（放）",
+    "wavFileName": "Release objects 2",
+    "type": 1,
+    "volume": 1,
+    "refKeys": [
+      "setPlacement"
+    ],
+    "resKey": ""
+  },
+  {
+    "id": 107,
+    "wavName": "换装",
+    "wavFileName": "Dress 2",
+    "type": 1,
+    "volume": 1,
+    "refKeys": [],
+    "resKey": ""
+  },
+  {
+    "id": 108,
+    "wavName": "充值成功",
+    "wavFileName": "Top up 4 complex version",
+    "type": 1,
+    "volume": 1,
+    "refKeys": [
+      "paySuccess"
+    ],
+    "resKey": ""
+  },
+  {
+    "id": 109,
+    "wavName": "相机拍照",
+    "wavFileName": "Camera 4",
+    "type": 1,
+    "volume": 1,
+    "refKeys": [
+      "takePhoto"
+    ],
+    "resKey": ""
+  },
+  {
+    "id": 110,
+    "wavName": "获得奖励",
+    "wavFileName": "Reward 3",
+    "type": 1,
+    "volume": 1,
+    "refKeys": [
+      "getReward"
+    ],
+    "resKey": ""
+  }
+]

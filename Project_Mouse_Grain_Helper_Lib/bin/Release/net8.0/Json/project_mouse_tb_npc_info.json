@@ -1,0 +1,32 @@
+[
+  {
+    "npc_id": 1,
+    "npc_name": "莫诺诺",
+    "npc_personality": "装瞎/喜欢重金属音乐/晒太阳/看漫画"
+  },
+  {
+    "npc_id": 2,
+    "npc_name": "朝音",
+    "npc_personality": "开朗"
+  },
+  {
+    "npc_id": 3,
+    "npc_name": "哈娜",
+    "npc_personality": "冷静、有条理，偶尔带点毒舌；其实很照顾人。"
+  },
+  {
+    "npc_id": 4,
+    "npc_name": "雨",
+    "npc_personality": "害羞/内向/说话小小声/偶尔会不耐烦生气"
+  },
+  {
+    "npc_id": 5,
+    "npc_name": "小盒",
+    "npc_personality": "害羞"
+  },
+  {
+    "npc_id": 6,
+    "npc_name": "茄几",
+    "npc_personality": "开朗"
+  }
+]

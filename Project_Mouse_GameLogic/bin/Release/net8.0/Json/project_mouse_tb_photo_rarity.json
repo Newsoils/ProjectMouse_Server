@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "photo_Rarity_Name": "普通"
+  },
+  {
+    "id": 2,
+    "photo_Rarity_Name": "稀有"
+  },
+  {
+    "id": 3,
+    "photo_Rarity_Name": "珍贵"
+  },
+  {
+    "id": 4,
+    "photo_Rarity_Name": "雅致"
+  }
+]

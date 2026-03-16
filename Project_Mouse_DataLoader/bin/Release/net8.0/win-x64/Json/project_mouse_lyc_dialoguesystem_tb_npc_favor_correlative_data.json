@@ -1,0 +1,86 @@
+[
+  {
+    "npcId": 1,
+    "giftOfEachFavorLevel": [
+      [
+        1,
+        101
+      ],
+      [
+        5,
+        102
+      ],
+      [
+        10,
+        103
+      ]
+    ],
+    "paraIdOfEachFavorLevel": [
+      [
+        1,
+        50001
+      ],
+      [
+        2,
+        50002
+      ],
+      [
+        4,
+        50003
+      ],
+      [
+        7,
+        50004
+      ],
+      [
+        10,
+        50005
+      ]
+    ]
+  },
+  {
+    "npcId": 2,
+    "giftOfEachFavorLevel": [
+      [
+        1,
+        104
+      ]
+    ],
+    "paraIdOfEachFavorLevel": [
+      [
+        2,
+        50006
+      ]
+    ]
+  },
+  {
+    "npcId": 3,
+    "giftOfEachFavorLevel": [],
+    "paraIdOfEachFavorLevel": []
+  },
+  {
+    "npcId": 4,
+    "giftOfEachFavorLevel": [],
+    "paraIdOfEachFavorLevel": []
+  },
+  {
+    "npcId": 5,
+    "giftOfEachFavorLevel": [],
+    "paraIdOfEachFavorLevel": []
+  },
+  {
+    "npcId": 6,
+    "giftOfEachFavorLevel": [],
+    "paraIdOfEachFavorLevel": []
+  },
+  {
+    "npcId": 7,
+    "giftOfEachFavorLevel": [],
+    "paraIdOfEachFavorLevel": []
+  },
+  {
+    "npcId": 8,
+    "giftOfEachFavorLevel": [],
+    "paraIdOfEachFavorLevel": []
+  }
+]

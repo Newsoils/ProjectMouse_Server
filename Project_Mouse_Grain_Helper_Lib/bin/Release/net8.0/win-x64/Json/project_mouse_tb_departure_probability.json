@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "min_time": 0,
+    "max_time": 180,
+    "probability": 0.0012
+  },
+  {
+    "id": 2,
+    "min_time": 180,
+    "max_time": 360,
+    "probability": 0.0038
+  },
+  {
+    "id": 3,
+    "min_time": 360,
+    "max_time": 1080,
+    "probability": 0.0028
+  },
+  {
+    "id": 4,
+    "min_time": 1080,
+    "max_time": 1440,
+    "probability": 0.0054
+  },
+  {
+    "id": 5,
+    "min_time": 1440,
+    "max_time": 2880,
+    "probability": 0.0023
+  },
+  {
+    "id": 6,
+    "min_time": 2880,
+    "max_time": 4320,
+    "probability": 0.005
+  },
+  {
+    "id": 7,
+    "min_time": 4320,
+    "max_time": 99999999,
+    "probability": 1
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "interactName": "抬头望向相机",
+    "favorLevel": 1,
+    "animationName": "lookAtCamera",
+    "popContent": "…好安静。"
+  },
+  {
+    "interactName": "思考",
+    "favorLevel": 2,
+    "animationName": "think",
+    "popContent": "…被子外面…是危险的世界。"
+  },
+  {
+    "interactName": "抬头星星眼",
+    "favorLevel": 2,
+    "animationName": "stun",
+    "popContent": "闹钟…是敌人。"
+  },
+  {
+    "interactName": "抬头献花",
+    "favorLevel": 3,
+    "animationName": "giveFlower",
+    "popContent": "好！加油吧！"
+  },
+  {
+    "interactName": "其他动作1",
+    "favorLevel": 3,
+    "animationName": "",
+    "popContent": "有座位的地铁真好"
+  },
+  {
+    "interactName": "其他动作2",
+    "favorLevel": 3,
+    "animationName": "",
+    "popContent": "遇到猫了，今天运气不错。"
+  },
+  {
+    "interactName": "其他动作3",
+    "favorLevel": 4,
+    "animationName": "",
+    "popContent": "想买的东西，和需要的东西，总是不一样。\n"
+  },
+  {
+    "interactName": "其他动作4",
+    "favorLevel": 4,
+    "animationName": "",
+    "popContent": "泡面的三分钟，是世界上最漫长的三分钟。"
+  },
+  {
+    "interactName": "其他动作5",
+    "favorLevel": 5,
+    "animationName": "",
+    "popContent": "掰开筷子的瞬间，仪式感就来了。\n"
+  },
+  {
+    "interactName": "其他动作6",
+    "favorLevel": 5,
+    "animationName": "",
+    "popContent": "手机电量满格，充满了安全感。\n"
+  }
+]

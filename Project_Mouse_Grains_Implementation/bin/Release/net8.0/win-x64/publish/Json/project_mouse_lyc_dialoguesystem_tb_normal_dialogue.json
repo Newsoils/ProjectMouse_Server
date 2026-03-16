@@ -1,0 +1,532 @@
+[
+  {
+    "_dialogueId": 20001,
+    "_speakerId": 1,
+    "_speaker": 1,
+    "_contents": "你好，我叫莫诺诺。",
+    "_chatHints": "",
+    "_nextDialogueId": 30001,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20002,
+    "_speakerId": 1,
+    "_speaker": 1,
+    "_contents": "你走路声音太轻了。像猫。",
+    "_chatHints": "",
+    "_nextDialogueId": 30002,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20003,
+    "_speakerId": 1,
+    "_speaker": 1,
+    "_contents": "今天太阳真好，开心。",
+    "_chatHints": "",
+    "_nextDialogueId": 30003,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20004,
+    "_speakerId": 1,
+    "_speaker": 1,
+    "_contents": "你喜欢什么音乐？我喜欢重金属呢。",
+    "_chatHints": "",
+    "_nextDialogueId": 30004,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20005,
+    "_speakerId": 1,
+    "_speaker": 1,
+    "_contents": "黑白色给我安全感。",
+    "_chatHints": "",
+    "_nextDialogueId": 30005,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20006,
+    "_speakerId": 1,
+    "_speaker": 1,
+    "_contents": "我在思考，斑马应该是这个世界上最完美的生物。",
+    "_chatHints": "",
+    "_nextDialogueId": 30006,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20007,
+    "_speakerId": 1,
+    "_speaker": 1,
+    "_contents": "这种夹心饼干，必须要先扭开，把白色的舔掉。",
+    "_chatHints": "",
+    "_nextDialogueId": 30007,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20008,
+    "_speakerId": 2,
+    "_speaker": 1,
+    "_contents": "你好，我叫朝音。",
+    "_chatHints": "",
+    "_nextDialogueId": 30008,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20009,
+    "_speakerId": 2,
+    "_speaker": 1,
+    "_contents": "我今天又迟到了两分钟。抱歉。",
+    "_chatHints": "",
+    "_nextDialogueId": 30009,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20010,
+    "_speakerId": 4,
+    "_speaker": 1,
+    "_contents": "很开心认识你！我叫雨。",
+    "_chatHints": "",
+    "_nextDialogueId": 30010,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20011,
+    "_speakerId": 4,
+    "_speaker": 1,
+    "_contents": "雨停的时候，我有点不知所措。",
+    "_chatHints": "",
+    "_nextDialogueId": 30011,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20012,
+    "_speakerId": 4,
+    "_speaker": 1,
+    "_contents": "你喜欢水母吗？",
+    "_chatHints": "",
+    "_nextDialogueId": 30012,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20013,
+    "_speakerId": 4,
+    "_speaker": 1,
+    "_contents": "我梦见你在街角给我递了一把伞。好奇怪。",
+    "_chatHints": "",
+    "_nextDialogueId": 30013,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20014,
+    "_speakerId": 4,
+    "_speaker": 1,
+    "_contents": "你不嫌我慢吧？我总是要组织好才敢说话。",
+    "_chatHints": "",
+    "_nextDialogueId": 30014,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20015,
+    "_speakerId": 5,
+    "_speaker": 1,
+    "_contents": "你好，我叫小盒。",
+    "_chatHints": "",
+    "_nextDialogueId": 30015,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20016,
+    "_speakerId": 5,
+    "_speaker": 1,
+    "_contents": "睡醒了……但是还是很困。",
+    "_chatHints": "",
+    "_nextDialogueId": 30016,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20017,
+    "_speakerId": 5,
+    "_speaker": 1,
+    "_contents": "你今天还顺利吗？",
+    "_chatHints": "",
+    "_nextDialogueId": 30017,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20018,
+    "_speakerId": 5,
+    "_speaker": 1,
+    "_contents": "我这里有一盒牛奶……给你留着。",
+    "_chatHints": "",
+    "_nextDialogueId": 30018,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20019,
+    "_speakerId": 5,
+    "_speaker": 1,
+    "_contents": "刚才做梦……梦见大碗拉面……一直在跑。",
+    "_chatHints": "",
+    "_nextDialogueId": 30019,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20020,
+    "_speakerId": 0,
+    "_speaker": 0,
+    "_contents": "@小苔 这是新朋友。",
+    "_chatHints": "",
+    "_nextDialogueId": 0,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20021,
+    "_speakerId": 0,
+    "_speaker": 0,
+    "_contents": "群里好多人呀，有点紧张，但能认识大家真的很开心！",
+    "_chatHints": "",
+    "_nextDialogueId": 0,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20022,
+    "_speakerId": 5,
+    "_speaker": 1,
+    "_contents": "0.0欢迎你……搬家一定……很累吧……",
+    "_chatHints": "",
+    "_nextDialogueId": 0,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20023,
+    "_speakerId": 2,
+    "_speaker": 1,
+    "_contents": "很开心认识你！！",
+    "_chatHints": "",
+    "_nextDialogueId": 0,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20024,
+    "_speakerId": 6,
+    "_speaker": 1,
+    "_contents": "哇，欢迎！",
+    "_chatHints": "",
+    "_nextDialogueId": 0,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20025,
+    "_speakerId": 2,
+    "_speaker": 1,
+    "_contents": "嘿嘿，我住在你隔壁的隔壁的隔壁！",
+    "_chatHints": "",
+    "_nextDialogueId": 0,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20026,
+    "_speakerId": 4,
+    "_speaker": 1,
+    "_contents": "那个……你好。",
+    "_chatHints": "",
+    "_nextDialogueId": 0,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20027,
+    "_speakerId": 3,
+    "_speaker": 1,
+    "_contents": "欢迎，有任何需要随时告诉我。",
+    "_chatHints": "",
+    "_nextDialogueId": 0,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20028,
+    "_speakerId": 1,
+    "_speaker": 1,
+    "_contents": "新的朋友！",
+    "_chatHints": "",
+    "_nextDialogueId": 0,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20029,
+    "_speakerId": 5,
+    "_speaker": 1,
+    "_contents": "0.0路边的路灯，在打瞌睡。。。我也，想睡了。",
+    "_chatHints": "",
+    "_nextDialogueId": 0,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20030,
+    "_speakerId": 4,
+    "_speaker": 1,
+    "_contents": "。。。昨晚的雨声，很好听。我录下来了，大家可以听听看。",
+    "_chatHints": "",
+    "_nextDialogueId": 0,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20031,
+    "_speakerId": 0,
+    "_speaker": 0,
+    "_contents": "睡着了，在雨声中。",
+    "_chatHints": "",
+    "_nextDialogueId": 0,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20032,
+    "_speakerId": 2,
+    "_speaker": 1,
+    "_contents": "雨，你真好。",
+    "_chatHints": "",
+    "_nextDialogueId": 0,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20033,
+    "_speakerId": 5,
+    "_speaker": 1,
+    "_contents": "昨晚的雨打湿我的外壳。",
+    "_chatHints": "",
+    "_nextDialogueId": 0,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20034,
+    "_speakerId": 4,
+    "_speaker": 1,
+    "_contents": "抱抱。",
+    "_chatHints": "",
+    "_nextDialogueId": 0,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20035,
+    "_speakerId": 2,
+    "_speaker": 1,
+    "_contents": "谁去吃那家会喷火的拉面？@小苔 一起吗？",
+    "_chatHints": "",
+    "_nextDialogueId": 0,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20036,
+    "_speakerId": 0,
+    "_speaker": 0,
+    "_contents": "好呀！",
+    "_chatHints": "",
+    "_nextDialogueId": 0,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20037,
+    "_speakerId": 3,
+    "_speaker": 1,
+    "_contents": "我也一起。",
+    "_chatHints": "",
+    "_nextDialogueId": 0,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20038,
+    "_speakerId": 6,
+    "_speaker": 1,
+    "_contents": "我也！",
+    "_chatHints": "",
+    "_nextDialogueId": 0,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20039,
+    "_speakerId": 4,
+    "_speaker": 1,
+    "_contents": "去拉面店的路上，会经过那条种满绣球花的小路。要是……要是你看到花开了，可以……偷偷拍给我看吗？",
+    "_chatHints": "",
+    "_nextDialogueId": 0,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20040,
+    "_speakerId": 1,
+    "_speaker": 1,
+    "_contents": "1",
+    "_chatHints": "",
+    "_nextDialogueId": 0,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20041,
+    "_speakerId": 6,
+    "_speaker": 1,
+    "_contents": "天哪，阳光洒在路边的自动贩卖机上超美的！",
+    "_chatHints": "",
+    "_nextDialogueId": 0,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20042,
+    "_speakerId": 2,
+    "_speaker": 1,
+    "_contents": "如果有朋友在路上捡到我的发夹，记得帮我装进背包带回来哦！",
+    "_chatHints": "",
+    "_nextDialogueId": 0,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20043,
+    "_speakerId": 0,
+    "_speaker": 0,
+    "_contents": "那个……我刚才在路口买汽水，贩卖机突然“咕咚”一声吐出了两罐！",
+    "_chatHints": "",
+    "_nextDialogueId": 0,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20044,
+    "_speakerId": 6,
+    "_speaker": 1,
+    "_contents": "好幸运！",
+    "_chatHints": "",
+    "_nextDialogueId": 0,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20045,
+    "_speakerId": 5,
+    "_speaker": 1,
+    "_contents": "喝之喝之！！",
+    "_chatHints": "",
+    "_nextDialogueId": 0,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20046,
+    "_speakerId": 0,
+    "_speaker": 0,
+    "_contents": "嘿嘿，今天下班早，我在便利店买到了最后一个打折饭团！",
+    "_chatHints": "",
+    "_nextDialogueId": 0,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20047,
+    "_speakerId": 5,
+    "_speaker": 1,
+    "_contents": "饭之饭之……是什么口味的？如果是，咸蛋黄的话，那是，高级的，快乐。",
+    "_chatHints": "",
+    "_nextDialogueId": 0,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20048,
+    "_speakerId": 0,
+    "_speaker": 0,
+    "_contents": "是金枪鱼口味的！",
+    "_chatHints": "",
+    "_nextDialogueId": 0,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20049,
+    "_speakerId": 3,
+    "_speaker": 1,
+    "_contents": "那个牌子的饭团，加热 20 秒口感最好，别直接冷着吃。",
+    "_chatHints": "",
+    "_nextDialogueId": 0,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20050,
+    "_speakerId": 4,
+    "_speaker": 1,
+    "_contents": "饭团的包装纸，撕开的声音，脆生生的。好听。",
+    "_chatHints": "",
+    "_nextDialogueId": 0,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20051,
+    "_speakerId": 1,
+    "_speaker": 1,
+    "_contents": "安利一本漫画，青苹果之都的秘密，胆小的人不要看喔。",
+    "_chatHints": "",
+    "_nextDialogueId": 0,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20052,
+    "_speakerId": 2,
+    "_speaker": 1,
+    "_contents": "啊，我不敢看。可以帮我解说吗？",
+    "_chatHints": "",
+    "_nextDialogueId": 0,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  },
+  {
+    "_dialogueId": 20053,
+    "_speakerId": 1,
+    "_speaker": 1,
+    "_contents": "好，明天正午到公园躺椅集合。",
+    "_chatHints": "",
+    "_nextDialogueId": 0,
+    "_hasOptionDialogue": false,
+    "_isLastDialogue": false
+  }
+]

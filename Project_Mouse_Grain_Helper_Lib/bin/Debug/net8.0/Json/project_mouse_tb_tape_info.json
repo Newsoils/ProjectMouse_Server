@@ -1,0 +1,46 @@
+[
+  {
+    "item_id": 2001,
+    "tape_name": "猫真的很好",
+    "mood_tag_list": [
+      1,
+      4,
+      3
+    ],
+    "mat_resource_name": "MAT_CD1_MAO",
+    "wav_resource_name": "WAV_CATISGOOD"
+  },
+  {
+    "item_id": 2002,
+    "tape_name": "一杯柠檬水",
+    "mood_tag_list": [
+      2,
+      4,
+      5
+    ],
+    "mat_resource_name": "MAT_CD2_LEMONNADE",
+    "wav_resource_name": "WAV_LEMMONNADE"
+  },
+  {
+    "item_id": 2003,
+    "tape_name": "魔法少女&娜娜",
+    "mood_tag_list": [
+      3,
+      1,
+      2
+    ],
+    "mat_resource_name": "MAT_CD3_MAHOUSHAOJIU_NANA",
+    "wav_resource_name": "WAV_MAHOUSHAOJIU_NANA"
+  },
+  {
+    "item_id": 2004,
+    "tape_name": "苔语",
+    "mood_tag_list": [
+      6,
+      4,
+      2
+    ],
+    "mat_resource_name": "MAT_CD4_TAI_S_WHISPER",
+    "wav_resource_name": "WAV_TAI_S_WHISPER"
+  }
+]

@@ -1,0 +1,192 @@
+[
+  {
+    "achievement_id": 1,
+    "achievement_name": "初次打工",
+    "achievement_type": "旅行派遣成就",
+    "achievement_desc": "你的小苔第一次出门打工。",
+    "achievement_unlock_condition": "首次派遣成功",
+    "achievement_unlock_condition_SQL": "select id=8 as _flag_ from player where user_name=@player_name;",
+    "achievement_rank": "普通",
+    "item_reward": [
+      {
+        "item_name": "背包_001",
+        "item_count": 1
+      }
+    ],
+    "affinity_reaward_target": "主角",
+    "affinity_reaward_value": 20,
+    "achievement_icon_res_url": ""
+  },
+  {
+    "achievement_id": 2,
+    "achievement_name": "打工之魂",
+    "achievement_type": "旅行派遣成就",
+    "achievement_desc": "小苔累积旅行次数达到10次。",
+    "achievement_unlock_condition": "派遣次数达到10次",
+    "achievement_unlock_condition_SQL": "",
+    "achievement_rank": "普通",
+    "item_reward": [
+      {
+        "item_name": "背包_001",
+        "item_count": 1
+      }
+    ],
+    "affinity_reaward_target": "主角",
+    "affinity_reaward_value": 20,
+    "achievement_icon_res_url": ""
+  },
+  {
+    "achievement_id": 3,
+    "achievement_name": "超级打工人",
+    "achievement_type": "旅行派遣成就",
+    "achievement_desc": "小苔去过的打工地点超过20个。",
+    "achievement_unlock_condition": "派遣地点达到20个",
+    "achievement_unlock_condition_SQL": "",
+    "achievement_rank": "普通",
+    "item_reward": [
+      {
+        "item_name": "背包_001",
+        "item_count": 1
+      }
+    ],
+    "affinity_reaward_target": "主角",
+    "affinity_reaward_value": 20,
+    "achievement_icon_res_url": ""
+  },
+  {
+    "achievement_id": 4,
+    "achievement_name": "夜班",
+    "achievement_type": "物品成就",
+    "achievement_desc": "首次收到小苔在夜晚打工的照片。",
+    "achievement_unlock_condition": "首次获得背景是夜晚的派遣照片",
+    "achievement_unlock_condition_SQL": "",
+    "achievement_rank": "普通",
+    "item_reward": [
+      {
+        "item_name": "背包_001",
+        "item_count": 1
+      }
+    ],
+    "affinity_reaward_target": "主角",
+    "affinity_reaward_value": 20,
+    "achievement_icon_res_url": ""
+  },
+  {
+    "achievement_id": 5,
+    "achievement_name": "罐罐富翁",
+    "achievement_type": "物品成就",
+    "achievement_desc": "单次获得罐罐超过100个。",
+    "achievement_unlock_condition": "首次充值罐罐超过100个",
+    "achievement_unlock_condition_SQL": "",
+    "achievement_rank": "稀有",
+    "item_reward": [
+      {
+        "item_name": "背包_001",
+        "item_count": 1
+      },
+      {
+        "item_name": "鞋子_001",
+        "item_count": 1
+      }
+    ],
+    "affinity_reaward_target": "主角",
+    "affinity_reaward_value": 40,
+    "achievement_icon_res_url": ""
+  },
+  {
+    "achievement_id": 6,
+    "achievement_name": "工牌收藏家",
+    "achievement_type": "物品成就",
+    "achievement_desc": "收集到总计30个不同的工牌。",
+    "achievement_unlock_condition": "派遣带回的工牌种类共计30个",
+    "achievement_unlock_condition_SQL": "",
+    "achievement_rank": "稀有",
+    "item_reward": [
+      {
+        "item_name": "背包_001",
+        "item_count": 1
+      },
+      {
+        "item_name": "鞋子_001",
+        "item_count": 1
+      }
+    ],
+    "affinity_reaward_target": "主角",
+    "affinity_reaward_value": 40,
+    "achievement_icon_res_url": ""
+  },
+  {
+    "achievement_id": 7,
+    "achievement_name": "xx（npc名字）驾到",
+    "achievement_type": "NPC成就",
+    "achievement_desc": "首次成功见到老板npc。",
+    "achievement_unlock_condition": "首次遇到属性是老板的npc",
+    "achievement_unlock_condition_SQL": "",
+    "achievement_rank": "稀有",
+    "item_reward": [
+      {
+        "item_name": "背包_001",
+        "item_count": 1
+      },
+      {
+        "item_name": "帽子_001",
+        "item_count": 1
+      }
+    ],
+    "affinity_reaward_target": "主角",
+    "affinity_reaward_value": 40,
+    "achievement_icon_res_url": ""
+  },
+  {
+    "achievement_id": 8,
+    "achievement_name": "珍贵的礼物",
+    "achievement_type": "NPC成就",
+    "achievement_desc": "小苔首次收到npc赠送的稀有礼物。",
+    "achievement_unlock_condition": "首次收到npc赠送的稀有礼物",
+    "achievement_unlock_condition_SQL": "",
+    "achievement_rank": "稀有",
+    "item_reward": [
+      {
+        "item_name": "背包_001",
+        "item_count": 1
+      },
+      {
+        "item_name": "连衣裙_001",
+        "item_count": 1
+      }
+    ],
+    "affinity_reaward_target": "主角",
+    "affinity_reaward_value": 40,
+    "achievement_icon_res_url": ""
+  },
+  {
+    "achievement_id": 9,
+    "achievement_name": "神秘的相遇",
+    "achievement_type": "NPC成就",
+    "achievement_desc": "小苔首次遇到神秘npc。",
+    "achievement_unlock_condition": "首次遇到带有神秘属性的npc",
+    "achievement_unlock_condition_SQL": "",
+    "achievement_rank": "神秘",
+    "item_reward": [
+      {
+        "item_name": "背包_001",
+        "item_count": 1
+      },
+      {
+        "item_name": "连衣裙_001",
+        "item_count": 1
+      },
+      {
+        "item_name": "帽子_001",
+        "item_count": 1
+      },
+      {
+        "item_name": "鞋子_001",
+        "item_count": 1
+      }
+    ],
+    "affinity_reaward_target": "主角",
+    "affinity_reaward_value": 80,
+    "achievement_icon_res_url": ""
+  }
+]

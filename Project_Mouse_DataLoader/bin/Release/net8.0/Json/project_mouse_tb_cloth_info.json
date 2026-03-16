@@ -1,0 +1,442 @@
+[
+  {
+    "cloth_id": 1,
+    "cloth_name": "柔边蝴蝶结帽子",
+    "desc": "帽子女仆装头饰",
+    "first_category": "配饰",
+    "second_category": "头饰",
+    "slots_occupied": [
+      "head"
+    ],
+    "rarity": "珍品",
+    "res_path": "",
+    "parent_cloth_name": "maid01",
+    "cloth_color": "原色"
+  },
+  {
+    "cloth_id": 2,
+    "cloth_name": "柔边蝴蝶结连衣裙",
+    "desc": "帽子女仆装连衣裙",
+    "first_category": "裙子",
+    "second_category": "连衣裙",
+    "slots_occupied": [
+      "body",
+      "leg"
+    ],
+    "rarity": "珍品",
+    "res_path": "",
+    "parent_cloth_name": "maid01",
+    "cloth_color": "原色"
+  },
+  {
+    "cloth_id": 4,
+    "cloth_name": "柔边鞋袜套装",
+    "desc": "帽子女仆装鞋袜",
+    "first_category": "鞋袜",
+    "second_category": "靴子",
+    "slots_occupied": [
+      "shoes"
+    ],
+    "rarity": "珍品",
+    "res_path": "",
+    "parent_cloth_name": "maid01",
+    "cloth_color": "原色"
+  },
+  {
+    "cloth_id": 5,
+    "cloth_name": "默认帽子",
+    "desc": "默认帽子",
+    "first_category": "配饰",
+    "second_category": "头饰",
+    "slots_occupied": [
+      "head"
+    ],
+    "rarity": "日常",
+    "res_path": "",
+    "parent_cloth_name": "default",
+    "cloth_color": "原色"
+  },
+  {
+    "cloth_id": 6,
+    "cloth_name": "默认上衣",
+    "desc": "默认上衣",
+    "first_category": "上衣",
+    "second_category": "外套",
+    "slots_occupied": [
+      "body"
+    ],
+    "rarity": "日常",
+    "res_path": "",
+    "parent_cloth_name": "default",
+    "cloth_color": "原色"
+  },
+  {
+    "cloth_id": 7,
+    "cloth_name": "默认裤子",
+    "desc": "默认裤子",
+    "first_category": "裤子",
+    "second_category": "短裤",
+    "slots_occupied": [
+      "leg"
+    ],
+    "rarity": "日常",
+    "res_path": "",
+    "parent_cloth_name": "default",
+    "cloth_color": "原色"
+  },
+  {
+    "cloth_id": 8,
+    "cloth_name": "黄色柔边蝴蝶结帽子",
+    "desc": "黄色帽子女仆装头饰",
+    "first_category": "配饰",
+    "second_category": "头饰",
+    "slots_occupied": [
+      "head"
+    ],
+    "rarity": "珍品",
+    "res_path": "",
+    "parent_cloth_name": "maid01",
+    "cloth_color": "黄色"
+  },
+  {
+    "cloth_id": 9,
+    "cloth_name": "黄色柔边蝴蝶结连衣裙",
+    "desc": "黄色帽子女仆装连衣裙",
+    "first_category": "裙子",
+    "second_category": "连衣裙",
+    "slots_occupied": [
+      "body",
+      "leg"
+    ],
+    "rarity": "珍品",
+    "res_path": "",
+    "parent_cloth_name": "maid01",
+    "cloth_color": "黄色"
+  },
+  {
+    "cloth_id": 10,
+    "cloth_name": "黄色柔边鞋袜套装",
+    "desc": "黄色帽子女仆装鞋袜",
+    "first_category": "鞋袜",
+    "second_category": "靴子",
+    "slots_occupied": [
+      "shoes"
+    ],
+    "rarity": "珍品",
+    "res_path": "",
+    "parent_cloth_name": "maid01",
+    "cloth_color": "黄色"
+  },
+  {
+    "cloth_id": 11,
+    "cloth_name": "紫色柔边蝴蝶结帽子",
+    "desc": "紫色帽子女仆装头饰",
+    "first_category": "配饰",
+    "second_category": "头饰",
+    "slots_occupied": [
+      "head"
+    ],
+    "rarity": "珍品",
+    "res_path": "",
+    "parent_cloth_name": "maid01",
+    "cloth_color": "紫色"
+  },
+  {
+    "cloth_id": 12,
+    "cloth_name": "紫色柔边蝴蝶结连衣裙",
+    "desc": "紫色帽子女仆装连衣裙",
+    "first_category": "裙子",
+    "second_category": "连衣裙",
+    "slots_occupied": [
+      "body",
+      "leg"
+    ],
+    "rarity": "珍品",
+    "res_path": "",
+    "parent_cloth_name": "maid01",
+    "cloth_color": "紫色"
+  },
+  {
+    "cloth_id": 13,
+    "cloth_name": "紫色柔边鞋袜套装",
+    "desc": "紫色帽子女仆装鞋袜",
+    "first_category": "鞋袜",
+    "second_category": "靴子",
+    "slots_occupied": [
+      "shoes"
+    ],
+    "rarity": "珍品",
+    "res_path": "",
+    "parent_cloth_name": "maid01",
+    "cloth_color": "紫色"
+  },
+  {
+    "cloth_id": 14,
+    "cloth_name": "绿色柔边蝴蝶结帽子",
+    "desc": "绿色帽子女仆装头饰",
+    "first_category": "配饰",
+    "second_category": "头饰",
+    "slots_occupied": [
+      "head"
+    ],
+    "rarity": "珍品",
+    "res_path": "",
+    "parent_cloth_name": "maid01",
+    "cloth_color": "绿色"
+  },
+  {
+    "cloth_id": 15,
+    "cloth_name": "绿色柔边蝴蝶结连衣裙",
+    "desc": "绿色帽子女仆装连衣裙",
+    "first_category": "裙子",
+    "second_category": "连衣裙",
+    "slots_occupied": [
+      "body",
+      "leg"
+    ],
+    "rarity": "珍品",
+    "res_path": "",
+    "parent_cloth_name": "maid01",
+    "cloth_color": "绿色"
+  },
+  {
+    "cloth_id": 16,
+    "cloth_name": "绿色柔边鞋袜套装",
+    "desc": "绿色帽子女仆装鞋袜",
+    "first_category": "鞋袜",
+    "second_category": "靴子",
+    "slots_occupied": [
+      "shoes"
+    ],
+    "rarity": "珍品",
+    "res_path": "",
+    "parent_cloth_name": "maid01",
+    "cloth_color": "绿色"
+  },
+  {
+    "cloth_id": 17,
+    "cloth_name": "蓝色柔边蝴蝶结帽子",
+    "desc": "蓝色帽子女仆装头饰",
+    "first_category": "配饰",
+    "second_category": "头饰",
+    "slots_occupied": [
+      "head"
+    ],
+    "rarity": "珍品",
+    "res_path": "",
+    "parent_cloth_name": "maid01",
+    "cloth_color": "蓝色"
+  },
+  {
+    "cloth_id": 18,
+    "cloth_name": "蓝色柔边蝴蝶结连衣裙",
+    "desc": "蓝色帽子女仆装连衣裙",
+    "first_category": "裙子",
+    "second_category": "连衣裙",
+    "slots_occupied": [
+      "body",
+      "leg"
+    ],
+    "rarity": "珍品",
+    "res_path": "",
+    "parent_cloth_name": "maid01",
+    "cloth_color": "蓝色"
+  },
+  {
+    "cloth_id": 19,
+    "cloth_name": "蓝色柔边鞋袜套装",
+    "desc": "蓝色帽子女仆装鞋袜",
+    "first_category": "鞋袜",
+    "second_category": "靴子",
+    "slots_occupied": [
+      "shoes"
+    ],
+    "rarity": "珍品",
+    "res_path": "",
+    "parent_cloth_name": "maid01",
+    "cloth_color": "蓝色"
+  },
+  {
+    "cloth_id": 20,
+    "cloth_name": "粉色柔边蝴蝶结帽子",
+    "desc": "粉色帽子女仆装头饰",
+    "first_category": "配饰",
+    "second_category": "头饰",
+    "slots_occupied": [
+      "head"
+    ],
+    "rarity": "珍品",
+    "res_path": "",
+    "parent_cloth_name": "maid01",
+    "cloth_color": "粉色"
+  },
+  {
+    "cloth_id": 21,
+    "cloth_name": "粉色柔边蝴蝶结连衣裙",
+    "desc": "粉色帽子女仆装连衣裙",
+    "first_category": "裙子",
+    "second_category": "连衣裙",
+    "slots_occupied": [
+      "body",
+      "leg"
+    ],
+    "rarity": "珍品",
+    "res_path": "",
+    "parent_cloth_name": "maid01",
+    "cloth_color": "粉色"
+  },
+  {
+    "cloth_id": 22,
+    "cloth_name": "粉色柔边鞋袜套装",
+    "desc": "粉色帽子女仆装鞋袜",
+    "first_category": "鞋袜",
+    "second_category": "靴子",
+    "slots_occupied": [
+      "head"
+    ],
+    "rarity": "珍品",
+    "res_path": "",
+    "parent_cloth_name": "maid01",
+    "cloth_color": "粉色"
+  },
+  {
+    "cloth_id": 23,
+    "cloth_name": "玳瑁方框眼镜",
+    "desc": "玳瑁方框眼镜",
+    "first_category": "配饰",
+    "second_category": "头饰",
+    "slots_occupied": [
+      "head"
+    ],
+    "rarity": "精选",
+    "res_path": "",
+    "parent_cloth_name": "office",
+    "cloth_color": "原色"
+  },
+  {
+    "cloth_id": 24,
+    "cloth_name": "蓝色条纹衬衫",
+    "desc": "蓝色条纹衬衫",
+    "first_category": "上衣",
+    "second_category": "外套",
+    "slots_occupied": [
+      "body"
+    ],
+    "rarity": "精选",
+    "res_path": "",
+    "parent_cloth_name": "office",
+    "cloth_color": "原色"
+  },
+  {
+    "cloth_id": 25,
+    "cloth_name": "棕色办公裤子",
+    "desc": "棕色办公裤子",
+    "first_category": "裤子",
+    "second_category": "长裤",
+    "slots_occupied": [
+      "leg"
+    ],
+    "rarity": "精选",
+    "res_path": "",
+    "parent_cloth_name": "office",
+    "cloth_color": "原色"
+  },
+  {
+    "cloth_id": 26,
+    "cloth_name": "办公皮鞋",
+    "desc": "办公皮鞋",
+    "first_category": "鞋袜",
+    "second_category": "靴子",
+    "slots_occupied": [
+      "shoes"
+    ],
+    "rarity": "精选",
+    "res_path": "",
+    "parent_cloth_name": "office",
+    "cloth_color": "原色"
+  },
+  {
+    "cloth_id": 27,
+    "cloth_name": "柔边蝴蝶结头饰",
+    "desc": "眼镜女仆装头饰",
+    "first_category": "配饰",
+    "second_category": "头饰",
+    "slots_occupied": [
+      "head"
+    ],
+    "rarity": "珍品",
+    "res_path": "",
+    "parent_cloth_name": "maid02",
+    "cloth_color": "原色"
+  },
+  {
+    "cloth_id": 28,
+    "cloth_name": "黄色柔边蝴蝶结头饰",
+    "desc": "黄色眼镜女仆装头饰",
+    "first_category": "配饰",
+    "second_category": "头饰",
+    "slots_occupied": [
+      "head"
+    ],
+    "rarity": "珍品",
+    "res_path": "",
+    "parent_cloth_name": "maid02",
+    "cloth_color": "黄色"
+  },
+  {
+    "cloth_id": 29,
+    "cloth_name": "紫色柔边蝴蝶结头饰",
+    "desc": "紫色眼镜女仆装头饰",
+    "first_category": "配饰",
+    "second_category": "头饰",
+    "slots_occupied": [
+      "head"
+    ],
+    "rarity": "珍品",
+    "res_path": "",
+    "parent_cloth_name": "maid02",
+    "cloth_color": "紫色"
+  },
+  {
+    "cloth_id": 30,
+    "cloth_name": "绿色柔边蝴蝶结头饰",
+    "desc": "绿色眼镜女仆装头饰",
+    "first_category": "配饰",
+    "second_category": "头饰",
+    "slots_occupied": [
+      "head"
+    ],
+    "rarity": "珍品",
+    "res_path": "",
+    "parent_cloth_name": "maid02",
+    "cloth_color": "绿色"
+  },
+  {
+    "cloth_id": 31,
+    "cloth_name": "蓝色柔边蝴蝶结头饰",
+    "desc": "蓝色眼镜女仆装头饰",
+    "first_category": "配饰",
+    "second_category": "头饰",
+    "slots_occupied": [
+      "head"
+    ],
+    "rarity": "珍品",
+    "res_path": "",
+    "parent_cloth_name": "maid02",
+    "cloth_color": "蓝色"
+  },
+  {
+    "cloth_id": 32,
+    "cloth_name": "粉色柔边蝴蝶结头饰",
+    "desc": "粉色眼镜女仆装头饰",
+    "first_category": "配饰",
+    "second_category": "头饰",
+    "slots_occupied": [
+      "head"
+    ],
+    "rarity": "珍品",
+    "res_path": "",
+    "parent_cloth_name": "maid02",
+    "cloth_color": "粉色"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "min_time": 0,
+    "max_time": 5,
+    "probability": 0.12
+  },
+  {
+    "id": 2,
+    "min_time": 5,
+    "max_time": 10,
+    "probability": 0.38
+  },
+  {
+    "id": 3,
+    "min_time": 10,
+    "max_time": 20,
+    "probability": 0.28
+  },
+  {
+    "id": 4,
+    "min_time": 20,
+    "max_time": 30,
+    "probability": 0.54
+  },
+  {
+    "id": 5,
+    "min_time": 30,
+    "max_time": 40,
+    "probability": 0.23
+  },
+  {
+    "id": 6,
+    "min_time": 40,
+    "max_time": 50,
+    "probability": 0.5
+  },
+  {
+    "id": 7,
+    "min_time": 50,
+    "max_time": 60,
+    "probability": 1
+  }
+]

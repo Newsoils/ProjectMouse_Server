@@ -9,8 +9,8 @@ UserSettings/
 # Visual Studio
 .vs/
 [Bb]in/
-*.csproj
-*.sln
+
+
 
 # OS
 .DS_Store

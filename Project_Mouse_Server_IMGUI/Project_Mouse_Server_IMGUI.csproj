@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClickableTransparentOverlay" Version="11.1.0" />
+    <PackageReference Include="ImGui.NET" Version="1.91.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CLIP_Project_Mouse_Kernel\CLIP_Project_Mouse_Kernel.csproj" />
+    <ProjectReference Include="..\Project_Mouse_Grains_Implementation\Project_Mouse_Grains_Implementation.csproj" />
+    <ProjectReference Include="..\Project_Mouse_Grains_Interfaces\Project_Mouse_Grains_Interfaces.csproj" />
+    <ProjectReference Include="..\Project_Mouse_Server_Event_System\Project_Mouse_Server_Event_System.csproj" />
+    <ProjectReference Include="..\Project_Mouse_Server_Network\Project_Mouse_Server_Network.csproj" />
+  </ItemGroup>
+
+</Project>

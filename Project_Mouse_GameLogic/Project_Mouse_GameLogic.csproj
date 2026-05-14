@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CLIP_Project_Mouse_Kernel\CLIP_Project_Mouse_Kernel.csproj" />
+    <ProjectReference Include="..\Project_Mouse_DataLoader\Project_Mouse_DataLoader.csproj" />
+    <ProjectReference Include="..\Project_Mouse_Grain_Helper_Lib\Project_Mouse_Grain_Helper_Lib.csproj" />
+  </ItemGroup>
+
+</Project>

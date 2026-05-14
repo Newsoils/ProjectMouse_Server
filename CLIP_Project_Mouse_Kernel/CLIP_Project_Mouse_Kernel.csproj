@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<Compile Include="..\..\Project_Mouse_3D_URP\Assets\Scripts\Kernel\**\*.cs">
+			<Link>%(RecursiveDir)%(FileName)%(Extension)</Link>
+		</Compile>
+	</ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Npgsql" Version="9.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CLIP.Framework_Core\CLIP.Framework_Core.csproj" />
+    <ProjectReference Include="..\Project_Mouse_General_Function\Project_Mouse_Core_Tools.csproj" />
+    <ProjectReference Include="..\WeightedRandomSelector\External.WeightedRandomSelector.csproj" />
+  </ItemGroup>
+
+</Project>

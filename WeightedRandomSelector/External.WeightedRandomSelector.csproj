@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\Project_Mouse_3D_URP\Assets\Scripts\External\WeightedRandomSelector\DynamicRandomSelector.cs" Link="DynamicRandomSelector.cs" />
+    <Compile Include="..\..\Project_Mouse_3D_URP\Assets\Scripts\External\WeightedRandomSelector\IRandomSelector.cs" Link="IRandomSelector.cs" />
+    <Compile Include="..\..\Project_Mouse_3D_URP\Assets\Scripts\External\WeightedRandomSelector\IRandomSelectorBuilder.cs" Link="IRandomSelectorBuilder.cs" />
+    <Compile Include="..\..\Project_Mouse_3D_URP\Assets\Scripts\External\WeightedRandomSelector\RandomMath.cs" Link="RandomMath.cs" />
+    <Compile Include="..\..\Project_Mouse_3D_URP\Assets\Scripts\External\WeightedRandomSelector\StaticRandomSelectorBinary.cs" Link="StaticRandomSelectorBinary.cs" />
+    <Compile Include="..\..\Project_Mouse_3D_URP\Assets\Scripts\External\WeightedRandomSelector\StaticRandomSelectorBuilder.cs" Link="StaticRandomSelectorBuilder.cs" />
+    <Compile Include="..\..\Project_Mouse_3D_URP\Assets\Scripts\External\WeightedRandomSelector\StaticRandomSelectorLinear.cs" Link="StaticRandomSelectorLinear.cs" />
+  </ItemGroup>
+
+</Project>

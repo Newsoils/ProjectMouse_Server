@@ -1148,7 +1148,7 @@
   },
   {
     "_dialogueId": 20019,
-    "_paragraphId": 20019,
+    "_paragraphId": 50019,
     "_speakerId": 5,
     "_speaker": 2,
     "_nextDialogueId": 30019,
@@ -1159,7 +1159,7 @@
   },
   {
     "_dialogueId": 30019,
-    "_paragraphId": 20019,
+    "_paragraphId": 50019,
     "_speakerId": 0,
     "_speaker": 1,
     "_nextDialogueId": 0,
@@ -1183,7 +1183,7 @@
   },
   {
     "_dialogueId": 20101,
-    "_paragraphId": 20019,
+    "_paragraphId": 50019,
     "_speakerId": 5,
     "_speaker": 2,
     "_nextDialogueId": -1,
@@ -1194,7 +1194,7 @@
   },
   {
     "_dialogueId": 20102,
-    "_paragraphId": 20019,
+    "_paragraphId": 50019,
     "_speakerId": 5,
     "_speaker": 2,
     "_nextDialogueId": -1,
@@ -1205,7 +1205,7 @@
   },
   {
     "_dialogueId": 20103,
-    "_paragraphId": 20019,
+    "_paragraphId": 50019,
     "_speakerId": 5,
     "_speaker": 2,
     "_nextDialogueId": -1,
@@ -1320,7 +1320,7 @@
     "_speaker": 2,
     "_nextDialogueId": 20030,
     "_isLastDialogue": false,
-    "_contents": "0.0路边的路灯，在打瞌睡。。。我也，想睡了。",
+    "_contents": "0.0路边的路灯，在打瞌睡……我也，想睡了。",
     "Options": [],
     "_chatHints": ""
   },
@@ -1331,7 +1331,7 @@
     "_speaker": 2,
     "_nextDialogueId": 20031,
     "_isLastDialogue": false,
-    "_contents": "。。。昨晚的雨声，很好听。我录下来了，大家可以听听看。",
+    "_contents": "……昨晚的雨声，很好听。我录下来了，大家可以听听看。",
     "Options": [],
     "_chatHints": ""
   },
@@ -1585,6 +1585,890 @@
     "_nextDialogueId": -1,
     "_isLastDialogue": true,
     "_contents": "好，明天正午到公园躺椅集合。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20104,
+    "_paragraphId": 50024,
+    "_speakerId": 2,
+    "_speaker": 2,
+    "_nextDialogueId": 30020,
+    "_isLastDialogue": false,
+    "_contents": "我今天去图书馆复习了。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 30020,
+    "_paragraphId": 50024,
+    "_speakerId": 0,
+    "_speaker": 1,
+    "_nextDialogueId": 0,
+    "_isLastDialogue": false,
+    "_contents": "",
+    "Options": [
+      [
+        "感觉怎么样？",
+        20105
+      ],
+      [
+        "哇，有认真学习吗？",
+        20106
+      ],
+      [
+        "你不会又睡着了吧？",
+        20107
+      ]
+    ],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20105,
+    "_paragraphId": 50024,
+    "_speakerId": 2,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "很安静，连翻书声都像下雪。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20106,
+    "_paragraphId": 50024,
+    "_speakerId": 2,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "有！虽然中途盯着窗外发呆了十分钟。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20107,
+    "_paragraphId": 50024,
+    "_speakerId": 2,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "只闭眼休息了三分钟……大概。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20108,
+    "_paragraphId": 50025,
+    "_speakerId": 2,
+    "_speaker": 2,
+    "_nextDialogueId": 30021,
+    "_isLastDialogue": false,
+    "_contents": "我今天做梦梦到考试。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 30021,
+    "_paragraphId": 50025,
+    "_speakerId": 0,
+    "_speaker": 1,
+    "_nextDialogueId": 0,
+    "_isLastDialogue": false,
+    "_contents": "",
+    "Options": [
+      [
+        "考得怎么样？",
+        20109
+      ],
+      [
+        "压力太大了吗？",
+        20110
+      ],
+      [
+        "后来呢？",
+        20111
+      ]
+    ],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20109,
+    "_paragraphId": 50025,
+    "_speakerId": 2,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "梦里的我居然一道题都不会。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20110,
+    "_paragraphId": 50025,
+    "_speakerId": 2,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "可能吧……但醒来以后阳光很好，所以又没那么紧张了。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20111,
+    "_paragraphId": 50025,
+    "_speakerId": 2,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "后来我在梦里开始画小猫了。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20112,
+    "_paragraphId": 50026,
+    "_speakerId": 2,
+    "_speaker": 2,
+    "_nextDialogueId": 30022,
+    "_isLastDialogue": false,
+    "_contents": "我今天突然觉得，夜晚的便利店很温柔。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 30022,
+    "_paragraphId": 50026,
+    "_speakerId": 0,
+    "_speaker": 1,
+    "_nextDialogueId": 0,
+    "_isLastDialogue": false,
+    "_contents": "",
+    "Options": [
+      [
+        "为什么？",
+        20113
+      ],
+      [
+        "是不是复习太晚了？",
+        20114
+      ],
+      [
+        "是不是饿了。",
+        20115
+      ]
+    ],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20113,
+    "_paragraphId": 50026,
+    "_speakerId": 2,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "亮亮的灯会让人觉得“啊，还可以继续加油”。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20114,
+    "_paragraphId": 50026,
+    "_speakerId": 2,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "嗯……出来买零食的时候发现的。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20115,
+    "_paragraphId": 50026,
+    "_speakerId": 2,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "的确。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20116,
+    "_paragraphId": 50027,
+    "_speakerId": 2,
+    "_speaker": 2,
+    "_nextDialogueId": 30023,
+    "_isLastDialogue": false,
+    "_contents": "今天便利店的热可可特别好喝。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 30023,
+    "_paragraphId": 50027,
+    "_speakerId": 0,
+    "_speaker": 1,
+    "_nextDialogueId": 0,
+    "_isLastDialogue": false,
+    "_contents": "",
+    "Options": [
+      [
+        "是不是因为自习室空调冷。",
+        20117
+      ],
+      [
+        "你是不是又买零食去了？",
+        20118
+      ],
+      [
+        "听起来很幸福。",
+        20119
+      ]
+    ],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20117,
+    "_paragraphId": 50027,
+    "_speakerId": 2,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "可能是因为加了两次糖。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20118,
+    "_paragraphId": 50027,
+    "_speakerId": 2,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "复习是很消耗灵魂的！",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20119,
+    "_paragraphId": 50027,
+    "_speakerId": 2,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "对吧，热乎乎的东西会让人变柔软。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20120,
+    "_paragraphId": 50028,
+    "_speakerId": 3,
+    "_speaker": 2,
+    "_nextDialogueId": 30024,
+    "_isLastDialogue": false,
+    "_contents": "你好，我是哈娜。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 30024,
+    "_paragraphId": 50028,
+    "_speakerId": 0,
+    "_speaker": 1,
+    "_nextDialogueId": 0,
+    "_isLastDialogue": false,
+    "_contents": "",
+    "Options": [
+      [
+        "你的红色发卡很好看。",
+        20121
+      ],
+      [
+        "感觉你很可靠。",
+        20122
+      ],
+      [
+        "你看起来有点难接近。",
+        20123
+      ]
+    ],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20121,
+    "_paragraphId": 50028,
+    "_speakerId": 3,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "谢谢你的赞美。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20122,
+    "_paragraphId": 50028,
+    "_speakerId": 3,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "这是夸奖，我收下了。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20123,
+    "_paragraphId": 50028,
+    "_speakerId": 3,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "没啦，很想交朋友。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20124,
+    "_paragraphId": 50029,
+    "_speakerId": 3,
+    "_speaker": 2,
+    "_nextDialogueId": 30025,
+    "_isLastDialogue": false,
+    "_contents": "你的房间一定很整齐吧？",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 30025,
+    "_paragraphId": 50029,
+    "_speakerId": 0,
+    "_speaker": 1,
+    "_nextDialogueId": 0,
+    "_isLastDialogue": false,
+    "_contents": "",
+    "Options": [
+      [
+        "一尘不染。",
+        20125
+      ],
+      [
+        "其实有点乱。",
+        20126
+      ],
+      [
+        "我经常找不到东西。",
+        20127
+      ]
+    ],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20125,
+    "_paragraphId": 50029,
+    "_speakerId": 3,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "很好。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20126,
+    "_paragraphId": 50029,
+    "_speakerId": 3,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "“有点”这个词非常值得警惕。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20127,
+    "_paragraphId": 50029,
+    "_speakerId": 3,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "哈哈，要记得归位。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20128,
+    "_paragraphId": 50030,
+    "_speakerId": 3,
+    "_speaker": 2,
+    "_nextDialogueId": 30026,
+    "_isLastDialogue": false,
+    "_contents": "今天看到一家新开的面包店。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 30026,
+    "_paragraphId": 50030,
+    "_speakerId": 0,
+    "_speaker": 1,
+    "_nextDialogueId": 0,
+    "_isLastDialogue": false,
+    "_contents": "",
+    "Options": [
+      [
+        "你去了吗？",
+        20129
+      ],
+      [
+        "看起来很好吃。",
+        20130
+      ],
+      [
+        "下次一起去呀。",
+        20131
+      ]
+    ],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20129,
+    "_paragraphId": 50030,
+    "_speakerId": 3,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "排队太长，我拒绝为面包站四十分钟。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20130,
+    "_paragraphId": 50030,
+    "_speakerId": 3,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "闻起来不错，但价格让我清醒了。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20131,
+    "_paragraphId": 50030,
+    "_speakerId": 3,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "好！",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20132,
+    "_paragraphId": 50031,
+    "_speakerId": 3,
+    "_speaker": 2,
+    "_nextDialogueId": 30027,
+    "_isLastDialogue": false,
+    "_contents": "刚刚看见一只兔子玩偶掉在路边。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 30027,
+    "_paragraphId": 50031,
+    "_speakerId": 0,
+    "_speaker": 1,
+    "_nextDialogueId": 0,
+    "_isLastDialogue": false,
+    "_contents": "",
+    "Options": [
+      [
+        "你捡起来了吗？",
+        20133
+      ],
+      [
+        "听起来有点可怜。",
+        20134
+      ],
+      [
+        "看起来有人该难过了。",
+        20135
+      ]
+    ],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20133,
+    "_paragraphId": 50031,
+    "_speakerId": 3,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "没有，但我把它放到了干净一点的草地。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20134,
+    "_paragraphId": 50031,
+    "_speakerId": 3,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "希望可以被主人找到。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20135,
+    "_paragraphId": 50031,
+    "_speakerId": 3,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "是啊。兔子一定要回家啊！",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20136,
+    "_paragraphId": 50032,
+    "_speakerId": 6,
+    "_speaker": 2,
+    "_nextDialogueId": 30028,
+    "_isLastDialogue": false,
+    "_contents": "我叫茄几。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 30028,
+    "_paragraphId": 50032,
+    "_speakerId": 0,
+    "_speaker": 1,
+    "_nextDialogueId": 0,
+    "_isLastDialogue": false,
+    "_contents": "",
+    "Options": [
+      [
+        "听起来像一种紫色的蔬菜。",
+        20137
+      ],
+      [
+        "你好，你的名字听起来像动画片里的角色。",
+        20138
+      ],
+      [
+        "为什么是“茄几”？",
+        20139
+      ]
+    ],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20137,
+    "_paragraphId": 50032,
+    "_speakerId": 6,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "哈哈，我也觉得。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20138,
+    "_paragraphId": 50032,
+    "_speakerId": 6,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "谢谢。我也觉得自己不像现实里会出现的东西。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20139,
+    "_paragraphId": 50032,
+    "_speakerId": 6,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "因为“茄子”听起来太严肃了，“茄几”比较可爱。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20140,
+    "_paragraphId": 50033,
+    "_speakerId": 6,
+    "_speaker": 2,
+    "_nextDialogueId": 30029,
+    "_isLastDialogue": false,
+    "_contents": "我今天把相机摔了。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 30029,
+    "_paragraphId": 50033,
+    "_speakerId": 0,
+    "_speaker": 1,
+    "_nextDialogueId": 0,
+    "_isLastDialogue": false,
+    "_contents": "",
+    "Options": [
+      [
+        "相机坏掉了吗？",
+        20141
+      ],
+      [
+        "你没受伤吧？",
+        20142
+      ],
+      [
+        "下次小心一点。",
+        20143
+      ]
+    ],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20141,
+    "_paragraphId": 50033,
+    "_speakerId": 6,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "没有，它比我坚强。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20142,
+    "_paragraphId": 50033,
+    "_speakerId": 6,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "我没事。就是心被吓了一大跳 。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20143,
+    "_paragraphId": 50033,
+    "_speakerId": 6,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "好。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20144,
+    "_paragraphId": 50034,
+    "_speakerId": 6,
+    "_speaker": 2,
+    "_nextDialogueId": 30030,
+    "_isLastDialogue": false,
+    "_contents": "你有没有突然觉得，世界像被谁盯着？",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 30030,
+    "_paragraphId": 50034,
+    "_speakerId": 0,
+    "_speaker": 1,
+    "_nextDialogueId": 0,
+    "_isLastDialogue": false,
+    "_contents": "",
+    "Options": [
+      [
+        "有时候会。",
+        20145
+      ],
+      [
+        "没有吧。",
+        20146
+      ],
+      [
+        "你这样说有点可怕。",
+        20147
+      ]
+    ],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20145,
+    "_paragraphId": 50034,
+    "_speakerId": 6,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "看来不是幻觉。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20146,
+    "_paragraphId": 50034,
+    "_speakerId": 6,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "……哈哈，可能是我多想了。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20147,
+    "_paragraphId": 50034,
+    "_speakerId": 6,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "放心，看起来很友善。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20148,
+    "_paragraphId": 50035,
+    "_speakerId": 6,
+    "_speaker": 2,
+    "_nextDialogueId": 30031,
+    "_isLastDialogue": false,
+    "_contents": "今天很有干劲！",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 30031,
+    "_paragraphId": 50035,
+    "_speakerId": 0,
+    "_speaker": 1,
+    "_nextDialogueId": 0,
+    "_isLastDialogue": false,
+    "_contents": "",
+    "Options": [
+      [
+        "那就冲吧！",
+        20149
+      ],
+      [
+        "突然这么热血？",
+        20150
+      ],
+      [
+        "昨天呢？在崩溃吗？",
+        20151
+      ]
+    ],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20149,
+    "_paragraphId": 50035,
+    "_speakerId": 6,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "好！就算失败也要冲得很有气势。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20150,
+    "_paragraphId": 50035,
+    "_speakerId": 6,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "因为我昨天躺了八小时地板，恢复了。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20151,
+    "_paragraphId": 50035,
+    "_speakerId": 6,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "情绪像天气，很正常。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20152,
+    "_paragraphId": 50036,
+    "_speakerId": 6,
+    "_speaker": 2,
+    "_nextDialogueId": 30032,
+    "_isLastDialogue": false,
+    "_contents": "有时候我会突然停下来。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 30032,
+    "_paragraphId": 50036,
+    "_speakerId": 0,
+    "_speaker": 1,
+    "_nextDialogueId": 0,
+    "_isLastDialogue": false,
+    "_contents": "",
+    "Options": [
+      [
+        "怎么了？",
+        20153
+      ],
+      [
+        "累了吗？",
+        20154
+      ],
+      [
+        "然后呢？",
+        20155
+      ]
+    ],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20153,
+    "_paragraphId": 50036,
+    "_speakerId": 6,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "总觉得背景音乐好像变小声了。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20154,
+    "_paragraphId": 50036,
+    "_speakerId": 6,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "也可能是人生加载中。",
+    "Options": [],
+    "_chatHints": ""
+  },
+  {
+    "_dialogueId": 20155,
+    "_paragraphId": 50036,
+    "_speakerId": 6,
+    "_speaker": 2,
+    "_nextDialogueId": -1,
+    "_isLastDialogue": true,
+    "_contents": "然后继续往前走，假装刚刚什么都没发生。",
     "Options": [],
     "_chatHints": ""
   }

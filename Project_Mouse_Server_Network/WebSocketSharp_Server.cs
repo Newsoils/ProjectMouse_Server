@@ -1,4 +1,5 @@
 using CLIP.Core_Tools;
+using System.Threading.Tasks;
 using WebSocketSharp;
 using WebSocketSharp.Server;
 using GF_LP = CLIP.Core_Tools.Logging_Provider;
@@ -182,45 +183,27 @@ namespace CLIP
             //        GF_LP.log($"[Network] 拦截了一次误杀：尝试关闭旧ID {_id_to_close}，但当前新ID是 {_current_active_id}", true);
             //    }
             //}
-            public static void _close_connection_no_await(string _id)
+            public static async void _close_connection_no_await(string _id)
             {
-                if (_session == null || string.IsNullOrEmpty(_id))
-                    return;
+                //_session = _host.Sessions;
 
-                try
+                if (_session != null)
                 {
-                    if (!_session.HasSession(_id))
-                        return;
+                    //send_msg(_id, "server_send_quit_game");
+                    //await Task.Delay(2048);
                     _session.CloseSession(_id);
-                }
-                catch (InvalidOperationException)
-                {
-                    // Session already closed or not found — ignore
-                }
-                catch (Exception ex)
-                {
-                    GF_LP._logger.Warning($"[_close_connection_no_await] Failed to close session {_id}: {ex.Message}");
+
                 }
             }
             public static async Task _close_connection(string _id)
             {
-                if (_session == null || string.IsNullOrEmpty(_id))
-                    return;
+               // _session = _host.Sessions;
 
-                try
+                if (_session != null)
                 {
-                    if (!_session.HasSession(_id))
-                        return;
+                    //send_msg(_id,"server_send_quit_game");
                     await Task.Delay(2048);
                     _session.CloseSession(_id);
-                }
-                catch (InvalidOperationException)
-                {
-                    // Session already closed or not found — ignore
-                }
-                catch (Exception ex)
-                {
-                    GF_LP._logger.Warning($"[_close_connection] Failed to close session {_id}: {ex.Message}");
                 }
             }
             public static void after_send(bool _flag)

@@ -42,12 +42,45 @@
       {
         "FavorLevel": 2,
         "ParagraphId": 50009
+      },
+      {
+        "FavorLevel": 3,
+        "ParagraphId": 50024
+      },
+      {
+        "FavorLevel": 4,
+        "ParagraphId": 50025
+      },
+      {
+        "FavorLevel": 5,
+        "ParagraphId": 50026
+      },
+      {
+        "FavorLevel": 6,
+        "ParagraphId": 50027
       }
     ]
   },
   {
     "npcId": 3,
-    "FavorLevelParagraphPairs": []
+    "FavorLevelParagraphPairs": [
+      {
+        "FavorLevel": 1,
+        "ParagraphId": 50028
+      },
+      {
+        "FavorLevel": 2,
+        "ParagraphId": 50029
+      },
+      {
+        "FavorLevel": 3,
+        "ParagraphId": 50030
+      },
+      {
+        "FavorLevel": 4,
+        "ParagraphId": 50031
+      }
+    ]
   },
   {
     "npcId": 4,
@@ -101,7 +134,28 @@
   },
   {
     "npcId": 6,
-    "FavorLevelParagraphPairs": []
+    "FavorLevelParagraphPairs": [
+      {
+        "FavorLevel": 1,
+        "ParagraphId": 50032
+      },
+      {
+        "FavorLevel": 2,
+        "ParagraphId": 50033
+      },
+      {
+        "FavorLevel": 3,
+        "ParagraphId": 50034
+      },
+      {
+        "FavorLevel": 4,
+        "ParagraphId": 50035
+      },
+      {
+        "FavorLevel": 5,
+        "ParagraphId": 50036
+      }
+    ]
   },
   {
     "npcId": 7,

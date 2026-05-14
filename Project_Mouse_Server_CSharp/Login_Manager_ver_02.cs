@@ -1,4 +1,4 @@
-﻿using CLIP.Framework_Core.Network;
+using CLIP.Framework_Core.Network;
 using CLIP.Server;
 using Npgsql;
 
@@ -90,15 +90,30 @@ namespace CLIP.Server_Network
                 string networkState = await GF_DP.Execute_Scalar_Async<string>(
                     "SELECT network_state FROM player_network_state WHERE user_name = @name", "name", userName) ?? "OFFLINE";
 
+                GF_LP._logger.Information(
+                    $"[Login.try_login] user={userName} connectionId={connectionId} networkState={networkState}");
+
                 if (networkState == "ON_LINE")
                 {
                     string preServerId = await GF_DP.Execute_Scalar_Async<string>(
                         "SELECT server_id FROM player_network_state WHERE user_name = @name", "name", userName);
 
-                    if (_switch_player_connection != null)
-                        await _switch_player_connection(userName, preServerId, connectionId);
+                    GF_LP._logger.Warning(
+                        $"[Login.SwitchTop] user={userName} preServerId={preServerId} currentConnectionId={connectionId} pre==neo?={(preServerId == connectionId)}");
+
+                    // Guard: if DB already points to this connectionId, do NOT "switch" (would kick the current session).
+                    if (!string.IsNullOrEmpty(preServerId) && preServerId == connectionId)
+                    {
+                        GF_LP._logger.Warning(
+                            $"[Login.SwitchTop] skip switch: preServerId equals currentConnectionId (idempotent login). user={userName} sid={connectionId}");
+                    }
                     else
-                        await _closing_player_connect?.Invoke(userName);
+                    {
+                        if (_switch_player_connection != null)
+                            await _switch_player_connection(userName, preServerId, connectionId);
+                        else
+                            await _closing_player_connect?.Invoke(userName);
+                    }
                 }
 
                 // 统一更新状态

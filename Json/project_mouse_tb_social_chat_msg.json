@@ -1,62 +1,50 @@
 [
   {
     "msg_id": 1,
-    "msg_name": "satisfied",
+    "msg_name": "睡觉",
     "msg_symbol": "",
-    "res_url": "Textures\\UI\\Icons\\chat_msg_icon_01#chat_msg_icon_01_0"
+    "res_url": "Textures\\UI\\Icons\\Emoji_1"
   },
   {
     "msg_id": 2,
-    "msg_name": "love",
+    "msg_name": "饭团",
     "msg_symbol": "",
-    "res_url": "Textures\\UI\\Icons\\chat_msg_icon_01#chat_msg_icon_01_1"
+    "res_url": "Textures\\UI\\Icons\\Emoji_2"
   },
   {
     "msg_id": 3,
-    "msg_name": "whistle",
+    "msg_name": "唱歌",
     "msg_symbol": "",
-    "res_url": "Textures\\UI\\Icons\\chat_msg_icon_01#chat_msg_icon_01_2"
+    "res_url": "Textures\\UI\\Icons\\Emoji_3"
   },
   {
     "msg_id": 4,
-    "msg_name": "vomit",
+    "msg_name": "震惊",
     "msg_symbol": "",
-    "res_url": "Textures\\UI\\Icons\\chat_msg_icon_01#chat_msg_icon_01_3"
+    "res_url": "Textures\\UI\\Icons\\Emoji_4"
   },
   {
     "msg_id": 5,
-    "msg_name": "sleep",
+    "msg_name": "休息",
     "msg_symbol": "",
-    "res_url": "Textures\\UI\\Icons\\chat_msg_icon_01#chat_msg_icon_01_4"
+    "res_url": "Textures\\UI\\Icons\\Emoji_5"
   },
   {
     "msg_id": 6,
-    "msg_name": "happy",
+    "msg_name": "思考",
     "msg_symbol": "",
-    "res_url": "Textures\\UI\\Icons\\chat_msg_icon_01#chat_msg_icon_01_5"
+    "res_url": "Textures\\UI\\Icons\\Emoji_6"
   },
   {
     "msg_id": 7,
-    "msg_name": "dizzy",
+    "msg_name": "喝茶",
     "msg_symbol": "",
-    "res_url": "Textures\\UI\\Icons\\chat_msg_icon_01#chat_msg_icon_01_6"
+    "res_url": "Textures\\UI\\Icons\\Emoji_7"
   },
   {
     "msg_id": 8,
-    "msg_name": "surprised",
+    "msg_name": "拥抱",
     "msg_symbol": "",
-    "res_url": "Textures\\UI\\Icons\\chat_msg_icon_01#chat_msg_icon_01_7"
-  },
-  {
-    "msg_id": 9,
-    "msg_name": "sad",
-    "msg_symbol": "",
-    "res_url": "Textures\\UI\\Icons\\chat_msg_icon_01#chat_msg_icon_01_8"
-  },
-  {
-    "msg_id": 10,
-    "msg_name": "drool",
-    "msg_symbol": "",
-    "res_url": "Textures\\UI\\Icons\\chat_msg_icon_01#chat_msg_icon_01_9"
+    "res_url": "Textures\\UI\\Icons\\Emoji_8"
   }
 ]

@@ -2,11 +2,6 @@
 using CLIP.Project_Mouse.Kernel;
 using CLIP.Project_Mouse.Kernel.Social;
 using Npgsql;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using GF_DP = CLIP.Project_Mouse_DataLoader.DataBase_Provider;
 using GF_LP = CLIP.Core_Tools.Logging_Provider;
 using GF_SP = CLIP.Core_Tools.Serialization_Provider;
@@ -229,11 +224,19 @@ namespace CLIP
                                 {
                                     var _friend_info = new Friend_Social_Record();
 
-                                    _friend_info.friend_id = reader.GetInt32(0).ToString();
-                                    _friend_info.friend_name = reader.GetString(1);
-                                    _friend_info._brief_info = GF_SP.DeserializeObject<Player_Social_Setting>(reader.GetString(3));
-                                    _friend_info._brief_info._affinity_with_main_character = reader.GetInt32(1);
-                                    var _cloth_info = GF_SP.DeserializeObject<Character_Clothes_Info>(reader.GetString(3));
+                                    _friend_info.friend_id = reader["id"].ToString();
+                                    _friend_info.friend_name = reader["user_name"].ToString();
+
+                                    _friend_info._brief_info = GF_SP.DeserializeObject<Player_Social_Setting>(
+                                        reader["player_brief"].ToString()
+                                    );
+
+                                    _friend_info._brief_info._affinity_with_main_character =
+                                        Convert.ToInt32(reader["affinity_with_main_character"]);
+
+                                    var _cloth_info = GF_SP.DeserializeObject<Character_Clothes_Info>(
+                                        reader["main_character_cloth"].ToString()
+                                    );
                                     _friend_info._cloth_suit = _cloth_info.get_current();
 
                                    

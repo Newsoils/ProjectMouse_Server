@@ -1,14 +1,10 @@
 ﻿using CLIP.Project_Mouse.Kernel;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 using Npgsql;
 using NpgsqlTypes;
-using Orleans.Serialization.Buffers;
-using System.Collections.Generic;
+using System;
 using System.Diagnostics;
-using System.Text;
-using System.Threading.Tasks;
-using static Npgsql.Replication.PgOutput.Messages.RelationMessage;
+
 using GF_LP = CLIP.Core_Tools.Logging_Provider;
 namespace CLIP
 {
@@ -188,7 +184,7 @@ namespace CLIP
                         RETURNING amount;
                     ";
 
-               return await  Execute_Scalar_Async<long>(sql, "player_id", playerId, "currency_id", currencyId, "amount", newAmount);
+                return await Execute_Scalar_Async<long>(sql, "player_id", playerId, "currency_id", currencyId, "amount", newAmount);
                 //await using var conn = await _dataSource.OpenConnectionAsync();
                 //await using var cmd = new NpgsqlCommand(sql, conn);
 
@@ -491,7 +487,7 @@ namespace CLIP
                 }
             }
 
-      
+
 
 
             /// <summary>
@@ -1083,7 +1079,7 @@ namespace CLIP
                 }) ?? new List<dynamic>();
             }
 
-            public static async Task<long> Save_Gacha_Result(int playerId, int poolId, int currencyId,long currencyCount, List<int> itemIds, int newR3Count, int newR4Count)
+            public static async Task<long> Save_Gacha_Result(int playerId, int poolId, int currencyId, long currencyCount, List<int> itemIds, int newR3Count, int newR4Count)
             {
                 long result = -1;
                 if (_dataSource == null) return result;
@@ -1165,10 +1161,10 @@ namespace CLIP
                     return result;
                 }
             }
-          
+
             public static void TestInsertGachaData(int playerId)
             {
-                
+
                 //string gachaHistoryJson = @"
                 //{
                 //    ""total_pulls"": 150,
@@ -1189,6 +1185,7 @@ namespace CLIP
 
             #region 玩家房间信息RoomDetail
 
+            // 获取 玩家房间详情（没有就自动初始化，为空也返回默认）
             public static async Task<string> Get_PLayer_RoomDetail(int playerId)
             {
                 string sql = "SELECT * FROM player_room_detail WHERE playerid = @pid LIMIT 1";
@@ -1197,14 +1194,47 @@ namespace CLIP
                 {
                     cmd.Parameters.AddWithValue("pid", playerId);
                     await using var reader = await cmd.ExecuteReaderAsync();
+
                     if (await reader.ReadAsync())
                     {
-                        return reader.GetString(reader.GetOrdinal("detail"));
+                        // 读取玩家数据
+                        string playerDetail = reader.GetString(reader.GetOrdinal("detail"));
+
+                        // ✅ 关键：如果玩家数据为空、空字符串、空JSON，都返回默认配置
+                        if (string.IsNullOrWhiteSpace(playerDetail) || playerDetail == "{}")
+                        {
+                            return await Get_Room_Default();
+                        }
+
+                        // 有有效数据 → 返回玩家自己的
+                        return playerDetail;
                     }
-                    // 如果没记录，返回初始值
+
+                    // 无记录 → 自动插入初始化数据
                     await InsertRoomDetailData(playerId);
-                    return "";
-                }) ;
+
+                    // 返回默认配置
+                    return await Get_Room_Default();
+                });
+            }
+
+            // 获取 全局房间默认配置（独立方法，不需要 playerId）
+            public static async Task<string> Get_Room_Default()
+            {
+                // 注意：查询必须用 Execute_Async，不是 NonQuery
+                string sql = "SELECT default_data FROM room_default_config WHERE id = 1 LIMIT 1";
+
+                return await Execute_Async(sql, async cmd =>
+                {
+                    await using var reader = await cmd.ExecuteReaderAsync();
+                    if (await reader.ReadAsync())
+                    {
+                        return reader.GetString(reader.GetOrdinal("default_data"));
+                    }
+
+                    // 兜底：如果默认表没数据，返回空JSON
+                    return "{}";
+                });
             }
 
 
@@ -1239,8 +1269,6 @@ namespace CLIP
             {
                 long result = -1;
 
-        
-
                 try
                 {
                     string jsonValue = (value);
@@ -1254,10 +1282,33 @@ namespace CLIP
                 }
                 catch (Exception ex)
                 {
-                    GF_LP.log($"Batch Gacha Save Error: {ex.Message}", true);
+                    GF_LP.log($"Batch RoomDetail Save Error: {ex.Message}", true);
                     return result;
                 }
             }
+
+            /// <summary>
+            /// 保存 全局房间默认配置（只改唯一的那条默认数据，不需要玩家ID）
+            /// </summary>
+            public static async Task<long> Save_RoomDefault_Data(string value)
+            {
+                try
+                {
+                    // 正确SQL：更新全局默认配置表，固定ID=1
+                    string sql = "UPDATE room_default_config SET default_data = @value::jsonb WHERE id = 1";
+
+                    return await Execute_NonQuery_Async(sql, new Dictionary<string, object?>
+                    {
+                        ["value"] = value // 直接传JSON字符串
+                    });
+                }
+                catch (Exception ex)
+                {
+                    GF_LP.log($"Save RoomDefault Data Error: {ex.Message}", true);
+                    return -1;
+                }
+            }
+
 
             public static async Task<int> InsertRoomDetailData(int playerId)
             {
@@ -1295,7 +1346,7 @@ namespace CLIP
             }
 
 
-       
+
             /// <summary>
             /// 执行一条不返回结果的 SQL（例如 INSERT/UPDATE/DELETE）
             /// </summary>
@@ -1337,14 +1388,14 @@ namespace CLIP
 
             public static async Task<T?> Execute_Scalar_Async<T>(string sql, string paraName1, object paramValue1, string paraName2, object paramValue2)
             {
-                return await Execute_Scalar_Async<T>(sql, new Dictionary<string, object?> 
-                { 
+                return await Execute_Scalar_Async<T>(sql, new Dictionary<string, object?>
+                {
                     [paraName1] = paramValue1,
                     [paraName2] = paramValue2
                 });
             }
 
-            public static async Task<T?> Execute_Scalar_Async<T>(string sql, string paraName1, object paramValue1, 
+            public static async Task<T?> Execute_Scalar_Async<T>(string sql, string paraName1, object paramValue1,
                 string paraName2, object paramValue2, string paraName3, object paramValue3)
             {
                 return await Execute_Scalar_Async<T>(sql, new Dictionary<string, object?>
@@ -1479,80 +1530,6 @@ namespace CLIP
 
             }
 
-            //public static async Task<int> Excu_sql_with_query_return_int(string sql)
-            //{
-            //    await Task.CompletedTask;
-            //    int ans = -1;
-            //    if (_dataSource == null)
-            //    {
-            //        return int.MaxValue;
-            //    }
-            //    await using (var _npgsql_conn = await _dataSource.OpenConnectionAsync())
-            //    {
-
-            //        await using (var cmd = new NpgsqlCommand(sql, _npgsql_conn))
-            //            try
-            //            {
-            //                await using (var reader = await cmd.ExecuteReaderAsync())
-            //                {
-            //                    while (await reader.ReadAsync())
-            //                    {
-            //                        //int id_ordinal=reader.GetOrdinal("id");
-            //                        // Console.WriteLine(reader.GetInt64(id_ordinal));
-            //                        ans = reader.GetInt32(0);
-            //                        //Console.WriteLine(reader.GetString(2));
-            //                        GF_LP.log("excu_sql_with_query_return_int#_" + ans);
-            //                    }
-
-            //                }
-            //            }
-            //            catch (Exception ex)
-            //            {
-            //                GF_LP._logger.Information("SQL_Error");
-            //                GF_LP._logger.Information(ex.ToString());
-            //                return ans;
-            //            }
-            //        return ans;
-            //    }
-
-            //}
-            //public static async Task<string> Excu_sql_with_query_return_str(string sql)
-            //{
-            //    await Task.CompletedTask;
-            //    string ans = "";
-            //    if (_dataSource == null)
-            //    {
-            //        return "SQL_Error";
-            //    }
-            //    await using (var _npgsql_conn = await _dataSource.OpenConnectionAsync())
-            //    {
-
-            //        //var _npgsql_conn = await _dataSource.OpenConnectionAsync();
-            //        await using (var cmd = new NpgsqlCommand(sql, _npgsql_conn))
-            //            try
-            //            {
-            //                await using (var reader = await cmd.ExecuteReaderAsync())
-            //                {
-            //                    while (await reader.ReadAsync())
-            //                    {
-            //                        //int id_ordinal=reader.GetOrdinal("id");
-            //                        // Console.WriteLine(reader.GetInt64(id_ordinal));
-            //                        ans = reader.GetString(0);
-            //                        //Console.WriteLine(reader.GetString(2));
-            //                        GF_LP.log("excu_sql_with_query_return_str_out_#_" + ans);
-            //                    }
-
-            //                }
-            //            }
-            //            catch (Exception ex)
-            //            {
-            //                GF_LP._logger.Information("SQL_Error");
-            //                GF_LP._logger.Information(ex.ToString());
-            //                return ans;
-            //            }
-            //        return ans;
-            //    }
-            //}
 
             #endregion
 

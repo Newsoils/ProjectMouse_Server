@@ -42,5 +42,49 @@
     ],
     "mat_resource_name": "MAT_CD4_TAI_S_WHISPER",
     "wav_resource_name": "WAV_TAI_S_WHISPER"
+  },
+  {
+    "item_id": 2005,
+    "tape_name": "花与星光",
+    "mood_tag_list": [
+      3,
+      4,
+      2
+    ],
+    "mat_resource_name": "MAT_CD5_FLOWERSTAR",
+    "wav_resource_name": "WAV_FLOWERSTAR"
+  },
+  {
+    "item_id": 2006,
+    "tape_name": "爵士红茶",
+    "mood_tag_list": [
+      2,
+      4,
+      7
+    ],
+    "mat_resource_name": "MAT_CD6_JAZZTEA",
+    "wav_resource_name": "WAV_JAZZTEA"
+  },
+  {
+    "item_id": 2007,
+    "tape_name": "落叶的想法",
+    "mood_tag_list": [
+      8,
+      3,
+      7
+    ],
+    "mat_resource_name": "MAT_CD7_LEAFTHINKING",
+    "wav_resource_name": "WAV_LEAFTHINKING"
+  },
+  {
+    "item_id": 2008,
+    "tape_name": "绿色的流星",
+    "mood_tag_list": [
+      1,
+      5,
+      4
+    ],
+    "mat_resource_name": "MAT_CD8_GREENSTAR",
+    "wav_resource_name": "WAV_GREENSTAR"
   }
 ]

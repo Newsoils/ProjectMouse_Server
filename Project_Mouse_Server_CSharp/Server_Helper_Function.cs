@@ -1,4 +1,4 @@
-﻿using CLIP.Framework_Core.Network;
+using CLIP.Framework_Core.Network;
 using CLIP.Project_Mouse.Grains_Interfaces;
 using CLIP.Project_Mouse.Kernel;
 using CLIP.Server_Network;
@@ -24,6 +24,13 @@ namespace CLIP
                 if (_cluster_client == null)
                 {
                     GF_LP._logger.Information("Server_Helper_Function_#_switch_player_connection_ClusterClient_is_null_@_" + _player_name);
+                    return;
+                }
+                GF_LP._logger.Warning($"[SwitchConn] player={_player_name} preId={_pre_id} neoId={_neo_id} pre==neo?{(_pre_id==_neo_id)}");
+                // Safety guard: avoid closing the current connection (would self-kick).
+                if (!string.IsNullOrEmpty(_pre_id) && _pre_id == _neo_id)
+                {
+                    GF_LP._logger.Warning($"[SwitchConn] skip: preId equals neoId (self-kick prevented). player={_player_name} sid={_neo_id}");
                     return;
                 }
                 await using (var _npgsql_conn = await GF_DP._dataSource.OpenConnectionAsync())
@@ -66,6 +73,7 @@ namespace CLIP
                     _res_msg.action = "Quit_Game";
                     _res_msg.detail_info = "Quit_Game_Due_To_Switch_Connection";
                     _res_msg._sending_mode = Msg_Sending_Mode.Server_to_Client;
+                    GF_LP._logger.Warning($"[SwitchConn] send Quit_Game to preId={_pre_id} for player={_player_name}");
                     WebSocketSharp_Server.send_msg(_pre_id, GF_SP.SerializeObject(_res_msg));
 
                     await Task.Delay(2048);
@@ -73,6 +81,7 @@ namespace CLIP
                     //close pre ws connection
                     try
                     {
+                        GF_LP._logger.Warning($"[SwitchConn] closing pre ws session preId={_pre_id} for player={_player_name}");
                         WebSocketSharp_Server._close_connection_no_await(_pre_id);
                     }
                     catch (Exception ex)
@@ -89,6 +98,7 @@ namespace CLIP
                     GF_LP.log("DataSource_is_null_in_closing_player_connection", true);
                     return;
                 }
+                GF_LP._logger.Warning($"[ClosingPlayer] start player={_player_id}");
 
                 await using (var _npgsql_conn = await GF_DP._dataSource.OpenConnectionAsync())
                 {
@@ -114,6 +124,8 @@ namespace CLIP
                             }
                         }
                     }
+                    GF_LP._logger.Warning(
+                        $"[ClosingPlayer] read DB player={_player_id} server_id={_server_id} network_state={_network_state}");
 
                     //update network_state
 
@@ -157,6 +169,8 @@ namespace CLIP
                         _res_msg.action = "Quit_Game";
                         _res_msg.detail_info = "Force_Quit_Game";
                         _res_msg._sending_mode = Msg_Sending_Mode.Server_to_Client;
+                        GF_LP._logger.Warning(
+                            $"[ClosingPlayer] send Quit_Game to server_id={_server_id} for player={_player_id}");
                         WebSocketSharp_Server.send_msg(_server_id, GF_SP.SerializeObject(_res_msg));
 
                         await Task.Delay(2048);
@@ -176,6 +190,8 @@ namespace CLIP
                     {
                         if (_network_state == "ON_LINE")
                         {
+                            GF_LP._logger.Warning(
+                                $"[ClosingPlayer] closing ws session server_id={_server_id} for player={_player_id}");
                             WebSocketSharp_Server._close_connection_no_await(_server_id);
                         }
 
@@ -192,6 +208,7 @@ namespace CLIP
 
             public static async Task after_closing_player_connection(string _server_id)
             {
+                GF_LP._logger.Warning($"[AfterClose] start server_id={_server_id} -> set OFF_LINE");
                 await using (var _npgsql_conn = await GF_DP._dataSource.OpenConnectionAsync())
                 {
                    // var _npgsql_conn = await GF_DP._dataSource.OpenConnectionAsync();

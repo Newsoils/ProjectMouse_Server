@@ -66,7 +66,7 @@
     "_dialogueId": 20008,
     "_speakerId": 2,
     "_speaker": 2,
-    "_contents": "你好，我叫朝音。",
+    "_contents": "你好，我叫铃子。",
     "_chatHints": "",
     "_nextDialogueId": 30008,
     "_isLastDialogue": false
@@ -633,7 +633,7 @@
     "_dialogueId": 20071,
     "_speakerId": 2,
     "_speaker": 2,
-    "_contents": "诶嘿嘿……被你这么一说，我觉得自己现在都在发光了！",
+    "_contents": "诶嘿嘿……",
     "_chatHints": "",
     "_nextDialogueId": -1,
     "_isLastDialogue": true

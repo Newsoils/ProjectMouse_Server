@@ -1,0 +1,30 @@
+[
+  {
+    "itemName": "浇水壶",
+    "suitName": "waterCan",
+    "slotsOccupied": [
+      "leftHand"
+    ],
+    "colorKey": "default"
+  },
+  {
+    "itemName": "茶具",
+    "suitName": "mug",
+    "slotsOccupied": [
+      "leftHand"
+    ],
+    "colorKey": "default"
+  },
+  {
+    "itemName": "书",
+    "suitName": "",
+    "slotsOccupied": [],
+    "colorKey": ""
+  },
+  {
+    "itemName": "零食",
+    "suitName": "",
+    "slotsOccupied": [],
+    "colorKey": ""
+  }
+]

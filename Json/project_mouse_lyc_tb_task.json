@@ -22,7 +22,7 @@
   },
   {
     "taskId": 2,
-    "desc": "首次购买基础便当和唱片",
+    "desc": "首次购买一个便当",
     "targetCount": 1,
     "Rewards": [
       {
@@ -43,7 +43,7 @@
   },
   {
     "taskId": 3,
-    "desc": "第一次完成派遣",
+    "desc": "小苔第一次出门回家",
     "targetCount": 1,
     "Rewards": [
       {

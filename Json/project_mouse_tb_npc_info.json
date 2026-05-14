@@ -2,37 +2,37 @@
   {
     "npc_id": 1,
     "npc_name": "莫诺诺",
-    "npc_personality": "装瞎/喜欢重金属音乐/晒太阳/看漫画",
+    "npc_personality": "我爱阳光。",
     "icon_resource_name": "ASSET_MONONO_ICON"
   },
   {
     "npc_id": 2,
-    "npc_name": "朝音",
-    "npc_personality": "开朗",
+    "npc_name": "铃子",
+    "npc_personality": "音乐！奶茶！闪亮登场。",
     "icon_resource_name": "ASSET_ASANE_ICON"
   },
   {
     "npc_id": 3,
     "npc_name": "哈娜",
-    "npc_personality": "冷静、有条理，偶尔带点毒舌；其实很照顾人。",
+    "npc_personality": "时间完美！温度完美！",
     "icon_resource_name": "ASSET_HANA_ICON"
   },
   {
     "npc_id": 4,
     "npc_name": "雨",
-    "npc_personality": "害羞/内向/说话小小声/偶尔会不耐烦生气",
+    "npc_personality": "水母好像果冻。",
     "icon_resource_name": "ASSET_RAIN_ICON"
   },
   {
     "npc_id": 5,
     "npc_name": "小盒",
-    "npc_personality": "害羞",
+    "npc_personality": "没回消息就是在发呆。",
     "icon_resource_name": "ASSET_LITTLEBOX_ICON"
   },
   {
     "npc_id": 6,
     "npc_name": "茄几",
-    "npc_personality": "开朗",
+    "npc_personality": "嗯。。。嗯。。。",
     "icon_resource_name": "ASSET_QIEZI_ICON"
   }
 ]

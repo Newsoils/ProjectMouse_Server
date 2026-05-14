@@ -5,11 +5,13 @@
     "roomLimit": [
       "卧室"
     ],
-    "placementLimit": 0,
-    "minInteractTimer": 10,
-    "maxInteractTimer": 20,
+    "placementLimit": [],
+    "minInteractTime": 10,
+    "maxInteractTime": 20,
     "itemRequire": "书",
-    "isSpecialTrigger": false
+    "stateName": "",
+    "isSpecialTrigger": false,
+    "specialBehavior": ""
   },
   {
     "interactName": "坐在地板看书",
@@ -17,11 +19,13 @@
     "roomLimit": [
       "卧室"
     ],
-    "placementLimit": 0,
-    "minInteractTimer": 5,
-    "maxInteractTimer": 10,
+    "placementLimit": [],
+    "minInteractTime": 5,
+    "maxInteractTime": 10,
     "itemRequire": "书",
-    "isSpecialTrigger": false
+    "stateName": "",
+    "isSpecialTrigger": false,
+    "specialBehavior": ""
   },
   {
     "interactName": "躺在地板吃零食",
@@ -29,11 +33,13 @@
     "roomLimit": [
       "卧室"
     ],
-    "placementLimit": 0,
-    "minInteractTimer": 5,
-    "maxInteractTimer": 10,
+    "placementLimit": [],
+    "minInteractTime": 5,
+    "maxInteractTime": 10,
     "itemRequire": "零食",
-    "isSpecialTrigger": false
+    "stateName": "",
+    "isSpecialTrigger": false,
+    "specialBehavior": ""
   },
   {
     "interactName": "躺在地上",
@@ -44,11 +50,13 @@
       "浴室",
       "阳台"
     ],
-    "placementLimit": 0,
-    "minInteractTimer": 5,
-    "maxInteractTimer": 10,
+    "placementLimit": [],
+    "minInteractTime": 5,
+    "maxInteractTime": 10,
     "itemRequire": "",
-    "isSpecialTrigger": false
+    "stateName": "",
+    "isSpecialTrigger": false,
+    "specialBehavior": ""
   },
   {
     "interactName": "赏雨",
@@ -56,11 +64,15 @@
     "roomLimit": [
       "阳台"
     ],
-    "placementLimit": 2,
-    "minInteractTimer": 10,
-    "maxInteractTimer": 20,
+    "placementLimit": [
+      2
+    ],
+    "minInteractTime": 10,
+    "maxInteractTime": 20,
     "itemRequire": "",
-    "isSpecialTrigger": false
+    "stateName": "",
+    "isSpecialTrigger": false,
+    "specialBehavior": ""
   },
   {
     "interactName": "赏雨喝茶",
@@ -68,90 +80,141 @@
     "roomLimit": [
       "阳台"
     ],
-    "placementLimit": 2,
-    "minInteractTimer": 10,
-    "maxInteractTimer": 20,
+    "placementLimit": [
+      2
+    ],
+    "minInteractTime": 10,
+    "maxInteractTime": 20,
     "itemRequire": "茶具",
-    "isSpecialTrigger": false
+    "stateName": "",
+    "isSpecialTrigger": false,
+    "specialBehavior": ""
   },
   {
     "interactName": "看书",
     "animationBoolName": "readBook",
     "roomLimit": [],
-    "placementLimit": 2,
-    "minInteractTimer": 7,
-    "maxInteractTimer": 14,
+    "placementLimit": [
+      2
+    ],
+    "minInteractTime": 7,
+    "maxInteractTime": 14,
     "itemRequire": "书",
-    "isSpecialTrigger": false
+    "stateName": "",
+    "isSpecialTrigger": false,
+    "specialBehavior": ""
   },
   {
     "interactName": "喝茶",
-    "animationBoolName": "drinkTea",
+    "animationBoolName": "drink",
     "roomLimit": [],
-    "placementLimit": 2,
-    "minInteractTimer": 7,
-    "maxInteractTimer": 14,
+    "placementLimit": [
+      2,
+      1005
+    ],
+    "minInteractTime": 40,
+    "maxInteractTime": 40,
     "itemRequire": "茶具",
-    "isSpecialTrigger": false
+    "stateName": "drink",
+    "isSpecialTrigger": false,
+    "specialBehavior": ""
   },
   {
     "interactName": "浇水",
     "animationBoolName": "waterPlant",
     "roomLimit": [],
-    "placementLimit": 1007,
-    "minInteractTimer": 5,
-    "maxInteractTimer": 10,
+    "placementLimit": [
+      1007
+    ],
+    "minInteractTime": 2,
+    "maxInteractTime": 2,
     "itemRequire": "浇水壶",
-    "isSpecialTrigger": false
+    "stateName": "",
+    "isSpecialTrigger": false,
+    "specialBehavior": ""
   },
   {
     "interactName": "拍摄植物",
     "animationBoolName": "takePhotoPlant",
     "roomLimit": [],
-    "placementLimit": 1007,
-    "minInteractTimer": 5,
-    "maxInteractTimer": 10,
+    "placementLimit": [
+      1007
+    ],
+    "minInteractTime": 5,
+    "maxInteractTime": 10,
     "itemRequire": "手机",
-    "isSpecialTrigger": false
+    "stateName": "",
+    "isSpecialTrigger": false,
+    "specialBehavior": ""
   },
   {
     "interactName": "泡澡",
     "animationBoolName": "bath",
     "roomLimit": [],
-    "placementLimit": 1010,
-    "minInteractTimer": 5,
-    "maxInteractTimer": 10,
-    "itemRequire": "浴衣",
-    "isSpecialTrigger": false
+    "placementLimit": [
+      1010
+    ],
+    "minInteractTime": 1800,
+    "maxInteractTime": 2400,
+    "itemRequire": "",
+    "stateName": "",
+    "isSpecialTrigger": false,
+    "specialBehavior": "bath"
   },
   {
     "interactName": "睡觉",
     "animationBoolName": "sleep",
     "roomLimit": [],
-    "placementLimit": 1003,
-    "minInteractTimer": 15,
-    "maxInteractTimer": 30,
+    "placementLimit": [
+      1003
+    ],
+    "minInteractTime": 1800,
+    "maxInteractTime": 3600,
     "itemRequire": "",
-    "isSpecialTrigger": false
+    "stateName": "",
+    "isSpecialTrigger": false,
+    "specialBehavior": ""
   },
   {
     "interactName": "趴在床上玩手机",
     "animationBoolName": "playPhoneOnBed",
     "roomLimit": [],
-    "placementLimit": 1003,
-    "minInteractTimer": 5,
-    "maxInteractTimer": 10,
+    "placementLimit": [
+      1003
+    ],
+    "minInteractTime": 5,
+    "maxInteractTime": 10,
     "itemRequire": "",
-    "isSpecialTrigger": false
+    "stateName": "",
+    "isSpecialTrigger": false,
+    "specialBehavior": ""
   },
   {
     "interactName": "坐在马桶上",
-    "animationBoolName": "sitOnClosetool",
+    "animationBoolName": "poop",
     "roomLimit": [],
-    "placementLimit": 1013,
-    "minInteractTimer": 5,
-    "maxInteractTimer": 10,
+    "placementLimit": [
+      1013
+    ],
+    "minInteractTime": 180,
+    "maxInteractTime": 600,
     "itemRequire": "",
-    "isSpecialTrigger": false
+    "stateName": "",
+    "isSpecialTrigger": false,
+    "specialBehavior": ""
+  },
+  {
+    "interactName": "坐在椅子上",
+    "animationBoolName": "sit",
+    "roomLimit": [],
+    "placementLimit": [
+      2
+    ],
+    "minInteractTime": 5,
+    "maxInteractTime": 10,
+    "itemRequire": "",
+    "stateName": "",
+    "isSpecialTrigger": false,
+    "specialBehavior": ""
   }
 ]

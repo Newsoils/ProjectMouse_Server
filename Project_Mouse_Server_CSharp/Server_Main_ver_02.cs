@@ -1,4 +1,4 @@
-﻿using CLIP.Core_Tools;
+using CLIP.Core_Tools;
 using CLIP.Project_Mouse.Grains_Interfaces;
 using CLIP.Project_Mouse_DataLoader;
 using CLIP.Server_Network;
@@ -71,7 +71,7 @@ namespace CLIP
                 GF_LP._logger.Information("Begin_Start_Server");
                 string _url = "ws://" + _server_ip + ":" + _server_port + "/";
                 _ = WebSocketSharp_Server.start_server(_url);
-                _gui_renderer._force_player_offline_action += Server_Helper_Function.closing_player_connection;
+                _gui_renderer._force_player_offline_action += PlayerKickTool.KickByPlayerIdAsync;
                 Login_Manager_ver_02._closing_player_connect += Server_Helper_Function.closing_player_connection;
                 Login_Manager_ver_02._switch_player_connection+=Server_Helper_Function._switch_player_connection;
 

@@ -1,0 +1,2072 @@
+[
+  {
+    "taskId": 1,
+    "unlockExp": 1,
+    "isRecurTask": false,
+    "desc": "首次摆放1个家具",
+    "targetCount": 1,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 100
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 2,
+    "unlockExp": 1,
+    "isRecurTask": false,
+    "desc": "首次购买1个食物",
+    "targetCount": 1,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 100
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 3,
+    "unlockExp": 1,
+    "isRecurTask": false,
+    "desc": "小苔第1次回家",
+    "targetCount": 1,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 100
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 4,
+    "unlockExp": 1,
+    "isRecurTask": false,
+    "desc": "第1次打开相册",
+    "targetCount": 1,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 100
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 5,
+    "unlockExp": 1,
+    "isRecurTask": false,
+    "desc": "首次购买1个幸运小物",
+    "targetCount": 1,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 100
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 6,
+    "unlockExp": 1,
+    "isRecurTask": false,
+    "desc": "首次购买1个唱片",
+    "targetCount": 1,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 100
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 7,
+    "unlockExp": 2,
+    "isRecurTask": false,
+    "desc": "累计购买2个种子",
+    "targetCount": 2,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 100
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 8,
+    "unlockExp": 2,
+    "isRecurTask": false,
+    "desc": "累计购买2个花盆",
+    "targetCount": 2,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 100
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 9,
+    "unlockExp": 2,
+    "isRecurTask": false,
+    "desc": "累计购买2个食物",
+    "targetCount": 2,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 100
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 10,
+    "unlockExp": 2,
+    "isRecurTask": false,
+    "desc": "累计购买2个幸运小物",
+    "targetCount": 2,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 100
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 11,
+    "unlockExp": 2,
+    "isRecurTask": false,
+    "desc": "消耗100鱼币",
+    "targetCount": 100,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 100
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 12,
+    "unlockExp": 2,
+    "isRecurTask": false,
+    "desc": "累计购买1个家具",
+    "targetCount": 1,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 100
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 13,
+    "unlockExp": 3,
+    "isRecurTask": false,
+    "desc": "累计购买1件服装",
+    "targetCount": 1,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 100
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 14,
+    "unlockExp": 3,
+    "isRecurTask": false,
+    "desc": "累计购买3个种子",
+    "targetCount": 3,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 100
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 15,
+    "unlockExp": 3,
+    "isRecurTask": false,
+    "desc": "累计购买3个花盆",
+    "targetCount": 3,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 100
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 16,
+    "unlockExp": 3,
+    "isRecurTask": false,
+    "desc": "累计购买3个食物",
+    "targetCount": 3,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 100
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 17,
+    "unlockExp": 3,
+    "isRecurTask": false,
+    "desc": "累计购买2个幸运小物",
+    "targetCount": 2,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 100
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 18,
+    "unlockExp": 3,
+    "isRecurTask": false,
+    "desc": "消耗100鱼币",
+    "targetCount": 100,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 100
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 19,
+    "unlockExp": 4,
+    "isRecurTask": false,
+    "desc": "累计购买2个家具",
+    "targetCount": 2,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 100
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 20,
+    "unlockExp": 4,
+    "isRecurTask": false,
+    "desc": "累计购买4个种子",
+    "targetCount": 4,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 100
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 21,
+    "unlockExp": 4,
+    "isRecurTask": false,
+    "desc": "累计购买4个花盆",
+    "targetCount": 4,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 100
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 22,
+    "unlockExp": 4,
+    "isRecurTask": false,
+    "desc": "累计购买4个食物",
+    "targetCount": 4,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 100
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 23,
+    "unlockExp": 4,
+    "isRecurTask": false,
+    "desc": "累计购买3个幸运小物",
+    "targetCount": 3,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 100
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 24,
+    "unlockExp": 4,
+    "isRecurTask": false,
+    "desc": "消耗100鱼币",
+    "targetCount": 100,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 100
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 25,
+    "unlockExp": 5,
+    "isRecurTask": false,
+    "desc": "累计购买2件服装",
+    "targetCount": 2,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 100
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 26,
+    "unlockExp": 5,
+    "isRecurTask": false,
+    "desc": "累计购买5个种子",
+    "targetCount": 5,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 100
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 27,
+    "unlockExp": 5,
+    "isRecurTask": false,
+    "desc": "累计购买5个花盆",
+    "targetCount": 5,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 100
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 28,
+    "unlockExp": 5,
+    "isRecurTask": false,
+    "desc": "累计购买5个食物",
+    "targetCount": 5,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 100
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 29,
+    "unlockExp": 5,
+    "isRecurTask": false,
+    "desc": "累计购买4个幸运小物",
+    "targetCount": 4,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 100
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 30,
+    "unlockExp": 5,
+    "isRecurTask": false,
+    "desc": "消耗100鱼币",
+    "targetCount": 100,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 100
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 31,
+    "unlockExp": 6,
+    "isRecurTask": false,
+    "desc": "累计购买3个家具",
+    "targetCount": 3,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 100
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 32,
+    "unlockExp": 6,
+    "isRecurTask": false,
+    "desc": "累计购买10个种子",
+    "targetCount": 10,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 300
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 33,
+    "unlockExp": 6,
+    "isRecurTask": false,
+    "desc": "累计购买10个花盆",
+    "targetCount": 10,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 300
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 34,
+    "unlockExp": 6,
+    "isRecurTask": false,
+    "desc": "累计购买10个食物",
+    "targetCount": 10,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 300
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 35,
+    "unlockExp": 6,
+    "isRecurTask": false,
+    "desc": "累计购买5个幸运小物",
+    "targetCount": 5,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 100
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 36,
+    "unlockExp": 6,
+    "isRecurTask": false,
+    "desc": "消耗500鱼币",
+    "targetCount": 500,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 300
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 37,
+    "unlockExp": 7,
+    "isRecurTask": false,
+    "desc": "累计购买3件服装",
+    "targetCount": 3,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 100
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 38,
+    "unlockExp": 7,
+    "isRecurTask": false,
+    "desc": "累计购买15个种子",
+    "targetCount": 15,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 500
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 39,
+    "unlockExp": 7,
+    "isRecurTask": false,
+    "desc": "累计购买15个花盆",
+    "targetCount": 15,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 500
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 40,
+    "unlockExp": 7,
+    "isRecurTask": false,
+    "desc": "累计购买15个食物",
+    "targetCount": 15,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 500
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 41,
+    "unlockExp": 7,
+    "isRecurTask": false,
+    "desc": "累计购买10个幸运小物",
+    "targetCount": 10,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 300
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 42,
+    "unlockExp": 7,
+    "isRecurTask": false,
+    "desc": "消耗500鱼币",
+    "targetCount": 500,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 300
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 43,
+    "unlockExp": 8,
+    "isRecurTask": false,
+    "desc": "累计购买4个家具",
+    "targetCount": 4,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 100
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 44,
+    "unlockExp": 8,
+    "isRecurTask": false,
+    "desc": "累计购买15个种子",
+    "targetCount": 15,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 500
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 45,
+    "unlockExp": 8,
+    "isRecurTask": false,
+    "desc": "累计购买15个花盆",
+    "targetCount": 15,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 500
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 46,
+    "unlockExp": 8,
+    "isRecurTask": false,
+    "desc": "累计购买15个食物",
+    "targetCount": 15,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 500
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 47,
+    "unlockExp": 8,
+    "isRecurTask": false,
+    "desc": "累计购买15个幸运小物",
+    "targetCount": 15,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 300
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 48,
+    "unlockExp": 8,
+    "isRecurTask": false,
+    "desc": "消耗500鱼币",
+    "targetCount": 500,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 300
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 49,
+    "unlockExp": 9,
+    "isRecurTask": false,
+    "desc": "累计购买4件服装",
+    "targetCount": 4,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 100
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 50,
+    "unlockExp": 9,
+    "isRecurTask": false,
+    "desc": "累计购买20个种子",
+    "targetCount": 20,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 600
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 51,
+    "unlockExp": 9,
+    "isRecurTask": false,
+    "desc": "累计购买20个花盆",
+    "targetCount": 20,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 600
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 52,
+    "unlockExp": 9,
+    "isRecurTask": false,
+    "desc": "累计购买20个食物",
+    "targetCount": 20,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 600
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 53,
+    "unlockExp": 9,
+    "isRecurTask": false,
+    "desc": "累计购买20个幸运小物",
+    "targetCount": 20,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 600
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 54,
+    "unlockExp": 9,
+    "isRecurTask": false,
+    "desc": "消耗500个鱼币",
+    "targetCount": 500,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 300
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 55,
+    "unlockExp": 10,
+    "isRecurTask": false,
+    "desc": "小苔累计回家10次",
+    "targetCount": 10,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 1000
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 56,
+    "unlockExp": 10,
+    "isRecurTask": false,
+    "desc": "消耗1000鱼币",
+    "targetCount": 1000,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 500
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 57,
+    "unlockExp": 10,
+    "isRecurTask": false,
+    "desc": "累计购买5个家具",
+    "targetCount": 5,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 300
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 58,
+    "unlockExp": 10,
+    "isRecurTask": false,
+    "desc": "累计购买25个种子",
+    "targetCount": 25,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 600
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 59,
+    "unlockExp": 10,
+    "isRecurTask": false,
+    "desc": "累计购买25个花盆",
+    "targetCount": 25,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 600
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 60,
+    "unlockExp": 10,
+    "isRecurTask": false,
+    "desc": "累计购买25个食物",
+    "targetCount": 25,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 600
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 61,
+    "unlockExp": 11,
+    "isRecurTask": false,
+    "desc": "累计购买3个唱片",
+    "targetCount": 3,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 300
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 62,
+    "unlockExp": 11,
+    "isRecurTask": false,
+    "desc": "累计购买5件服装",
+    "targetCount": 5,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 500
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 63,
+    "unlockExp": 11,
+    "isRecurTask": false,
+    "desc": "累计购买30个种子",
+    "targetCount": 30,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 700
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 64,
+    "unlockExp": 11,
+    "isRecurTask": false,
+    "desc": "累计购买10个家具",
+    "targetCount": 10,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 300
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 65,
+    "unlockExp": 11,
+    "isRecurTask": false,
+    "desc": "累计购买30个食物",
+    "targetCount": 30,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 700
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 66,
+    "unlockExp": 11,
+    "isRecurTask": false,
+    "desc": "累计购买30个幸运小物",
+    "targetCount": 30,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 700
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 67,
+    "unlockExp": 12,
+    "isRecurTask": false,
+    "desc": "消耗1000鱼币",
+    "targetCount": 1000,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 700
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 68,
+    "unlockExp": 12,
+    "isRecurTask": false,
+    "desc": "累计购买10件服装",
+    "targetCount": 10,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 700
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 69,
+    "unlockExp": 12,
+    "isRecurTask": false,
+    "desc": "累计购买35个种子",
+    "targetCount": 35,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 700
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 70,
+    "unlockExp": 12,
+    "isRecurTask": false,
+    "desc": "累计购买10个家具",
+    "targetCount": 10,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 700
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 71,
+    "unlockExp": 12,
+    "isRecurTask": false,
+    "desc": "累计购买35个食物",
+    "targetCount": 35,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 700
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 72,
+    "unlockExp": 12,
+    "isRecurTask": false,
+    "desc": "累计摆放10个新家具",
+    "targetCount": 10,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 1000
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 73,
+    "unlockExp": 13,
+    "isRecurTask": false,
+    "desc": "累计购买20个家具",
+    "targetCount": 20,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 1000
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 74,
+    "unlockExp": 13,
+    "isRecurTask": false,
+    "desc": "消耗2000鱼币",
+    "targetCount": 2000,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 1000
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 75,
+    "unlockExp": 13,
+    "isRecurTask": false,
+    "desc": "累计摆放20个新家具",
+    "targetCount": 20,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 1000
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 76,
+    "unlockExp": 13,
+    "isRecurTask": false,
+    "desc": "累计购买15件服装",
+    "targetCount": 15,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 1000
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 77,
+    "unlockExp": 13,
+    "isRecurTask": false,
+    "desc": "累计购买45个种子",
+    "targetCount": 45,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 1000
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 78,
+    "unlockExp": 13,
+    "isRecurTask": false,
+    "desc": "累计购买35个幸运小物",
+    "targetCount": 35,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 1000
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 79,
+    "unlockExp": 14,
+    "isRecurTask": false,
+    "desc": "累计购买40个家具",
+    "targetCount": 40,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 1000
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 80,
+    "unlockExp": 14,
+    "isRecurTask": false,
+    "desc": "消耗5000鱼币",
+    "targetCount": 5000,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 1000
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 81,
+    "unlockExp": 14,
+    "isRecurTask": false,
+    "desc": "累计摆放40个新家具",
+    "targetCount": 40,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 1000
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 82,
+    "unlockExp": 14,
+    "isRecurTask": false,
+    "desc": "累计购买50个食物",
+    "targetCount": 50,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 1000
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 83,
+    "unlockExp": 14,
+    "isRecurTask": false,
+    "desc": "累计购买70个种子",
+    "targetCount": 70,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 1000
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 84,
+    "unlockExp": 14,
+    "isRecurTask": false,
+    "desc": "累计购买50个幸运小物",
+    "targetCount": 50,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 1000
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 85,
+    "unlockExp": 15,
+    "isRecurTask": true,
+    "desc": "累计购买60个家具",
+    "targetCount": 60,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 1000
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 86,
+    "unlockExp": 15,
+    "isRecurTask": true,
+    "desc": "消耗10000鱼币",
+    "targetCount": 10000,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 5000
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 87,
+    "unlockExp": 15,
+    "isRecurTask": true,
+    "desc": "累计摆放50个新家具",
+    "targetCount": 50,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 1000
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 88,
+    "unlockExp": 15,
+    "isRecurTask": true,
+    "desc": "累计购买60个食物",
+    "targetCount": 60,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 1000
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 89,
+    "unlockExp": 15,
+    "isRecurTask": true,
+    "desc": "累计购买90个种子",
+    "targetCount": 90,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 1000
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  },
+  {
+    "taskId": 90,
+    "unlockExp": 15,
+    "isRecurTask": true,
+    "desc": "累计购买60个幸运小物",
+    "targetCount": 60,
+    "Rewards": [
+      {
+        "rewardType": 1,
+        "targetId": 0,
+        "amount": 10
+      },
+      {
+        "rewardType": 2,
+        "targetId": 1,
+        "amount": 1000
+      }
+    ],
+    "RewardNames": [
+      "ASSET_EXP",
+      "ASSET_FISHCOIN"
+    ]
+  }
+]

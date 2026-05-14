@@ -3,19 +3,19 @@
     "interactName": "抬头望向相机",
     "favorLevel": 1,
     "animationName": "lookAtCamera",
-    "popContent": "…好安静。"
+    "popContent": "……好安静。"
   },
   {
     "interactName": "思考",
     "favorLevel": 2,
     "animationName": "think",
-    "popContent": "…被子外面…是危险的世界。"
+    "popContent": "……被子外面……是危险的世界。"
   },
   {
     "interactName": "抬头星星眼",
     "favorLevel": 2,
     "animationName": "stun",
-    "popContent": "闹钟…是敌人。"
+    "popContent": "闹钟……是敌人。"
   },
   {
     "interactName": "抬头献花",

@@ -1,26 +1,6 @@
 [
   {
     "room_placement_id": 10001,
-    "room_placement_name": "标准镜子",
-    "relating_rooms": [
-      0,
-      1,
-      2
-    ],
-    "desc": "标准镜子",
-    "placing_type": 4,
-    "first_Category": 12,
-    "second_Category": 1015,
-    "length": 3,
-    "height": 1,
-    "width": 2,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\标准镜子_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10002,
     "room_placement_name": "灰色马赛克墙纸",
     "relating_rooms": [
       2
@@ -30,15 +10,15 @@
     "first_Category": 15,
     "second_Category": 1022,
     "length": -1,
-    "height": 1,
     "width": -1,
+    "height": 1,
     "res_url": "Indoor_Materials\\tex_wall_002",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10003,
+    "room_placement_id": 10002,
     "room_placement_name": "黄褐色木地板",
     "relating_rooms": [
       0,
@@ -49,15 +29,15 @@
     "first_Category": 16,
     "second_Category": 1023,
     "length": -1,
-    "height": 1,
     "width": -1,
+    "height": 1,
     "res_url": "Indoor_Materials\\floor_01",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10004,
+    "room_placement_id": 10003,
     "room_placement_name": "蓝色马赛克地板",
     "relating_rooms": [
       2
@@ -67,710 +47,15 @@
     "first_Category": 16,
     "second_Category": 1023,
     "length": -1,
-    "height": 1,
     "width": -1,
+    "height": 1,
     "res_url": "Indoor_Materials\\floor_02",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10005,
-    "room_placement_name": "马赛克书桌",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "书桌",
-    "placing_type": 3,
-    "first_Category": 1,
-    "second_Category": 1001,
-    "length": 5,
-    "height": 1,
-    "width": 4,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\马赛克书桌_Prefab",
-    "obtain_source": "伙伴赠送",
-    "whether_put": false,
-    "whether_be_placed": true
-  },
-  {
-    "room_placement_id": 10006,
-    "room_placement_name": "红色格子罩台灯",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "台灯",
-    "placing_type": 3,
-    "first_Category": 13,
-    "second_Category": 1018,
-    "length": 2,
-    "height": 1,
-    "width": 2,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\马赛克台灯_Prefab",
-    "obtain_source": "商店购买",
-    "whether_put": true,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10007,
-    "room_placement_name": "红色格子罩直筒台灯",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "台灯",
-    "placing_type": 3,
-    "first_Category": 13,
-    "second_Category": 1018,
-    "length": 2,
-    "height": 1,
-    "width": 2,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\马赛克台灯001_Prefab",
-    "obtain_source": "",
-    "whether_put": true,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10008,
-    "room_placement_name": "马赛克圆桌",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "圆桌",
-    "placing_type": 3,
-    "first_Category": 1,
-    "second_Category": 1001,
-    "length": 6,
-    "height": 1,
-    "width": 6,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\马赛克圆桌_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": true
-  },
-  {
-    "room_placement_id": 10009,
-    "room_placement_name": "大马赛克圆桌",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "圆桌001",
-    "placing_type": 3,
-    "first_Category": 1,
-    "second_Category": 1001,
-    "length": 6,
-    "height": 1,
-    "width": 6,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\马赛克圆桌001_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": true
-  },
-  {
-    "room_placement_id": 10010,
-    "room_placement_name": "柠檬绿格子坐地椅",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "坐地椅1",
-    "placing_type": 3,
-    "first_Category": 2,
-    "second_Category": 2,
-    "length": 3,
-    "height": 1,
-    "width": 3,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\马赛克坐地椅1_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10011,
-    "room_placement_name": "红色格子坐地椅",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "坐地椅2",
-    "placing_type": 3,
-    "first_Category": 2,
-    "second_Category": 2,
-    "length": 2,
-    "height": 1,
-    "width": 2,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\马赛克坐地椅2_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10012,
-    "room_placement_name": "舒适格子布床",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "床1",
-    "placing_type": 3,
-    "first_Category": 3,
-    "second_Category": 1003,
-    "length": 6,
-    "height": 1,
-    "width": 4,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\马赛克床1_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10013,
-    "room_placement_name": "原木简易床",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "床2",
-    "placing_type": 3,
-    "first_Category": 3,
-    "second_Category": 1003,
-    "length": 6,
-    "height": 1,
-    "width": 4,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\马赛克床2_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10014,
-    "room_placement_name": "马赛克床头柜",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "床头柜",
-    "placing_type": 3,
-    "first_Category": 4,
-    "second_Category": 1004,
-    "length": 2,
-    "height": 1,
-    "width": 2,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\马赛克床头柜_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": true
-  },
-  {
-    "room_placement_id": 10015,
-    "room_placement_name": "浅色原木置物架",
-    "relating_rooms": [
-      0,
-      1,
-      2
-    ],
-    "desc": "置物架",
-    "placing_type": 4,
-    "first_Category": 11,
-    "second_Category": 1014,
-    "length": 4,
-    "height": 1,
-    "width": 1,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\马赛克置物架_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": true
-  },
-  {
-    "room_placement_id": 10016,
-    "room_placement_name": "咖色格子方凳",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "方凳1",
-    "placing_type": 3,
-    "first_Category": 2,
-    "second_Category": 2,
-    "length": 2,
-    "height": 1,
-    "width": 2,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\马赛克方凳1_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10017,
-    "room_placement_name": "黑色格子方凳",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "方凳2",
-    "placing_type": 3,
-    "first_Category": 2,
-    "second_Category": 2,
-    "length": 2,
-    "height": 1,
-    "width": 2,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\马赛克方凳2_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10018,
-    "room_placement_name": "拼色马赛克立柜",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "柜子1",
-    "placing_type": 3,
-    "first_Category": 4,
-    "second_Category": 1004,
-    "length": 2,
-    "height": 1,
-    "width": 2,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\马赛克柜子1_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": true
-  },
-  {
-    "room_placement_id": 10019,
-    "room_placement_name": "拼色马赛克横柜",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "柜子2",
-    "placing_type": 3,
-    "first_Category": 4,
-    "second_Category": 1004,
-    "length": 5,
-    "height": 1,
-    "width": 2,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\马赛克柜子2_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": true
-  },
-  {
-    "room_placement_id": 10020,
-    "room_placement_name": "拼色马赛克长桌",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "桌子1",
-    "placing_type": 3,
-    "first_Category": 1,
-    "second_Category": 1001,
-    "length": 6,
-    "height": 1,
-    "width": 4,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\马赛克桌子1_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": true
-  },
-  {
-    "room_placement_id": 10021,
-    "room_placement_name": "绿色马赛克长桌",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "桌子2",
-    "placing_type": 3,
-    "first_Category": 1,
-    "second_Category": 1001,
-    "length": 6,
-    "height": 1,
-    "width": 4,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\马赛克桌子2_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": true
-  },
-  {
-    "room_placement_id": 10022,
-    "room_placement_name": "拼色马赛克正方桌",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "桌子3",
-    "placing_type": 3,
-    "first_Category": 1,
-    "second_Category": 1001,
-    "length": 4,
-    "height": 1,
-    "width": 4,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\马赛克桌子3_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": true
-  },
-  {
-    "room_placement_id": 10023,
-    "room_placement_name": "嫩绿色格子沙发",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "沙发",
-    "placing_type": 3,
-    "first_Category": 5,
-    "second_Category": 1005,
-    "length": 3,
-    "height": 1,
-    "width": 3,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\马赛克沙发_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10024,
-    "room_placement_name": "褐色格子沙发",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "沙发2",
-    "placing_type": 3,
-    "first_Category": 5,
-    "second_Category": 1005,
-    "length": 5,
-    "height": 1,
-    "width": 3,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\马赛克沙发2_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10025,
-    "room_placement_name": "蓝绿色格子长沙发",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "沙发3",
-    "placing_type": 3,
-    "first_Category": 5,
-    "second_Category": 1005,
-    "length": 6,
-    "height": 1,
-    "width": 3,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\马赛克沙发3_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 37,
-    "room_placement_name": "台灯01",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "台灯01",
-    "placing_type": 3,
-    "first_Category": 13,
-    "second_Category": 1018,
-    "length": 1,
-    "height": 1,
-    "width": 1,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\台灯01_Prefab",
-    "obtain_source": "",
-    "whether_put": true,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 38,
-    "room_placement_name": "台灯02",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "台灯02",
-    "placing_type": 3,
-    "first_Category": 13,
-    "second_Category": 1018,
-    "length": 2,
-    "height": 1,
-    "width": 2,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\台灯02_Prefab",
-    "obtain_source": "",
-    "whether_put": true,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 39,
-    "room_placement_name": "台灯03",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "台灯03",
-    "placing_type": 3,
-    "first_Category": 13,
-    "second_Category": 1018,
-    "length": 1,
-    "height": 1,
-    "width": 1,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\台灯03_Prefab",
-    "obtain_source": "",
-    "whether_put": true,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 40,
-    "room_placement_name": "台灯04",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "台灯04",
-    "placing_type": 3,
-    "first_Category": 13,
-    "second_Category": 1018,
-    "length": 2,
-    "height": 1,
-    "width": 2,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\台灯04_Prefab",
-    "obtain_source": "",
-    "whether_put": true,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 41,
-    "room_placement_name": "台灯05",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "台灯05",
-    "placing_type": 3,
-    "first_Category": 13,
-    "second_Category": 1018,
-    "length": 1,
-    "height": 1,
-    "width": 1,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\台灯05_Prefab",
-    "obtain_source": "",
-    "whether_put": true,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 42,
-    "room_placement_name": "大花盆1",
-    "relating_rooms": [
-      0,
-      1,
-      2
-    ],
-    "desc": "大花盆1",
-    "placing_type": 3,
-    "first_Category": 7,
-    "second_Category": 1007,
-    "length": 2,
-    "height": 1,
-    "width": 2,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\大花盆1_Prefab",
-    "obtain_source": "",
-    "whether_put": true,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 43,
-    "room_placement_name": "大花盆2",
-    "relating_rooms": [
-      0,
-      1,
-      2
-    ],
-    "desc": "大花盆2",
-    "placing_type": 3,
-    "first_Category": 7,
-    "second_Category": 1007,
-    "length": 3,
-    "height": 1,
-    "width": 2,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\大花盆2_Prefab",
-    "obtain_source": "",
-    "whether_put": true,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 44,
-    "room_placement_name": "中花盆1",
-    "relating_rooms": [
-      0,
-      1,
-      2
-    ],
-    "desc": "中花盆1",
-    "placing_type": 3,
-    "first_Category": 7,
-    "second_Category": 1007,
-    "length": 2,
-    "height": 1,
-    "width": 2,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\中花盆1_Prefab",
-    "obtain_source": "",
-    "whether_put": true,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 45,
-    "room_placement_name": "中花盆2",
-    "relating_rooms": [
-      0,
-      1,
-      2
-    ],
-    "desc": "中花盆2",
-    "placing_type": 3,
-    "first_Category": 7,
-    "second_Category": 1007,
-    "length": 1,
-    "height": 1,
-    "width": 1,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\中花盆2_Prefab",
-    "obtain_source": "",
-    "whether_put": true,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 46,
-    "room_placement_name": "中花盆3",
-    "relating_rooms": [
-      0,
-      1,
-      2
-    ],
-    "desc": "中花盆3",
-    "placing_type": 3,
-    "first_Category": 7,
-    "second_Category": 1007,
-    "length": 1,
-    "height": 1,
-    "width": 1,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\中花盆3_Prefab",
-    "obtain_source": "",
-    "whether_put": true,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 47,
-    "room_placement_name": "中花盆4",
-    "relating_rooms": [
-      0,
-      1,
-      2
-    ],
-    "desc": "中花盆4",
-    "placing_type": 3,
-    "first_Category": 7,
-    "second_Category": 1007,
-    "length": 1,
-    "height": 1,
-    "width": 1,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\中花盆4_Prefab",
-    "obtain_source": "",
-    "whether_put": true,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 48,
-    "room_placement_name": "中花盆5",
-    "relating_rooms": [
-      0,
-      1,
-      2
-    ],
-    "desc": "中花盆5",
-    "placing_type": 3,
-    "first_Category": 7,
-    "second_Category": 1007,
-    "length": 1,
-    "height": 1,
-    "width": 1,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\中花盆5_Prefab",
-    "obtain_source": "",
-    "whether_put": true,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 49,
-    "room_placement_name": "小花盆1",
-    "relating_rooms": [
-      0,
-      1,
-      2
-    ],
-    "desc": "小花盆1",
-    "placing_type": 3,
-    "first_Category": 7,
-    "second_Category": 1007,
-    "length": 1,
-    "height": 1,
-    "width": 1,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\小花盆1_Prefab",
-    "obtain_source": "",
-    "whether_put": true,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 50,
-    "room_placement_name": "小花盆2",
-    "relating_rooms": [
-      0,
-      1,
-      2
-    ],
-    "desc": "小花盆2",
-    "placing_type": 3,
-    "first_Category": 7,
-    "second_Category": 1007,
-    "length": 1,
-    "height": 1,
-    "width": 1,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\小花盆2_Prefab",
-    "obtain_source": "",
-    "whether_put": true,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 51,
-    "room_placement_name": "小花盆3",
-    "relating_rooms": [
-      0,
-      1,
-      2
-    ],
-    "desc": "小花盆3",
-    "placing_type": 3,
-    "first_Category": 7,
-    "second_Category": 1007,
-    "length": 1,
-    "height": 1,
-    "width": 1,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\小花盆3_Prefab",
-    "obtain_source": "",
-    "whether_put": true,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10026,
+    "room_placement_id": 10004,
     "room_placement_name": "蓝色马赛克墙纸",
     "relating_rooms": [
       2
@@ -780,15 +65,15 @@
     "first_Category": 15,
     "second_Category": 1022,
     "length": -1,
-    "height": 1,
     "width": -1,
+    "height": 1,
     "res_url": "Indoor_Materials\\tex_wall_003",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10027,
+    "room_placement_id": 10005,
     "room_placement_name": "深粉色波点墙纸",
     "relating_rooms": [
       0,
@@ -799,15 +84,15 @@
     "first_Category": 15,
     "second_Category": 1022,
     "length": -1,
-    "height": 1,
     "width": -1,
+    "height": 1,
     "res_url": "Indoor_Materials\\tex_wall_007",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10028,
+    "room_placement_id": 10006,
     "room_placement_name": "浅粉色波点墙纸",
     "relating_rooms": [
       0,
@@ -818,15 +103,15 @@
     "first_Category": 15,
     "second_Category": 1022,
     "length": -1,
-    "height": 1,
     "width": -1,
+    "height": 1,
     "res_url": "Indoor_Materials\\tex_wall_008",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10029,
+    "room_placement_id": 10007,
     "room_placement_name": "绿色马赛克地板",
     "relating_rooms": [
       2
@@ -836,15 +121,15 @@
     "first_Category": 16,
     "second_Category": 1023,
     "length": -1,
-    "height": 1,
     "width": -1,
+    "height": 1,
     "res_url": "Indoor_Materials\\floor_03",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10030,
+    "room_placement_id": 10008,
     "room_placement_name": "灰色马赛克地板",
     "relating_rooms": [
       2
@@ -854,15 +139,15 @@
     "first_Category": 16,
     "second_Category": 1023,
     "length": -1,
-    "height": 1,
     "width": -1,
+    "height": 1,
     "res_url": "Indoor_Materials\\floor_04",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10031,
+    "room_placement_id": 10009,
     "room_placement_name": "浅褐色木地板",
     "relating_rooms": [
       0,
@@ -873,15 +158,15 @@
     "first_Category": 16,
     "second_Category": 1023,
     "length": -1,
-    "height": 1,
     "width": -1,
+    "height": 1,
     "res_url": "Indoor_Materials\\floor_05",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10032,
+    "room_placement_id": 10010,
     "room_placement_name": "浅色人字地板",
     "relating_rooms": [
       0,
@@ -892,15 +177,15 @@
     "first_Category": 16,
     "second_Category": 1023,
     "length": -1,
-    "height": 1,
     "width": -1,
+    "height": 1,
     "res_url": "Indoor_Materials\\floor_06",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10033,
+    "room_placement_id": 10011,
     "room_placement_name": "深色人字地板",
     "relating_rooms": [
       0,
@@ -911,541 +196,15 @@
     "first_Category": 16,
     "second_Category": 1023,
     "length": -1,
-    "height": 1,
     "width": -1,
+    "height": 1,
     "res_url": "Indoor_Materials\\floor_07",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10034,
-    "room_placement_name": "白色简洁浴缸",
-    "relating_rooms": [
-      2
-    ],
-    "desc": "浴缸",
-    "placing_type": 3,
-    "first_Category": 10,
-    "second_Category": 1010,
-    "length": 4,
-    "height": 1,
-    "width": 6,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\浴缸_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10035,
-    "room_placement_name": "白色简洁水池",
-    "relating_rooms": [
-      2
-    ],
-    "desc": "水池",
-    "placing_type": 3,
-    "first_Category": 10,
-    "second_Category": 1012,
-    "length": 2,
-    "height": 1,
-    "width": 2,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\水池_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10036,
-    "room_placement_name": "白色简洁马桶",
-    "relating_rooms": [
-      2
-    ],
-    "desc": "马桶",
-    "placing_type": 3,
-    "first_Category": 10,
-    "second_Category": 1013,
-    "length": 2,
-    "height": 1,
-    "width": 3,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\马桶_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10037,
-    "room_placement_name": "白色简洁冰箱",
-    "relating_rooms": [
-      1
-    ],
-    "desc": "冰箱",
-    "placing_type": 3,
-    "first_Category": 9,
-    "second_Category": 1009,
-    "length": 4,
-    "height": 1,
-    "width": 4,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\冰箱_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10038,
-    "room_placement_name": "白色简洁厨房操作台",
-    "relating_rooms": [
-      1
-    ],
-    "desc": "操作台1",
-    "placing_type": 3,
-    "first_Category": 6,
-    "second_Category": 1006,
-    "length": 6,
-    "height": 1,
-    "width": 4,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\操作台1_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": true
-  },
-  {
-    "room_placement_id": 10039,
-    "room_placement_name": "白色简洁厨房桌",
-    "relating_rooms": [
-      1
-    ],
-    "desc": "操作台2",
-    "placing_type": 3,
-    "first_Category": 6,
-    "second_Category": 1006,
-    "length": 7,
-    "height": 1,
-    "width": 4,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\操作台2_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": true
-  },
-  {
-    "room_placement_id": 10040,
-    "room_placement_name": "白色简洁微波炉",
-    "relating_rooms": [
-      1
-    ],
-    "desc": "微波炉",
-    "placing_type": 3,
-    "first_Category": 9,
-    "second_Category": 1009,
-    "length": 2,
-    "height": 1,
-    "width": 3,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\微波炉_Prefab",
-    "obtain_source": "",
-    "whether_put": true,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10041,
-    "room_placement_name": "红白拼色书桌",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "书桌",
-    "placing_type": 3,
-    "first_Category": 1,
-    "second_Category": 1001,
-    "length": 5,
-    "height": 1,
-    "width": 4,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\拼色书桌_Prefab",
-    "obtain_source": "伙伴赠送",
-    "whether_put": false,
-    "whether_be_placed": true
-  },
-  {
-    "room_placement_id": 10042,
-    "room_placement_name": "红蓝拼色台灯",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "台灯",
-    "placing_type": 3,
-    "first_Category": 13,
-    "second_Category": 1018,
-    "length": 2,
-    "height": 1,
-    "width": 2,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\拼色台灯_Prefab",
-    "obtain_source": "商店购买",
-    "whether_put": true,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10043,
-    "room_placement_name": "红蓝拼色直筒台灯",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "台灯",
-    "placing_type": 3,
-    "first_Category": 13,
-    "second_Category": 1018,
-    "length": 2,
-    "height": 1,
-    "width": 2,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\拼色台灯001_Prefab",
-    "obtain_source": "",
-    "whether_put": true,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10044,
-    "room_placement_name": "黄白拼色圆桌",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "圆桌",
-    "placing_type": 3,
-    "first_Category": 1,
-    "second_Category": 1001,
-    "length": 6,
-    "height": 1,
-    "width": 6,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\拼色圆桌_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": true
-  },
-  {
-    "room_placement_id": 10045,
-    "room_placement_name": "黄白拼色大圆桌",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "圆桌001",
-    "placing_type": 3,
-    "first_Category": 1,
-    "second_Category": 1001,
-    "length": 6,
-    "height": 1,
-    "width": 6,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\拼色圆桌001_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": true
-  },
-  {
-    "room_placement_id": 10046,
-    "room_placement_name": "绿白拼色坐地椅",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "坐地椅1",
-    "placing_type": 3,
-    "first_Category": 2,
-    "second_Category": 2,
-    "length": 3,
-    "height": 1,
-    "width": 3,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\拼色坐地椅1_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10047,
-    "room_placement_name": "橘棕拼色坐地椅",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "坐地椅2",
-    "placing_type": 3,
-    "first_Category": 2,
-    "second_Category": 2,
-    "length": 2,
-    "height": 1,
-    "width": 2,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\拼色坐地椅2_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10048,
-    "room_placement_name": "黄蓝拼色木床",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "床1",
-    "placing_type": 3,
-    "first_Category": 3,
-    "second_Category": 1003,
-    "length": 6,
-    "height": 1,
-    "width": 4,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\拼色床1_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10049,
-    "room_placement_name": "简洁简易木床",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "床2",
-    "placing_type": 3,
-    "first_Category": 3,
-    "second_Category": 1003,
-    "length": 6,
-    "height": 1,
-    "width": 4,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\拼色床2_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10050,
-    "room_placement_name": "红黄拼色床头柜",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "床头柜",
-    "placing_type": 3,
-    "first_Category": 4,
-    "second_Category": 1004,
-    "length": 2,
-    "height": 1,
-    "width": 2,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\拼色床头柜_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": true
-  },
-  {
-    "room_placement_id": 10051,
-    "room_placement_name": "深色原木置物架",
-    "relating_rooms": [
-      0,
-      1,
-      2
-    ],
-    "desc": "置物架",
-    "placing_type": 4,
-    "first_Category": 11,
-    "second_Category": 1014,
-    "length": 4,
-    "height": 1,
-    "width": 1,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\拼色置物架_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": true
-  },
-  {
-    "room_placement_id": 10052,
-    "room_placement_name": "橘色拼色方凳",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "方凳1",
-    "placing_type": 3,
-    "first_Category": 2,
-    "second_Category": 2,
-    "length": 2,
-    "height": 1,
-    "width": 2,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\拼色方凳1_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10053,
-    "room_placement_name": "绿蓝拼色方凳",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "方凳2",
-    "placing_type": 3,
-    "first_Category": 2,
-    "second_Category": 2,
-    "length": 2,
-    "height": 1,
-    "width": 2,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\拼色方凳2_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10054,
-    "room_placement_name": "橘黄拼色立柜",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "柜子1",
-    "placing_type": 3,
-    "first_Category": 4,
-    "second_Category": 1004,
-    "length": 2,
-    "height": 1,
-    "width": 2,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\拼色柜子1_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": true
-  },
-  {
-    "room_placement_id": 10055,
-    "room_placement_name": "蓝色拼色横柜",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "柜子2",
-    "placing_type": 3,
-    "first_Category": 4,
-    "second_Category": 1004,
-    "length": 5,
-    "height": 1,
-    "width": 2,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\拼色柜子2_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": true
-  },
-  {
-    "room_placement_id": 10056,
-    "room_placement_name": "蓝橘拼色桌",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "桌子1",
-    "placing_type": 3,
-    "first_Category": 1,
-    "second_Category": 1001,
-    "length": 6,
-    "height": 1,
-    "width": 4,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\拼色桌子1_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": true
-  },
-  {
-    "room_placement_id": 10057,
-    "room_placement_name": "蓝白拼色桌",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "桌子2",
-    "placing_type": 3,
-    "first_Category": 1,
-    "second_Category": 1001,
-    "length": 6,
-    "height": 1,
-    "width": 4,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\拼色桌子2_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": true
-  },
-  {
-    "room_placement_id": 10058,
-    "room_placement_name": "绿蓝红拼色桌",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "桌子3",
-    "placing_type": 3,
-    "first_Category": 1,
-    "second_Category": 1001,
-    "length": 4,
-    "height": 1,
-    "width": 4,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\拼色桌子3_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": true
-  },
-  {
-    "room_placement_id": 10059,
-    "room_placement_name": "橘绿黄拼色单人沙发",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "沙发",
-    "placing_type": 3,
-    "first_Category": 5,
-    "second_Category": 1005,
-    "length": 3,
-    "height": 1,
-    "width": 3,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\拼色沙发_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10060,
-    "room_placement_name": "红蓝绿拼色双人沙发",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "沙发2",
-    "placing_type": 3,
-    "first_Category": 5,
-    "second_Category": 1005,
-    "length": 5,
-    "height": 1,
-    "width": 3,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\拼色沙发2_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10061,
-    "room_placement_name": "绿色拼色长沙发",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "沙发3",
-    "placing_type": 3,
-    "first_Category": 5,
-    "second_Category": 1005,
-    "length": 6,
-    "height": 1,
-    "width": 3,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\拼色沙发3_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10062,
+    "room_placement_id": 10012,
     "room_placement_name": "原木基础书桌",
     "relating_rooms": [
       0,
@@ -1456,15 +215,15 @@
     "first_Category": 1,
     "second_Category": 1001,
     "length": 5,
-    "height": 1,
     "width": 4,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\原木书桌_Prefab",
     "obtain_source": "伙伴赠送",
     "whether_put": false,
     "whether_be_placed": true
   },
   {
-    "room_placement_id": 10063,
+    "room_placement_id": 10013,
     "room_placement_name": "原木基础台灯",
     "relating_rooms": [
       0,
@@ -1475,15 +234,15 @@
     "first_Category": 13,
     "second_Category": 1018,
     "length": 2,
-    "height": 1,
     "width": 2,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\原木台灯_Prefab",
     "obtain_source": "商店购买",
     "whether_put": true,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10064,
+    "room_placement_id": 10014,
     "room_placement_name": "原木基础直筒台灯",
     "relating_rooms": [
       0,
@@ -1494,15 +253,15 @@
     "first_Category": 13,
     "second_Category": 1018,
     "length": 2,
-    "height": 1,
     "width": 2,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\原木台灯001_Prefab",
     "obtain_source": "",
     "whether_put": true,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10065,
+    "room_placement_id": 10015,
     "room_placement_name": "原木基础大圆桌",
     "relating_rooms": [
       0,
@@ -1513,15 +272,15 @@
     "first_Category": 1,
     "second_Category": 1001,
     "length": 6,
-    "height": 1,
     "width": 6,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\原木圆桌_Prefab",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": true
   },
   {
-    "room_placement_id": 10066,
+    "room_placement_id": 10016,
     "room_placement_name": "原木基础小圆桌",
     "relating_rooms": [
       0,
@@ -1532,16 +291,16 @@
     "first_Category": 1,
     "second_Category": 1001,
     "length": 6,
-    "height": 1,
     "width": 6,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\原木圆桌001_Prefab",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": true
   },
   {
-    "room_placement_id": 10067,
-    "room_placement_name": "原木基础坐地椅",
+    "room_placement_id": 10017,
+    "room_placement_name": "原木基础大坐地椅",
     "relating_rooms": [
       0,
       1
@@ -1551,16 +310,16 @@
     "first_Category": 2,
     "second_Category": 2,
     "length": 3,
-    "height": 1,
     "width": 3,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\原木坐地椅1_Prefab",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10068,
-    "room_placement_name": "原木基础大坐地椅",
+    "room_placement_id": 10018,
+    "room_placement_name": "原木基础坐地椅",
     "relating_rooms": [
       0,
       1
@@ -1570,15 +329,15 @@
     "first_Category": 2,
     "second_Category": 2,
     "length": 2,
-    "height": 1,
     "width": 2,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\原木坐地椅2_Prefab",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10069,
+    "room_placement_id": 10019,
     "room_placement_name": "原木基础床",
     "relating_rooms": [
       0,
@@ -1589,15 +348,15 @@
     "first_Category": 3,
     "second_Category": 1003,
     "length": 6,
-    "height": 1,
     "width": 4,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\原木床1_Prefab",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10070,
+    "room_placement_id": 10020,
     "room_placement_name": "原木简易床",
     "relating_rooms": [
       0,
@@ -1608,15 +367,15 @@
     "first_Category": 3,
     "second_Category": 1003,
     "length": 6,
-    "height": 1,
     "width": 4,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\原木床2_Prefab",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10071,
+    "room_placement_id": 10021,
     "room_placement_name": "原木床头柜",
     "relating_rooms": [
       0,
@@ -1627,15 +386,15 @@
     "first_Category": 4,
     "second_Category": 1004,
     "length": 2,
-    "height": 1,
     "width": 2,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\原木床头柜_Prefab",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": true
   },
   {
-    "room_placement_id": 10072,
+    "room_placement_id": 10022,
     "room_placement_name": "原木置物架",
     "relating_rooms": [
       0,
@@ -1647,15 +406,15 @@
     "first_Category": 11,
     "second_Category": 1014,
     "length": 4,
-    "height": 1,
     "width": 1,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\原木置物架_Prefab",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": true
   },
   {
-    "room_placement_id": 10073,
+    "room_placement_id": 10023,
     "room_placement_name": "原木白色垫子方凳",
     "relating_rooms": [
       0,
@@ -1666,15 +425,15 @@
     "first_Category": 2,
     "second_Category": 2,
     "length": 2,
-    "height": 1,
     "width": 2,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\原木方凳1_Prefab",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10074,
+    "room_placement_id": 10024,
     "room_placement_name": "原木深色垫子方凳",
     "relating_rooms": [
       0,
@@ -1685,15 +444,15 @@
     "first_Category": 2,
     "second_Category": 2,
     "length": 2,
-    "height": 1,
     "width": 2,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\原木方凳2_Prefab",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10075,
+    "room_placement_id": 10025,
     "room_placement_name": "原木立柜",
     "relating_rooms": [
       0,
@@ -1704,15 +463,15 @@
     "first_Category": 4,
     "second_Category": 1004,
     "length": 2,
-    "height": 1,
     "width": 2,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\原木柜子1_Prefab",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": true
   },
   {
-    "room_placement_id": 10076,
+    "room_placement_id": 10026,
     "room_placement_name": "原木横柜",
     "relating_rooms": [
       0,
@@ -1723,15 +482,15 @@
     "first_Category": 4,
     "second_Category": 1004,
     "length": 5,
-    "height": 1,
     "width": 2,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\原木柜子2_Prefab",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": true
   },
   {
-    "room_placement_id": 10077,
+    "room_placement_id": 10027,
     "room_placement_name": "原木白色桌",
     "relating_rooms": [
       0,
@@ -1742,15 +501,15 @@
     "first_Category": 1,
     "second_Category": 1001,
     "length": 6,
-    "height": 1,
     "width": 4,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\原木桌子1_Prefab",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": true
   },
   {
-    "room_placement_id": 10078,
+    "room_placement_id": 10028,
     "room_placement_name": "原木矮桌",
     "relating_rooms": [
       0,
@@ -1761,15 +520,15 @@
     "first_Category": 1,
     "second_Category": 1001,
     "length": 6,
-    "height": 1,
     "width": 4,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\原木桌子2_Prefab",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": true
   },
   {
-    "room_placement_id": 10079,
+    "room_placement_id": 10029,
     "room_placement_name": "原木拼接方桌",
     "relating_rooms": [
       0,
@@ -1780,15 +539,15 @@
     "first_Category": 1,
     "second_Category": 1001,
     "length": 4,
-    "height": 1,
     "width": 4,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\原木桌子3_Prefab",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": true
   },
   {
-    "room_placement_id": 10080,
+    "room_placement_id": 10030,
     "room_placement_name": "原木单人沙发",
     "relating_rooms": [
       0,
@@ -1799,15 +558,15 @@
     "first_Category": 5,
     "second_Category": 1005,
     "length": 3,
-    "height": 1,
     "width": 3,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\原木沙发_Prefab",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10081,
+    "room_placement_id": 10031,
     "room_placement_name": "原木双人沙发",
     "relating_rooms": [
       0,
@@ -1818,15 +577,15 @@
     "first_Category": 5,
     "second_Category": 1005,
     "length": 5,
-    "height": 1,
     "width": 3,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\原木沙发2_Prefab",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10082,
+    "room_placement_id": 10032,
     "room_placement_name": "原木长沙发",
     "relating_rooms": [
       0,
@@ -1837,15 +596,15 @@
     "first_Category": 5,
     "second_Category": 1005,
     "length": 6,
-    "height": 1,
     "width": 3,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\原木沙发3_Prefab",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10083,
+    "room_placement_id": 10033,
     "room_placement_name": "方形饼干桌",
     "relating_rooms": [
       0,
@@ -1856,15 +615,15 @@
     "first_Category": 1,
     "second_Category": 1001,
     "length": 3,
-    "height": 1,
     "width": 3,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\饼干小边桌_Prefab",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": true
   },
   {
-    "room_placement_id": 10084,
+    "room_placement_id": 10034,
     "room_placement_name": "奶油蛋糕睡床",
     "relating_rooms": [
       0,
@@ -1875,15 +634,15 @@
     "first_Category": 3,
     "second_Category": 1003,
     "length": 9,
-    "height": 1,
     "width": 7,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\草莓蛋糕床_Prefab",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10085,
+    "room_placement_id": 10035,
     "room_placement_name": "午后红茶椅",
     "relating_rooms": [
       0,
@@ -1894,15 +653,15 @@
     "first_Category": 5,
     "second_Category": 1005,
     "length": 6,
-    "height": 1,
     "width": 5,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\被子小沙发_Prefab",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10086,
+    "room_placement_id": 10036,
     "room_placement_name": "粉结叉子",
     "relating_rooms": [
       0,
@@ -1913,15 +672,15 @@
     "first_Category": 12,
     "second_Category": 1016,
     "length": 6,
-    "height": 1,
     "width": 4,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\叉子装饰物_Prefab",
     "obtain_source": "",
     "whether_put": true,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10087,
+    "room_placement_id": 10037,
     "room_placement_name": "粉结勺子",
     "relating_rooms": [
       0,
@@ -1932,15 +691,15 @@
     "first_Category": 12,
     "second_Category": 1016,
     "length": 6,
-    "height": 1,
     "width": 4,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\勺子装饰物_Prefab",
     "obtain_source": "",
     "whether_put": true,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10088,
+    "room_placement_id": 10038,
     "room_placement_name": "粉结衣帽架",
     "relating_rooms": [
       0,
@@ -1951,15 +710,15 @@
     "first_Category": 11,
     "second_Category": 1014,
     "length": 4,
-    "height": 1,
     "width": 3,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\叉勺衣帽架_Prefab",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10089,
+    "room_placement_id": 10039,
     "room_placement_name": "果酱凳子",
     "relating_rooms": [
       0,
@@ -1970,15 +729,15 @@
     "first_Category": 2,
     "second_Category": 2,
     "length": 3,
-    "height": 1,
     "width": 2,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\果酱小凳_Prefab",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10090,
+    "room_placement_id": 10040,
     "room_placement_name": "蜂蜜松饼桌",
     "relating_rooms": [
       0,
@@ -1989,15 +748,15 @@
     "first_Category": 1,
     "second_Category": 1001,
     "length": 5,
-    "height": 1,
     "width": 5,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\松饼桌子_Prefab",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10091,
+    "room_placement_id": 10041,
     "room_placement_name": "碎花小地毯",
     "relating_rooms": [
       0,
@@ -2008,15 +767,15 @@
     "first_Category": 14,
     "second_Category": 1021,
     "length": 5,
-    "height": 1,
     "width": 5,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\小手帕地毯_Prefab",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": true
   },
   {
-    "room_placement_id": 10092,
+    "room_placement_id": 10042,
     "room_placement_name": "碎花大地毯",
     "relating_rooms": [
       0,
@@ -2027,148 +786,15 @@
     "first_Category": 14,
     "second_Category": 1021,
     "length": 11,
-    "height": 1,
     "width": 8,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\大手帕地毯_Prefab",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": true
   },
   {
-    "room_placement_id": 10093,
-    "room_placement_name": "原始长木椅",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "半圆木桩长凳",
-    "placing_type": 3,
-    "first_Category": 2,
-    "second_Category": 2,
-    "length": 4,
-    "height": 1,
-    "width": 6,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\半圆木桩长凳_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10094,
-    "room_placement_name": "铃兰小地灯",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "灯笼果地灯1",
-    "placing_type": 3,
-    "first_Category": 13,
-    "second_Category": 1020,
-    "length": 5,
-    "height": 1,
-    "width": 5,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\灯笼果地灯1_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10095,
-    "room_placement_name": "铃兰大地灯",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "灯笼果地灯2",
-    "placing_type": 3,
-    "first_Category": 13,
-    "second_Category": 1020,
-    "length": 10,
-    "height": 1,
-    "width": 10,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\灯笼果地灯2_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10096,
-    "room_placement_name": "失色蝴蝶边桌",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "花仙子边桌",
-    "placing_type": 3,
-    "first_Category": 1,
-    "second_Category": 1001,
-    "length": 3,
-    "height": 1,
-    "width": 3,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\花仙子边桌_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10097,
-    "room_placement_name": "抱枕长木凳",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "半圆木桩沙发",
-    "placing_type": 3,
-    "first_Category": 5,
-    "second_Category": 1005,
-    "length": 5,
-    "height": 1,
-    "width": 11,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\半圆木桩沙发_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10098,
-    "room_placement_name": "原始矮木墩",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "圆木桩小凳",
-    "placing_type": 3,
-    "first_Category": 2,
-    "second_Category": 2,
-    "length": 2,
-    "height": 1,
-    "width": 3,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\圆木桩小凳_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10099,
-    "room_placement_name": "珍珠花朵圆桌",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "花仙子大桌",
-    "placing_type": 3,
-    "first_Category": 1,
-    "second_Category": 1001,
-    "length": 10,
-    "height": 1,
-    "width": 10,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\花仙子大桌_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10100,
+    "room_placement_id": 10043,
     "room_placement_name": "花边睡床",
     "relating_rooms": [
       0,
@@ -2179,15 +805,15 @@
     "first_Category": 3,
     "second_Category": 1003,
     "length": 8,
-    "height": 1,
     "width": 8,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\粉色套装床_Prefab",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10101,
+    "room_placement_id": 10044,
     "room_placement_name": "蕾丝圆桌",
     "relating_rooms": [
       0,
@@ -2198,15 +824,15 @@
     "first_Category": 1,
     "second_Category": 1001,
     "length": 6,
-    "height": 1,
     "width": 6,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\粉色蕾丝桌_Prefab",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10102,
+    "room_placement_id": 10045,
     "room_placement_name": "马蹄莲落地灯",
     "relating_rooms": [
       0,
@@ -2217,15 +843,15 @@
     "first_Category": 13,
     "second_Category": 1020,
     "length": 2,
-    "height": 1,
     "width": 2,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\马蹄莲落地灯_Prefab",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10103,
+    "room_placement_id": 10046,
     "room_placement_name": "流苏壁灯",
     "relating_rooms": [
       0,
@@ -2236,15 +862,15 @@
     "first_Category": 13,
     "second_Category": 1017,
     "length": 3,
-    "height": 1,
     "width": 3,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\粉色套装壁灯_Prefab",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10104,
+    "room_placement_id": 10047,
     "room_placement_name": "流苏双壁灯",
     "relating_rooms": [
       0,
@@ -2255,15 +881,15 @@
     "first_Category": 13,
     "second_Category": 1017,
     "length": 5,
-    "height": 1,
     "width": 3,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\粉色套装壁灯2_Prefab",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10105,
+    "room_placement_id": 10048,
     "room_placement_name": "星星沙发",
     "relating_rooms": [
       0,
@@ -2274,15 +900,15 @@
     "first_Category": 5,
     "second_Category": 1005,
     "length": 3,
-    "height": 1,
     "width": 6,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\粉色套装沙发_Prefab",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10106,
+    "room_placement_id": 10049,
     "room_placement_name": "樱花小窗",
     "relating_rooms": [
       0,
@@ -2293,89 +919,15 @@
     "first_Category": 12,
     "second_Category": 1015,
     "length": 4,
-    "height": 1,
     "width": 6,
+    "height": 1,
     "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\粉色套装窗_Prefab",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10107,
-    "room_placement_name": "铃兰吊灯",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "铃兰吊灯",
-    "placing_type": 5,
-    "first_Category": 13,
-    "second_Category": 1019,
-    "length": 2,
-    "height": 1,
-    "width": 3,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\铃兰吊灯_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10108,
-    "room_placement_name": "珍珠星星挂件",
-    "relating_rooms": [
-      0,
-      1
-    ],
-    "desc": "星星装饰",
-    "placing_type": 5,
-    "first_Category": 13,
-    "second_Category": 1019,
-    "length": 2,
-    "height": 1,
-    "width": 2,
-    "res_url": "Prefabs\\Indoor_Room\\Room_Placement\\星星装饰_Prefab",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10109,
-    "room_placement_name": "花仙子套装墙纸",
-    "relating_rooms": [
-      1
-    ],
-    "desc": "花仙子套装墙纸",
-    "placing_type": 2,
-    "first_Category": 15,
-    "second_Category": 1022,
-    "length": -1,
-    "height": 1,
-    "width": -1,
-    "res_url": "Indoor_Materials\\Mat_FairyWall",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10110,
-    "room_placement_name": "花仙子套装地板",
-    "relating_rooms": [
-      1
-    ],
-    "desc": "花仙子套装地板",
-    "placing_type": 1,
-    "first_Category": 16,
-    "second_Category": 1023,
-    "length": -1,
-    "height": 1,
-    "width": -1,
-    "res_url": "Indoor_Materials\\Mat_FairyFloor",
-    "obtain_source": "",
-    "whether_put": false,
-    "whether_be_placed": false
-  },
-  {
-    "room_placement_id": 10111,
+    "room_placement_id": 10050,
     "room_placement_name": "粉色套装墙纸",
     "relating_rooms": [
       0,
@@ -2386,8 +938,8 @@
     "first_Category": 15,
     "second_Category": 1022,
     "length": -1,
-    "height": 1,
     "width": -1,
+    "height": 1,
     "res_url": "Indoor_Materials\\Mat_PinkWall",
     "obtain_source": "",
     "whether_put": false,
@@ -2406,9 +958,9 @@
     "first_Category": 17,
     "second_Category": 1024,
     "length": -1,
-    "height": 1,
     "width": -1,
-    "res_url": "Indoor_Materials\\Mat_标准门",
+    "height": 1,
+    "res_url": "Indoor_Materials\\door_small_v02_dark",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
@@ -2426,15 +978,15 @@
     "first_Category": 17,
     "second_Category": 1024,
     "length": -1,
-    "height": 1,
     "width": -1,
-    "res_url": "Indoor_Materials\\Mat_初始门",
+    "height": 1,
+    "res_url": "Indoor_Materials\\door_small_v02_light",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10112,
+    "room_placement_id": 10051,
     "room_placement_name": "初始地板",
     "relating_rooms": [
       2
@@ -2444,15 +996,15 @@
     "first_Category": 16,
     "second_Category": 1023,
     "length": -1,
-    "height": 1,
     "width": -1,
-    "res_url": "Indoor_Materials\\Mat_地板02",
+    "height": 1,
+    "res_url": "Indoor_Materials\\floor_05",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10113,
+    "room_placement_id": 10052,
     "room_placement_name": "初始墙纸",
     "relating_rooms": [
       2
@@ -2462,15 +1014,15 @@
     "first_Category": 15,
     "second_Category": 1022,
     "length": -1,
-    "height": 1,
     "width": -1,
-    "res_url": "Indoor_Materials\\Mat_墙纸002",
+    "height": 1,
+    "res_url": "Indoor_Materials\\default_wall_rice",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10114,
+    "room_placement_id": 10053,
     "room_placement_name": "粉色瓷砖浴缸",
     "relating_rooms": [
       2
@@ -2480,15 +1032,15 @@
     "first_Category": 10,
     "second_Category": 1010,
     "length": 7,
-    "height": 1,
     "width": 5,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\MosaicPink_01",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10115,
+    "room_placement_id": 10054,
     "room_placement_name": "绿植粉凳",
     "relating_rooms": [
       0,
@@ -2499,15 +1051,15 @@
     "first_Category": 2,
     "second_Category": 2,
     "length": 2,
-    "height": 1,
     "width": 3,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\MosaicPink_02",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10116,
+    "room_placement_id": 10055,
     "room_placement_name": "粉瓷砖洗手池",
     "relating_rooms": [
       2
@@ -2517,15 +1069,15 @@
     "first_Category": 10,
     "second_Category": 1012,
     "length": 3,
-    "height": 1,
     "width": 3,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\MosaicPink_03",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10117,
+    "room_placement_id": 10056,
     "room_placement_name": "粉原木横柜",
     "relating_rooms": [
       0,
@@ -2536,15 +1088,15 @@
     "first_Category": 4,
     "second_Category": 1004,
     "length": 7,
-    "height": 1,
     "width": 2,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\MosaicPink_04",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10118,
+    "room_placement_id": 10057,
     "room_placement_name": "白瓷砖灶台",
     "relating_rooms": [
       1
@@ -2554,15 +1106,15 @@
     "first_Category": 6,
     "second_Category": 1006,
     "length": 4,
-    "height": 1,
     "width": 3,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\MosaicPink_05",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10119,
+    "room_placement_id": 10058,
     "room_placement_name": "粉格子沙发",
     "relating_rooms": [
       0,
@@ -2573,15 +1125,15 @@
     "first_Category": 5,
     "second_Category": 1005,
     "length": 6,
-    "height": 1,
     "width": 4,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\MosaicPink_06",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10120,
+    "room_placement_id": 10059,
     "room_placement_name": "粉格子地毯",
     "relating_rooms": [
       0,
@@ -2592,15 +1144,15 @@
     "first_Category": 14,
     "second_Category": 1021,
     "length": 7,
-    "height": 1,
     "width": 6,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\MosaicPink_07",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": true
   },
   {
-    "room_placement_id": 10121,
+    "room_placement_id": 10060,
     "room_placement_name": "粉原木方柜",
     "relating_rooms": [
       0,
@@ -2611,15 +1163,15 @@
     "first_Category": 4,
     "second_Category": 1004,
     "length": 4,
-    "height": 1,
     "width": 2,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\MosaicPink_08",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10122,
+    "room_placement_id": 10061,
     "room_placement_name": "粉格子床",
     "relating_rooms": [
       0,
@@ -2630,15 +1182,15 @@
     "first_Category": 3,
     "second_Category": 1003,
     "length": 4,
-    "height": 1,
     "width": 6,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\MosaicPink_09",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10123,
+    "room_placement_id": 10062,
     "room_placement_name": "粉原木窗",
     "relating_rooms": [
       0,
@@ -2649,15 +1201,15 @@
     "first_Category": 12,
     "second_Category": 1015,
     "length": 6,
-    "height": 1,
     "width": 1,
-    "res_url": "",
+    "height": 5,
+    "res_url": "Prefabs\\Placement_New\\MosaicPink_10",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10124,
+    "room_placement_id": 10063,
     "room_placement_name": "粉瓷砖书柜",
     "relating_rooms": [
       0,
@@ -2668,15 +1220,15 @@
     "first_Category": 4,
     "second_Category": 1004,
     "length": 4,
-    "height": 1,
     "width": 2,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\MosaicPink_11",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10125,
+    "room_placement_id": 10064,
     "room_placement_name": "粉瓷砖置物架",
     "relating_rooms": [
       0,
@@ -2687,15 +1239,15 @@
     "first_Category": 11,
     "second_Category": 1014,
     "length": 4,
-    "height": 1,
     "width": 2,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\MosaicPink_12",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10126,
+    "room_placement_id": 10065,
     "room_placement_name": "海芋叶摆件",
     "relating_rooms": [
       0,
@@ -2706,15 +1258,15 @@
     "first_Category": 7,
     "second_Category": 1007,
     "length": 3,
-    "height": 1,
     "width": 3,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\MosaicPink_13",
     "obtain_source": "",
     "whether_put": true,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10127,
+    "room_placement_id": 10066,
     "room_placement_name": "无花果摆件",
     "relating_rooms": [
       0,
@@ -2725,15 +1277,15 @@
     "first_Category": 7,
     "second_Category": 1007,
     "length": 4,
-    "height": 1,
     "width": 4,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\MosaicPink_14",
     "obtain_source": "",
     "whether_put": true,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10128,
+    "room_placement_id": 10067,
     "room_placement_name": "粉马赛克地毯",
     "relating_rooms": [
       0,
@@ -2744,15 +1296,15 @@
     "first_Category": 14,
     "second_Category": 1021,
     "length": 5,
-    "height": 1,
     "width": 6,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\MosaicPink_15",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": true
   },
   {
-    "room_placement_id": 10129,
+    "room_placement_id": 10068,
     "room_placement_name": "多海芋叶摆件",
     "relating_rooms": [
       0,
@@ -2763,15 +1315,15 @@
     "first_Category": 7,
     "second_Category": 1007,
     "length": 4,
-    "height": 1,
     "width": 5,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\MosaicPink_16",
     "obtain_source": "",
     "whether_put": true,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10130,
+    "room_placement_id": 10069,
     "room_placement_name": "粉格子吊灯",
     "relating_rooms": [
       0,
@@ -2782,15 +1334,15 @@
     "first_Category": 13,
     "second_Category": 1019,
     "length": 3,
-    "height": 1,
     "width": 3,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\MosaicPink_17",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10131,
+    "room_placement_id": 10070,
     "room_placement_name": "粉绿原木窗",
     "relating_rooms": [
       0,
@@ -2801,15 +1353,15 @@
     "first_Category": 12,
     "second_Category": 1015,
     "length": 7,
-    "height": 1,
     "width": 1,
-    "res_url": "",
+    "height": 5,
+    "res_url": "Prefabs\\Placement_New\\MosaicPink_18",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10132,
+    "room_placement_id": 10071,
     "room_placement_name": "粉冰箱",
     "relating_rooms": [
       1
@@ -2819,16 +1371,16 @@
     "first_Category": 9,
     "second_Category": 1009,
     "length": 4,
-    "height": 1,
     "width": 4,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\MosaicPink_19",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10133,
-    "room_placement_name": "粉格子长凳",
+    "room_placement_id": 10072,
+    "room_placement_name": "枕头粉格子长凳",
     "relating_rooms": [
       0,
       1
@@ -2838,15 +1390,15 @@
     "first_Category": 2,
     "second_Category": 2,
     "length": 6,
-    "height": 1,
     "width": 3,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\MosaicPink_20",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10134,
+    "room_placement_id": 10073,
     "room_placement_name": "粉马桶",
     "relating_rooms": [
       2
@@ -2856,15 +1408,15 @@
     "first_Category": 10,
     "second_Category": 1013,
     "length": 3,
-    "height": 1,
     "width": 2,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\MosaicPink_21",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10135,
+    "room_placement_id": 10074,
     "room_placement_name": "粉格子方凳",
     "relating_rooms": [
       0,
@@ -2875,15 +1427,15 @@
     "first_Category": 2,
     "second_Category": 2,
     "length": 2,
-    "height": 1,
     "width": 3,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\MosaicPink_22",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10136,
+    "room_placement_id": 10075,
     "room_placement_name": "粉格子长凳",
     "relating_rooms": [
       0,
@@ -2894,15 +1446,15 @@
     "first_Category": 2,
     "second_Category": 2,
     "length": 2,
-    "height": 1,
     "width": 7,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\MosaicPink_23",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10137,
+    "room_placement_id": 10076,
     "room_placement_name": "粉格子吧台桌",
     "relating_rooms": [
       1
@@ -2912,15 +1464,15 @@
     "first_Category": 1,
     "second_Category": 1001,
     "length": 2,
-    "height": 1,
     "width": 5,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\MosaicPink_24",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10138,
+    "room_placement_id": 10077,
     "room_placement_name": "粉格子水池",
     "relating_rooms": [
       1
@@ -2930,15 +1482,15 @@
     "first_Category": 6,
     "second_Category": 1006,
     "length": 7,
-    "height": 1,
     "width": 3,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\MosaicPink_25",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10139,
+    "room_placement_id": 10078,
     "room_placement_name": "粉瓷砖沙发",
     "relating_rooms": [
       0,
@@ -2949,16 +1501,16 @@
     "first_Category": 5,
     "second_Category": 1005,
     "length": 7,
-    "height": 1,
     "width": 4,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\MosaicPink_26",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10140,
-    "room_placement_name": "粉色马赛克套装地砖1",
+    "room_placement_id": 10079,
+    "room_placement_name": "浅粉色马赛克地板",
     "relating_rooms": [
       1
     ],
@@ -2967,16 +1519,16 @@
     "first_Category": 16,
     "second_Category": 1023,
     "length": -1,
-    "height": -1,
     "width": -1,
+    "height": -1,
     "res_url": "Indoor_Materials\\PinkMosaic_floor_1",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10141,
-    "room_placement_name": "粉色马赛克套装地砖2",
+    "room_placement_id": 10080,
+    "room_placement_name": "粉色马赛克地板",
     "relating_rooms": [
       1
     ],
@@ -2985,16 +1537,16 @@
     "first_Category": 16,
     "second_Category": 1023,
     "length": -1,
-    "height": -1,
     "width": -1,
+    "height": -1,
     "res_url": "Indoor_Materials\\PinkMosaic_floor_2",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10142,
-    "room_placement_name": "粉色马赛克套装地砖3",
+    "room_placement_id": 10081,
+    "room_placement_name": "米色马赛克地板",
     "relating_rooms": [
       0,
       1,
@@ -3005,15 +1557,15 @@
     "first_Category": 16,
     "second_Category": 1023,
     "length": -1,
-    "height": -1,
     "width": -1,
+    "height": -1,
     "res_url": "Indoor_Materials\\PinkMosaic_floor_3",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10143,
+    "room_placement_id": 10082,
     "room_placement_name": "绿色风扇",
     "relating_rooms": [
       0,
@@ -3024,15 +1576,15 @@
     "first_Category": 9,
     "second_Category": 1009,
     "length": 3,
-    "height": 1,
     "width": 2,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\paperboxSet_01",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10144,
+    "room_placement_id": 10083,
     "room_placement_name": "白色厨房灶台",
     "relating_rooms": [
       1
@@ -3042,15 +1594,15 @@
     "first_Category": 6,
     "second_Category": 1006,
     "length": 4,
-    "height": 1,
     "width": 4,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\paperboxSet_02",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10145,
+    "room_placement_id": 10084,
     "room_placement_name": "白色基础洗手池",
     "relating_rooms": [
       2
@@ -3060,15 +1612,15 @@
     "first_Category": 10,
     "second_Category": 1012,
     "length": 3,
-    "height": 1,
     "width": 4,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\paperboxSet_03",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10146,
+    "room_placement_id": 10085,
     "room_placement_name": "纸箱地垫",
     "relating_rooms": [
       0,
@@ -3079,15 +1631,15 @@
     "first_Category": 14,
     "second_Category": 1021,
     "length": 4,
-    "height": 1,
     "width": 3,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\paperboxSet_04",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": true
   },
   {
-    "room_placement_id": 10147,
+    "room_placement_id": 10086,
     "room_placement_name": "唱片堆",
     "relating_rooms": [
       0,
@@ -3098,15 +1650,15 @@
     "first_Category": 12,
     "second_Category": 1016,
     "length": 2,
-    "height": 1,
     "width": 2,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\paperboxSet_05",
     "obtain_source": "",
     "whether_put": true,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10148,
+    "room_placement_id": 10087,
     "room_placement_name": "纸箱茶几",
     "relating_rooms": [
       0,
@@ -3117,15 +1669,15 @@
     "first_Category": 1,
     "second_Category": 1001,
     "length": 4,
-    "height": 1,
     "width": 4,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\paperboxSet_06",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10149,
+    "room_placement_id": 10088,
     "room_placement_name": "纸箱柜子",
     "relating_rooms": [
       0,
@@ -3136,15 +1688,15 @@
     "first_Category": 4,
     "second_Category": 1004,
     "length": 3,
+    "width": 2,
     "height": 1,
-    "width": 3,
-    "res_url": "",
+    "res_url": "Prefabs\\Placement_New\\paperboxSet_07",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10150,
+    "room_placement_id": 10089,
     "room_placement_name": "入门绿植",
     "relating_rooms": [
       0,
@@ -3155,15 +1707,15 @@
     "first_Category": 7,
     "second_Category": 1007,
     "length": 1,
-    "height": 1,
     "width": 1,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\paperboxSet_08",
     "obtain_source": "",
     "whether_put": true,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10151,
+    "room_placement_id": 10090,
     "room_placement_name": "厨房水池",
     "relating_rooms": [
       1
@@ -3173,15 +1725,15 @@
     "first_Category": 6,
     "second_Category": 1006,
     "length": 3,
-    "height": 1,
     "width": 4,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\paperboxSet_09",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10152,
+    "room_placement_id": 10091,
     "room_placement_name": "木架床",
     "relating_rooms": [
       0,
@@ -3192,15 +1744,15 @@
     "first_Category": 3,
     "second_Category": 1003,
     "length": 4,
-    "height": 1,
     "width": 6,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\paperboxSet_10",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10153,
+    "room_placement_id": 10092,
     "room_placement_name": "木架沙发",
     "relating_rooms": [
       0,
@@ -3211,15 +1763,15 @@
     "first_Category": 5,
     "second_Category": 1005,
     "length": 4,
-    "height": 1,
     "width": 3,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\paperboxSet_11",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10154,
+    "room_placement_id": 10093,
     "room_placement_name": "纸箱床",
     "relating_rooms": [
       0,
@@ -3230,15 +1782,15 @@
     "first_Category": 3,
     "second_Category": 1003,
     "length": 5,
-    "height": 1,
     "width": 7,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\paperboxSet_12",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10155,
+    "room_placement_id": 10094,
     "room_placement_name": "入门马桶",
     "relating_rooms": [
       2
@@ -3248,15 +1800,15 @@
     "first_Category": 10,
     "second_Category": 1013,
     "length": 3,
-    "height": 1,
     "width": 2,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\paperboxSet_13",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10156,
+    "room_placement_id": 10095,
     "room_placement_name": "入门浴缸",
     "relating_rooms": [
       2
@@ -3266,15 +1818,15 @@
     "first_Category": 10,
     "second_Category": 1010,
     "length": 6,
-    "height": 1,
     "width": 5,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\paperboxSet_14",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10157,
+    "room_placement_id": 10096,
     "room_placement_name": "入门冰箱",
     "relating_rooms": [
       1
@@ -3284,15 +1836,15 @@
     "first_Category": 9,
     "second_Category": 1009,
     "length": 4,
-    "height": 1,
     "width": 4,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\paperboxSet_15",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10158,
+    "room_placement_id": 10097,
     "room_placement_name": "入门台灯",
     "relating_rooms": [
       0,
@@ -3303,15 +1855,15 @@
     "first_Category": 13,
     "second_Category": 1018,
     "length": 2,
-    "height": 1,
     "width": 2,
-    "res_url": "",
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\paperboxSet_16",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10159,
+    "room_placement_id": 10098,
     "room_placement_name": "蓝色墙纸",
     "relating_rooms": [
       0,
@@ -3323,15 +1875,15 @@
     "first_Category": 15,
     "second_Category": 1022,
     "length": -1,
-    "height": 1,
     "width": -1,
+    "height": 1,
     "res_url": "Indoor_Materials\\default_wall_blue",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10160,
+    "room_placement_id": 10099,
     "room_placement_name": "绿色墙纸",
     "relating_rooms": [
       0,
@@ -3343,15 +1895,15 @@
     "first_Category": 15,
     "second_Category": 1022,
     "length": -1,
-    "height": 1,
     "width": -1,
+    "height": 1,
     "res_url": "Indoor_Materials\\default_wall_green",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10161,
+    "room_placement_id": 10100,
     "room_placement_name": "粉色墙纸",
     "relating_rooms": [
       0,
@@ -3363,15 +1915,15 @@
     "first_Category": 15,
     "second_Category": 1022,
     "length": -1,
-    "height": 1,
     "width": -1,
+    "height": 1,
     "res_url": "Indoor_Materials\\default_wall_pink",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10162,
+    "room_placement_id": 10101,
     "room_placement_name": "紫色墙纸",
     "relating_rooms": [
       0,
@@ -3383,15 +1935,15 @@
     "first_Category": 15,
     "second_Category": 1022,
     "length": -1,
-    "height": 1,
     "width": -1,
+    "height": 1,
     "res_url": "Indoor_Materials\\default_wall_purple",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false
   },
   {
-    "room_placement_id": 10163,
+    "room_placement_id": 10102,
     "room_placement_name": "米色墙纸",
     "relating_rooms": [
       0,
@@ -3403,9 +1955,1763 @@
     "first_Category": 15,
     "second_Category": 1022,
     "length": -1,
-    "height": 1,
     "width": -1,
+    "height": 1,
     "res_url": "Indoor_Materials\\default_wall_rice",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10103,
+    "room_placement_name": "亚麻沙发",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "亚麻沙发",
+    "placing_type": 3,
+    "first_Category": 5,
+    "second_Category": 1005,
+    "length": 5,
+    "width": 3,
+    "height": 3,
+    "res_url": "Prefabs\\Placement_New\\fineWoodSet_01",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10104,
+    "room_placement_name": "亚麻单人沙发",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "亚麻单人沙发",
+    "placing_type": 3,
+    "first_Category": 5,
+    "second_Category": 1005,
+    "length": 4,
+    "width": 4,
+    "height": 3,
+    "res_url": "Prefabs\\Placement_New\\fineWoodSet_02",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10105,
+    "room_placement_name": "椭圆木桌",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "椭圆木桌",
+    "placing_type": 3,
+    "first_Category": 1,
+    "second_Category": 1001,
+    "length": 5,
+    "width": 3,
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\fineWoodSet_03",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": true
+  },
+  {
+    "room_placement_id": 10106,
+    "room_placement_name": "方木柜",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "方木柜",
+    "placing_type": 3,
+    "first_Category": 4,
+    "second_Category": 1004,
+    "length": 2,
+    "width": 2,
+    "height": 2,
+    "res_url": "Prefabs\\Placement_New\\fineWoodSet_04",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": true
+  },
+  {
+    "room_placement_id": 10107,
+    "room_placement_name": "长木柜",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "长木柜",
+    "placing_type": 3,
+    "first_Category": 4,
+    "second_Category": 1004,
+    "length": 5,
+    "width": 2,
+    "height": 2,
+    "res_url": "Prefabs\\Placement_New\\fineWoodSet_05",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": true
+  },
+  {
+    "room_placement_id": 10108,
+    "room_placement_name": "木边柜",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "木边柜",
+    "placing_type": 3,
+    "first_Category": 4,
+    "second_Category": 1004,
+    "length": 3,
+    "width": 2,
+    "height": 2,
+    "res_url": "Prefabs\\Placement_New\\fineWoodSet_06",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": true
+  },
+  {
+    "room_placement_id": 10109,
+    "room_placement_name": "超长木柜",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "超长木柜",
+    "placing_type": 3,
+    "first_Category": 4,
+    "second_Category": 1004,
+    "length": 7,
+    "width": 2,
+    "height": 2,
+    "res_url": "Prefabs\\Placement_New\\fineWoodSet_07",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": true
+  },
+  {
+    "room_placement_id": 10110,
+    "room_placement_name": "木质置物架",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "木质置物架",
+    "placing_type": 3,
+    "first_Category": 11,
+    "second_Category": 1014,
+    "length": 8,
+    "width": 2,
+    "height": 2,
+    "res_url": "Prefabs\\Placement_New\\fineWoodSet_08",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": true
+  },
+  {
+    "room_placement_id": 10111,
+    "room_placement_name": "木质长凳",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "木质长凳",
+    "placing_type": 3,
+    "first_Category": 2,
+    "second_Category": 2,
+    "length": 4,
+    "width": 2,
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\fineWoodSet_09",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10112,
+    "room_placement_name": "滚轮电脑椅",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "滚轮电脑椅",
+    "placing_type": 3,
+    "first_Category": 2,
+    "second_Category": 2,
+    "length": 2,
+    "width": 2,
+    "height": 3,
+    "res_url": "Prefabs\\Placement_New\\fineWoodSet_10",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10113,
+    "room_placement_name": "木质电脑桌",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "木质电脑桌",
+    "placing_type": 3,
+    "first_Category": 1,
+    "second_Category": 1001,
+    "length": 5,
+    "width": 5,
+    "height": 6,
+    "res_url": "Prefabs\\Placement_New\\fineWoodSet_11",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": true
+  },
+  {
+    "room_placement_id": 10114,
+    "room_placement_name": "米色直筒台灯",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "米色直筒台灯",
+    "placing_type": 3,
+    "first_Category": 13,
+    "second_Category": 1018,
+    "length": 1,
+    "width": 1,
+    "height": 2,
+    "res_url": "Prefabs\\Placement_New\\fineWoodSet_12",
+    "obtain_source": "",
+    "whether_put": true,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10115,
+    "room_placement_name": "米色基础台灯",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "米色基础台灯",
+    "placing_type": 3,
+    "first_Category": 13,
+    "second_Category": 1018,
+    "length": 2,
+    "width": 2,
+    "height": 3,
+    "res_url": "Prefabs\\Placement_New\\fineWoodSet_13",
+    "obtain_source": "",
+    "whether_put": true,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10116,
+    "room_placement_name": "读物集合",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "读物集合",
+    "placing_type": 3,
+    "first_Category": 12,
+    "second_Category": 1016,
+    "length": 1,
+    "width": 1,
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\fineWoodSet_14",
+    "obtain_source": "",
+    "whether_put": true,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10117,
+    "room_placement_name": "虎皮兰盆栽",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "虎皮兰盆栽",
+    "placing_type": 3,
+    "first_Category": 7,
+    "second_Category": 1007,
+    "length": 1,
+    "width": 1,
+    "height": 2,
+    "res_url": "Prefabs\\Placement_New\\fineWoodSet_15",
+    "obtain_source": "",
+    "whether_put": true,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10118,
+    "room_placement_name": "黑色广播机",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "黑色广播机",
+    "placing_type": 3,
+    "first_Category": 12,
+    "second_Category": 1016,
+    "length": 2,
+    "width": 2,
+    "height": 2,
+    "res_url": "Prefabs\\Placement_New\\fineWoodSet_16",
+    "obtain_source": "",
+    "whether_put": true,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10119,
+    "room_placement_name": "米色方地毯",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "米色方地毯",
+    "placing_type": 3,
+    "first_Category": 14,
+    "second_Category": 1021,
+    "length": 10,
+    "width": 11,
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\fineWoodSet_17",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": true
+  },
+  {
+    "room_placement_id": 10120,
+    "room_placement_name": "米色圆地毯",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "米色圆地毯",
+    "placing_type": 3,
+    "first_Category": 14,
+    "second_Category": 1021,
+    "length": 7,
+    "width": 7,
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\fineWoodSet_18",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": true
+  },
+  {
+    "room_placement_id": 10121,
+    "room_placement_name": "木质绘本书架",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "木质绘本书架",
+    "placing_type": 3,
+    "first_Category": 11,
+    "second_Category": 1014,
+    "length": 6,
+    "width": 1,
+    "height": 7,
+    "res_url": "Prefabs\\Placement_New\\fineWoodSet_19",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10122,
+    "room_placement_name": "心叶盆栽",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "心叶盆栽",
+    "placing_type": 3,
+    "first_Category": 7,
+    "second_Category": 1007,
+    "length": 5,
+    "width": 4,
+    "height": 6,
+    "res_url": "Prefabs\\Placement_New\\fineWoodSet_20",
+    "obtain_source": "",
+    "whether_put": true,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10123,
+    "room_placement_name": "背包置物架",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "背包置物架",
+    "placing_type": 3,
+    "first_Category": 11,
+    "second_Category": 1014,
+    "length": 2,
+    "width": 2,
+    "height": 5,
+    "res_url": "Prefabs\\Placement_New\\fineWoodSet_21",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10124,
+    "room_placement_name": "米色简约窗",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "米色简约窗",
+    "placing_type": 4,
+    "first_Category": 12,
+    "second_Category": 1015,
+    "length": 4,
+    "width": 1,
+    "height": 6,
+    "res_url": "Prefabs\\Placement_New\\fineWoodSet_22",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10125,
+    "room_placement_name": "简单墙面日历",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "简单墙面日历",
+    "placing_type": 4,
+    "first_Category": 12,
+    "second_Category": 1015,
+    "length": 1,
+    "width": 1,
+    "height": 2,
+    "res_url": "Prefabs\\Placement_New\\fineWoodSet_23",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10126,
+    "room_placement_name": "木质单人床",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "木质单人床",
+    "placing_type": 3,
+    "first_Category": 3,
+    "second_Category": 1003,
+    "length": 4,
+    "width": 7,
+    "height": 4,
+    "res_url": "Prefabs\\Placement_New\\fineWoodSet_24",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10127,
+    "room_placement_name": "米色厨房操作台",
+    "relating_rooms": [
+      1
+    ],
+    "desc": "米色厨房操作台",
+    "placing_type": 3,
+    "first_Category": 6,
+    "second_Category": 1006,
+    "length": 7,
+    "width": 6,
+    "height": 4,
+    "res_url": "Prefabs\\Placement_New\\fineWoodSet_25",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10128,
+    "room_placement_name": "米色灶台",
+    "relating_rooms": [
+      1
+    ],
+    "desc": "米色灶台",
+    "placing_type": 3,
+    "first_Category": 6,
+    "second_Category": 1006,
+    "length": 3,
+    "width": 3,
+    "height": 2,
+    "res_url": "Prefabs\\Placement_New\\fineWoodSet_26",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10129,
+    "room_placement_name": "木质置物柜",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "木质置物柜",
+    "placing_type": 3,
+    "first_Category": 4,
+    "second_Category": 1004,
+    "length": 5,
+    "width": 2,
+    "height": 3,
+    "res_url": "Prefabs\\Placement_New\\fineWoodSet_27",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": true
+  },
+  {
+    "room_placement_id": 10130,
+    "room_placement_name": "米色双层冰箱",
+    "relating_rooms": [
+      1
+    ],
+    "desc": "米色双层冰箱",
+    "placing_type": 3,
+    "first_Category": 9,
+    "second_Category": 1009,
+    "length": 3,
+    "width": 3,
+    "height": 5,
+    "res_url": "Prefabs\\Placement_New\\fineWoodSet_28",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10131,
+    "room_placement_name": "厨具摆件",
+    "relating_rooms": [
+      1
+    ],
+    "desc": "厨具摆件",
+    "placing_type": 3,
+    "first_Category": 12,
+    "second_Category": 1016,
+    "length": 1,
+    "width": 1,
+    "height": 2,
+    "res_url": "Prefabs\\Placement_New\\fineWoodSet_29",
+    "obtain_source": "",
+    "whether_put": true,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10132,
+    "room_placement_name": "木砧板",
+    "relating_rooms": [
+      1
+    ],
+    "desc": "木砧板",
+    "placing_type": 3,
+    "first_Category": 12,
+    "second_Category": 1016,
+    "length": 2,
+    "width": 2,
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\fineWoodSet_30",
+    "obtain_source": "",
+    "whether_put": true,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10133,
+    "room_placement_name": "木质表面洗手池",
+    "relating_rooms": [
+      2
+    ],
+    "desc": "木质表面洗手池",
+    "placing_type": 3,
+    "first_Category": 10,
+    "second_Category": 1012,
+    "length": 4,
+    "width": 3,
+    "height": 3,
+    "res_url": "Prefabs\\Placement_New\\fineWoodSet_31",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10134,
+    "room_placement_name": "木质表面马桶",
+    "relating_rooms": [
+      2
+    ],
+    "desc": "木质表面马桶",
+    "placing_type": 3,
+    "first_Category": 10,
+    "second_Category": 1013,
+    "length": 2,
+    "width": 3,
+    "height": 3,
+    "res_url": "Prefabs\\Placement_New\\fineWoodSet_32",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10135,
+    "room_placement_name": "木质表面浴缸",
+    "relating_rooms": [
+      2
+    ],
+    "desc": "木质表面浴缸",
+    "placing_type": 3,
+    "first_Category": 10,
+    "second_Category": 1010,
+    "length": 6,
+    "width": 4,
+    "height": 3,
+    "res_url": "Prefabs\\Placement_New\\fineWoodSet_33",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10136,
+    "room_placement_name": "木质咖啡柜",
+    "relating_rooms": [
+      1
+    ],
+    "desc": "木质咖啡柜",
+    "placing_type": 3,
+    "first_Category": 4,
+    "second_Category": 1004,
+    "length": 6,
+    "width": 3,
+    "height": 9,
+    "res_url": "Prefabs\\Placement_New\\uebanlifeset_01",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": true
+  },
+  {
+    "room_placement_id": 10137,
+    "room_placement_name": "木质冰箱柜",
+    "relating_rooms": [
+      1
+    ],
+    "desc": "木质冰箱柜",
+    "placing_type": 3,
+    "first_Category": 4,
+    "second_Category": 1004,
+    "length": 3,
+    "width": 5,
+    "height": 9,
+    "res_url": "Prefabs\\Placement_New\\uebanlifeset_02",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10138,
+    "room_placement_name": "日常餐厨套装",
+    "relating_rooms": [
+      1
+    ],
+    "desc": "日常餐厨套装",
+    "placing_type": 3,
+    "first_Category": 6,
+    "second_Category": 1006,
+    "length": 3,
+    "width": 5,
+    "height": 8,
+    "res_url": "Prefabs\\Placement_New\\uebanlifeset_03",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10139,
+    "room_placement_name": "日常厨房收纳柜",
+    "relating_rooms": [
+      1
+    ],
+    "desc": "日常厨房收纳柜",
+    "placing_type": 3,
+    "first_Category": 6,
+    "second_Category": 1006,
+    "length": 4,
+    "width": 2,
+    "height": 8,
+    "res_url": "Prefabs\\Placement_New\\uebanlifeset_04",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10140,
+    "room_placement_name": "白色鞋柜带坐垫",
+    "relating_rooms": [
+      1
+    ],
+    "desc": "白色鞋柜带坐垫",
+    "placing_type": 3,
+    "first_Category": 4,
+    "second_Category": 1004,
+    "length": 4,
+    "width": 2,
+    "height": 8,
+    "res_url": "Prefabs\\Placement_New\\uebanlifeset_05",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10141,
+    "room_placement_name": "铁艺置物架",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "铁艺置物架",
+    "placing_type": 3,
+    "first_Category": 11,
+    "second_Category": 1014,
+    "length": 4,
+    "width": 2,
+    "height": 5,
+    "res_url": "Prefabs\\Placement_New\\uebanlifeset_06",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10142,
+    "room_placement_name": "白色长方形桌",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "白色长方形桌",
+    "placing_type": 3,
+    "first_Category": 1,
+    "second_Category": 1001,
+    "length": 5,
+    "width": 3,
+    "height": 4,
+    "res_url": "Prefabs\\Placement_New\\uebanlifeset_07",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": true
+  },
+  {
+    "room_placement_id": 10143,
+    "room_placement_name": "灰色储物桌",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "灰色储物桌",
+    "placing_type": 3,
+    "first_Category": 1,
+    "second_Category": 1001,
+    "length": 3,
+    "width": 3,
+    "height": 2,
+    "res_url": "Prefabs\\Placement_New\\uebanlifeset_08",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": true
+  },
+  {
+    "room_placement_id": 10144,
+    "room_placement_name": "白色日常沙发",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "白色日常沙发",
+    "placing_type": 3,
+    "first_Category": 5,
+    "second_Category": 1005,
+    "length": 9,
+    "width": 3,
+    "height": 3,
+    "res_url": "Prefabs\\Placement_New\\uebanlifeset_09",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10145,
+    "room_placement_name": "文件柜",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "文件柜",
+    "placing_type": 3,
+    "first_Category": 4,
+    "second_Category": 1004,
+    "length": 2,
+    "width": 3,
+    "height": 3,
+    "res_url": "Prefabs\\Placement_New\\uebanlifeset_10",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": true
+  },
+  {
+    "room_placement_id": 10146,
+    "room_placement_name": "方木镜",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "方木镜",
+    "placing_type": 4,
+    "first_Category": 12,
+    "second_Category": 1015,
+    "length": 4,
+    "width": 1,
+    "height": 9,
+    "res_url": "Prefabs\\Placement_New\\uebanlifeset_11",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10147,
+    "room_placement_name": "黑白千鸟格椅",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "黑白千鸟格椅",
+    "placing_type": 3,
+    "first_Category": 2,
+    "second_Category": 2,
+    "length": 2,
+    "width": 2,
+    "height": 3,
+    "res_url": "Prefabs\\Placement_New\\uebanlifeset_12",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10148,
+    "room_placement_name": "深色电脑椅",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "深色电脑椅",
+    "placing_type": 3,
+    "first_Category": 2,
+    "second_Category": 2,
+    "length": 2,
+    "width": 2,
+    "height": 3,
+    "res_url": "Prefabs\\Placement_New\\uebanlifeset_13",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10149,
+    "room_placement_name": "白色舒适床",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "白色舒适床",
+    "placing_type": 3,
+    "first_Category": 3,
+    "second_Category": 1003,
+    "length": 4,
+    "width": 7,
+    "height": 4,
+    "res_url": "Prefabs\\Placement_New\\uebanlifeset_14",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10150,
+    "room_placement_name": "可移动服饰置物架",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "可移动服饰置物架",
+    "placing_type": 3,
+    "first_Category": 11,
+    "second_Category": 1014,
+    "length": 2,
+    "width": 5,
+    "height": 6,
+    "res_url": "Prefabs\\Placement_New\\uebanlifeset_15",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10151,
+    "room_placement_name": "木质方桌",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "木质方桌",
+    "placing_type": 3,
+    "first_Category": 1,
+    "second_Category": 1001,
+    "length": 4,
+    "width": 4,
+    "height": 3,
+    "res_url": "Prefabs\\Placement_New\\uebanlifeset_16",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10152,
+    "room_placement_name": "木质边柜",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "木质边柜",
+    "placing_type": 3,
+    "first_Category": 4,
+    "second_Category": 1004,
+    "length": 2,
+    "width": 2,
+    "height": 3,
+    "res_url": "Prefabs\\Placement_New\\uebanlifeset_17",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10153,
+    "room_placement_name": "米色藤编脏衣篓",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "米色藤编脏衣篓",
+    "placing_type": 3,
+    "first_Category": 12,
+    "second_Category": 1016,
+    "length": 2,
+    "width": 2,
+    "height": 2,
+    "res_url": "Prefabs\\Placement_New\\uebanlifeset_18",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10154,
+    "room_placement_name": "米色格纹沙发",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "米色格纹沙发",
+    "placing_type": 3,
+    "first_Category": 5,
+    "second_Category": 1005,
+    "length": 5,
+    "width": 5,
+    "height": 3,
+    "res_url": "Prefabs\\Placement_New\\uebanlifeset_19",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10155,
+    "room_placement_name": "白色方形浴缸",
+    "relating_rooms": [
+      2
+    ],
+    "desc": "白色方形浴缸",
+    "placing_type": 3,
+    "first_Category": 10,
+    "second_Category": 1010,
+    "length": 6,
+    "width": 4,
+    "height": 2,
+    "res_url": "Prefabs\\Placement_New\\uebanlifeset_20",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10156,
+    "room_placement_name": "白色三面镜洗手池",
+    "relating_rooms": [
+      2
+    ],
+    "desc": "白色三面镜洗手池",
+    "placing_type": 3,
+    "first_Category": 10,
+    "second_Category": 1012,
+    "length": 2,
+    "width": 4,
+    "height": 6,
+    "res_url": "Prefabs\\Placement_New\\uebanlifeset_21",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10157,
+    "room_placement_name": "木质马桶",
+    "relating_rooms": [
+      2
+    ],
+    "desc": "木质马桶",
+    "placing_type": 3,
+    "first_Category": 10,
+    "second_Category": 1013,
+    "length": 3,
+    "width": 2,
+    "height": 4,
+    "res_url": "Prefabs\\Placement_New\\uebanlifeset_22",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10158,
+    "room_placement_name": "海叶芋盆栽",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "海叶芋盆栽",
+    "placing_type": 3,
+    "first_Category": 7,
+    "second_Category": 1007,
+    "length": 3,
+    "width": 3,
+    "height": 4,
+    "res_url": "Prefabs\\Placement_New\\uebanlifeset_23",
+    "obtain_source": "",
+    "whether_put": true,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10159,
+    "room_placement_name": "托特包墙上挂衣架",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "托特包墙上挂衣架",
+    "placing_type": 4,
+    "first_Category": 11,
+    "second_Category": 1014,
+    "length": 1,
+    "width": 3,
+    "height": 3,
+    "res_url": "Prefabs\\Placement_New\\uebanlifeset_24",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10160,
+    "room_placement_name": "米色日常落地灯",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "米色日常落地灯",
+    "placing_type": 3,
+    "first_Category": 13,
+    "second_Category": 1020,
+    "length": 3,
+    "width": 2,
+    "height": 7,
+    "res_url": "Prefabs\\Placement_New\\uebanlifeset_25",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10161,
+    "room_placement_name": "米色吸顶灯",
+    "relating_rooms": [
+      0,
+      1,
+      2
+    ],
+    "desc": "米色吸顶灯",
+    "placing_type": 5,
+    "first_Category": 13,
+    "second_Category": 1019,
+    "length": 3,
+    "width": 3,
+    "height": 2,
+    "res_url": "Prefabs\\Placement_New\\uebanlifeset_26",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10162,
+    "room_placement_name": "米色格纹台灯",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "米色格纹台灯",
+    "placing_type": 3,
+    "first_Category": 13,
+    "second_Category": 1018,
+    "length": 1,
+    "width": 1,
+    "height": 2,
+    "res_url": "Prefabs\\Placement_New\\uebanlifeset_27",
+    "obtain_source": "",
+    "whether_put": true,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10163,
+    "room_placement_name": "日常墙面时钟",
+    "relating_rooms": [
+      0,
+      1,
+      2
+    ],
+    "desc": "日常墙面时钟",
+    "placing_type": 4,
+    "first_Category": 12,
+    "second_Category": 1015,
+    "length": 1,
+    "width": 1,
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\uebanlifeset_28",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10164,
+    "room_placement_name": "黑色边框窗",
+    "relating_rooms": [
+      0,
+      1,
+      2
+    ],
+    "desc": "黑色边框窗",
+    "placing_type": 4,
+    "first_Category": 12,
+    "second_Category": 1015,
+    "length": 2,
+    "width": 1,
+    "height": 6,
+    "res_url": "Prefabs\\Placement_New\\uebanlifeset_29",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10165,
+    "room_placement_name": "胡桃木地板",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "胡桃木地板",
+    "placing_type": 1,
+    "first_Category": 16,
+    "second_Category": 1023,
+    "length": -1,
+    "width": -1,
+    "height": -1,
+    "res_url": "Indoor_Materials\\urbanLifeSet_floor_living",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10166,
+    "room_placement_name": "米色日常壁纸",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "米色日常壁纸",
+    "placing_type": 2,
+    "first_Category": 15,
+    "second_Category": 1022,
+    "length": -1,
+    "width": -1,
+    "height": -1,
+    "res_url": "Indoor_Materials\\urbanLifeSet_wall_living",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10167,
+    "room_placement_name": "白色浴室地砖",
+    "relating_rooms": [
+      2
+    ],
+    "desc": "白色浴室地砖",
+    "placing_type": 1,
+    "first_Category": 16,
+    "second_Category": 1023,
+    "length": -1,
+    "width": -1,
+    "height": -1,
+    "res_url": "Indoor_Materials\\urbanLifeSet_floor_bathroom",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10168,
+    "room_placement_name": "米色浴室墙面",
+    "relating_rooms": [
+      2
+    ],
+    "desc": "米色浴室墙面",
+    "placing_type": 2,
+    "first_Category": 15,
+    "second_Category": 1022,
+    "length": -1,
+    "width": -1,
+    "height": -1,
+    "res_url": "Indoor_Materials\\urbanLifeSet_wall_bathroom",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10169,
+    "room_placement_name": "大叶子浴缸",
+    "relating_rooms": [
+      2
+    ],
+    "desc": "花仙子浴缸",
+    "placing_type": 3,
+    "first_Category": 10,
+    "second_Category": 1010,
+    "length": 6,
+    "width": 8,
+    "height": 7,
+    "res_url": "Prefabs\\Placement_New\\NFairySet__01",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10170,
+    "room_placement_name": "大叶子水池",
+    "relating_rooms": [
+      2
+    ],
+    "desc": "花仙子水池",
+    "placing_type": 3,
+    "first_Category": 10,
+    "second_Category": 1012,
+    "length": 6,
+    "width": 6,
+    "height": 5,
+    "res_url": "Prefabs\\Placement_New\\NFairySet__02",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10171,
+    "room_placement_name": "青苔木桩凳",
+    "relating_rooms": [
+      0,
+      1,
+      2
+    ],
+    "desc": "木桩凳子",
+    "placing_type": 3,
+    "first_Category": 2,
+    "second_Category": 2,
+    "length": 2,
+    "width": 2,
+    "height": 2,
+    "res_url": "Prefabs\\Placement_New\\NFairySet__03",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10172,
+    "room_placement_name": "大叶子马桶",
+    "relating_rooms": [
+      2
+    ],
+    "desc": "马桶",
+    "placing_type": 3,
+    "first_Category": 10,
+    "second_Category": 1013,
+    "length": 2,
+    "width": 2,
+    "height": 1,
+    "res_url": "Prefabs\\Placement_New\\NFairySet__04",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10173,
+    "room_placement_name": "水仙木桩椅子",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "花朵木桩椅子",
+    "placing_type": 3,
+    "first_Category": 2,
+    "second_Category": 2,
+    "length": 3,
+    "width": 4,
+    "height": 4,
+    "res_url": "Prefabs\\Placement_New\\NFairySet__05",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10174,
+    "room_placement_name": "花朵茶几",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "花仙子茶几",
+    "placing_type": 3,
+    "first_Category": 1,
+    "second_Category": 1001,
+    "length": 8,
+    "width": 8,
+    "height": 10,
+    "res_url": "Prefabs\\Placement_New\\NFairySet__06",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": true
+  },
+  {
+    "room_placement_id": 10175,
+    "room_placement_name": "花朵床",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "花仙子床",
+    "placing_type": 3,
+    "first_Category": 3,
+    "second_Category": 1003,
+    "length": 8,
+    "width": 8,
+    "height": 3,
+    "res_url": "Prefabs\\Placement_New\\NFairySet__07",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10176,
+    "room_placement_name": "小茶炉",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "花仙子小炉子",
+    "placing_type": 3,
+    "first_Category": 12,
+    "second_Category": 1016,
+    "length": 2,
+    "width": 2,
+    "height": 3,
+    "res_url": "Prefabs\\Placement_New\\NFairySet__08",
+    "obtain_source": "",
+    "whether_put": true,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10177,
+    "room_placement_name": "马蹄莲落地摆件",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "马蹄莲摆件",
+    "placing_type": 3,
+    "first_Category": 12,
+    "second_Category": 1016,
+    "length": 2,
+    "width": 3,
+    "height": 6,
+    "res_url": "Prefabs\\Placement_New\\NFairySet__09",
+    "obtain_source": "",
+    "whether_put": true,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10178,
+    "room_placement_name": "单株菖蒲落地摆件 ",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "单株菖蒲摆件",
+    "placing_type": 3,
+    "first_Category": 12,
+    "second_Category": 1016,
+    "length": 1,
+    "width": 1,
+    "height": 4,
+    "res_url": "Prefabs\\Placement_New\\NFairySet__10",
+    "obtain_source": "",
+    "whether_put": true,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10179,
+    "room_placement_name": "木头小餐桌",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "花仙子小餐桌",
+    "placing_type": 3,
+    "first_Category": 1,
+    "second_Category": 1001,
+    "length": 3,
+    "width": 3,
+    "height": 5,
+    "res_url": "Prefabs\\Placement_New\\NFairySet__11",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": true
+  },
+  {
+    "room_placement_id": 10180,
+    "room_placement_name": "木头书桌",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "花仙子小书桌",
+    "placing_type": 3,
+    "first_Category": 1,
+    "second_Category": 1001,
+    "length": 3,
+    "width": 4,
+    "height": 5,
+    "res_url": "Prefabs\\Placement_New\\NFairySet__12",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": true
+  },
+  {
+    "room_placement_id": 10181,
+    "room_placement_name": "白色石板路款式一",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "白色石板路一",
+    "placing_type": 3,
+    "first_Category": 14,
+    "second_Category": 1021,
+    "length": 5,
+    "width": 3,
+    "height": 0,
+    "res_url": "Prefabs\\Placement_New\\NFairySet__13",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": true
+  },
+  {
+    "room_placement_id": 10182,
+    "room_placement_name": "白色石板路款式二",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "白色石板路二",
+    "placing_type": 3,
+    "first_Category": 14,
+    "second_Category": 1021,
+    "length": 4,
+    "width": 4,
+    "height": 0,
+    "res_url": "Prefabs\\Placement_New\\NFairySet__14",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": true
+  },
+  {
+    "room_placement_id": 10183,
+    "room_placement_name": "白色水仙花摆件",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "白色水仙花摆件",
+    "placing_type": 3,
+    "first_Category": 12,
+    "second_Category": 1016,
+    "length": 2,
+    "width": 2,
+    "height": 5,
+    "res_url": "Prefabs\\Placement_New\\NFairySet__15",
+    "obtain_source": "",
+    "whether_put": true,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10184,
+    "room_placement_name": "黄色水仙花摆件",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "黄色水仙花摆件",
+    "placing_type": 3,
+    "first_Category": 12,
+    "second_Category": 1016,
+    "length": 2,
+    "width": 2,
+    "height": 5,
+    "res_url": "Prefabs\\Placement_New\\NFairySet__16",
+    "obtain_source": "",
+    "whether_put": true,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10185,
+    "room_placement_name": "水仙花青苔石头",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "白色水仙花挂件",
+    "placing_type": 4,
+    "first_Category": 12,
+    "second_Category": 1015,
+    "length": 1,
+    "width": 2,
+    "height": 4,
+    "res_url": "Prefabs\\Placement_New\\NFairySet__17",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10186,
+    "room_placement_name": "纺布垂帘",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "纺布垂帘",
+    "placing_type": 4,
+    "first_Category": 12,
+    "second_Category": 1016,
+    "length": 1,
+    "width": 10,
+    "height": 11,
+    "res_url": "Prefabs\\Placement_New\\NFairySet__18",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10187,
+    "room_placement_name": "多株菖蒲摆件",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "多株菖蒲摆件",
+    "placing_type": 3,
+    "first_Category": 12,
+    "second_Category": 1016,
+    "length": 2,
+    "width": 1,
+    "height": 6,
+    "res_url": "Prefabs\\Placement_New\\NFairySet__19",
+    "obtain_source": "",
+    "whether_put": true,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10188,
+    "room_placement_name": "菖蒲墙面挂饰",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "菖蒲墙面挂饰",
+    "placing_type": 4,
+    "first_Category": 12,
+    "second_Category": 1015,
+    "length": 1,
+    "width": 1,
+    "height": 5,
+    "res_url": "Prefabs\\Placement_New\\NFairySet__20",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10189,
+    "room_placement_name": "铃兰落地灯",
+    "relating_rooms": [
+      0,
+      1,
+      2
+    ],
+    "desc": "铃兰落地灯",
+    "placing_type": 3,
+    "first_Category": 13,
+    "second_Category": 1020,
+    "length": 1,
+    "width": 3,
+    "height": 7,
+    "res_url": "Prefabs\\Placement_New\\NFairySet__21",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10190,
+    "room_placement_name": "灯笼果落地摆件",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "灯笼果落地摆件",
+    "placing_type": 3,
+    "first_Category": 12,
+    "second_Category": 1016,
+    "length": 3,
+    "width": 3,
+    "height": 5,
+    "res_url": "Prefabs\\Placement_New\\NFairySet__22",
+    "obtain_source": "",
+    "whether_put": true,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10191,
+    "room_placement_name": "灯笼果木桩沙发",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "灯笼果木桩沙发",
+    "placing_type": 3,
+    "first_Category": 5,
+    "second_Category": 1005,
+    "length": 3,
+    "width": 9,
+    "height": 8,
+    "res_url": "Prefabs\\Placement_New\\NFairySet__23",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10192,
+    "room_placement_name": "花仙子套装珠帘门",
+    "relating_rooms": [
+      0,
+      1
+    ],
+    "desc": "花仙子套装珠帘门",
+    "placing_type": 3,
+    "first_Category": 12,
+    "second_Category": 1016,
+    "length": 0,
+    "width": 4,
+    "height": 7,
+    "res_url": "Prefabs\\Placement_New\\NFairySet__24",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10193,
+    "room_placement_name": "珠帘挂饰",
+    "relating_rooms": [
+      0,
+      1,
+      2
+    ],
+    "desc": "珠帘挂饰",
+    "placing_type": 5,
+    "first_Category": 12,
+    "second_Category": 1015,
+    "length": 1,
+    "width": 5,
+    "height": 9,
+    "res_url": "Prefabs\\Placement_New\\NFairySet__25",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10194,
+    "room_placement_name": "花仙子套装珠帘墙纸",
+    "relating_rooms": [
+      0,
+      1,
+      2
+    ],
+    "desc": "花仙子套装珠帘墙纸",
+    "placing_type": 2,
+    "first_Category": 15,
+    "second_Category": 1022,
+    "length": -1,
+    "width": -1,
+    "height": -1,
+    "res_url": "Indoor_Materials\\NFairySet_wallpaper",
+    "obtain_source": "",
+    "whether_put": false,
+    "whether_be_placed": false
+  },
+  {
+    "room_placement_id": 10195,
+    "room_placement_name": "花仙子套装珠帘地面",
+    "relating_rooms": [
+      0,
+      1,
+      2
+    ],
+    "desc": "花仙子套装珠帘地面",
+    "placing_type": 1,
+    "first_Category": 16,
+    "second_Category": 1023,
+    "length": -1,
+    "width": -1,
+    "height": -1,
+    "res_url": "Indoor_Materials\\NFairySet_floor",
     "obtain_source": "",
     "whether_put": false,
     "whether_be_placed": false

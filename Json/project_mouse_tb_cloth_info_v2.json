@@ -1,0 +1,380 @@
+[
+  {
+    "clothName": "柔边蝴蝶结帽子",
+    "firstCategory": 6,
+    "secondCategory": 601,
+    "slotsOccupied": [
+      "head"
+    ],
+    "suitName": "maid01",
+    "colorKey": "default"
+  },
+  {
+    "clothName": "柔边蝴蝶结连衣裙",
+    "firstCategory": 3,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "body",
+      "leg"
+    ],
+    "suitName": "maid01",
+    "colorKey": "default"
+  },
+  {
+    "clothName": "柔边鞋袜套装",
+    "firstCategory": 4,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "shoes"
+    ],
+    "suitName": "maid01",
+    "colorKey": "default"
+  },
+  {
+    "clothName": "默认帽子",
+    "firstCategory": 6,
+    "secondCategory": 601,
+    "slotsOccupied": [
+      "head"
+    ],
+    "suitName": "default",
+    "colorKey": "default"
+  },
+  {
+    "clothName": "默认上衣",
+    "firstCategory": 1,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "body"
+    ],
+    "suitName": "default",
+    "colorKey": "default"
+  },
+  {
+    "clothName": "默认裤子",
+    "firstCategory": 2,
+    "secondCategory": 301,
+    "slotsOccupied": [
+      "leg"
+    ],
+    "suitName": "default",
+    "colorKey": "default"
+  },
+  {
+    "clothName": "黄色柔边蝴蝶结帽子",
+    "firstCategory": 6,
+    "secondCategory": 601,
+    "slotsOccupied": [
+      "head"
+    ],
+    "suitName": "maid01",
+    "colorKey": "yellow"
+  },
+  {
+    "clothName": "黄色柔边蝴蝶结连衣裙",
+    "firstCategory": 3,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "body",
+      "leg"
+    ],
+    "suitName": "maid01",
+    "colorKey": "yellow"
+  },
+  {
+    "clothName": "黄色柔边鞋袜套装",
+    "firstCategory": 4,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "shoes"
+    ],
+    "suitName": "maid01",
+    "colorKey": "yellow"
+  },
+  {
+    "clothName": "紫色柔边蝴蝶结帽子",
+    "firstCategory": 6,
+    "secondCategory": 601,
+    "slotsOccupied": [
+      "head"
+    ],
+    "suitName": "maid01",
+    "colorKey": "purple"
+  },
+  {
+    "clothName": "紫色柔边蝴蝶结连衣裙",
+    "firstCategory": 3,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "body",
+      "leg"
+    ],
+    "suitName": "maid01",
+    "colorKey": "purple"
+  },
+  {
+    "clothName": "紫色柔边鞋袜套装",
+    "firstCategory": 4,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "shoes"
+    ],
+    "suitName": "maid01",
+    "colorKey": "purple"
+  },
+  {
+    "clothName": "绿色柔边蝴蝶结帽子",
+    "firstCategory": 6,
+    "secondCategory": 601,
+    "slotsOccupied": [
+      "head"
+    ],
+    "suitName": "maid01",
+    "colorKey": "green"
+  },
+  {
+    "clothName": "绿色柔边蝴蝶结连衣裙",
+    "firstCategory": 3,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "body",
+      "leg"
+    ],
+    "suitName": "maid01",
+    "colorKey": "green"
+  },
+  {
+    "clothName": "绿色柔边鞋袜套装",
+    "firstCategory": 4,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "shoes"
+    ],
+    "suitName": "maid01",
+    "colorKey": "green"
+  },
+  {
+    "clothName": "蓝色柔边蝴蝶结帽子",
+    "firstCategory": 6,
+    "secondCategory": 601,
+    "slotsOccupied": [
+      "head"
+    ],
+    "suitName": "maid01",
+    "colorKey": "blue"
+  },
+  {
+    "clothName": "蓝色柔边蝴蝶结连衣裙",
+    "firstCategory": 3,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "body",
+      "leg"
+    ],
+    "suitName": "maid01",
+    "colorKey": "blue"
+  },
+  {
+    "clothName": "蓝色柔边鞋袜套装",
+    "firstCategory": 4,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "shoes"
+    ],
+    "suitName": "maid01",
+    "colorKey": "blue"
+  },
+  {
+    "clothName": "粉色柔边蝴蝶结帽子",
+    "firstCategory": 6,
+    "secondCategory": 601,
+    "slotsOccupied": [
+      "head"
+    ],
+    "suitName": "maid01",
+    "colorKey": "pink"
+  },
+  {
+    "clothName": "粉色柔边蝴蝶结连衣裙",
+    "firstCategory": 3,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "body",
+      "leg"
+    ],
+    "suitName": "maid01",
+    "colorKey": "pink"
+  },
+  {
+    "clothName": "粉色柔边鞋袜套装",
+    "firstCategory": 4,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "head"
+    ],
+    "suitName": "maid01",
+    "colorKey": "pink"
+  },
+  {
+    "clothName": "玳瑁方框眼镜",
+    "firstCategory": 6,
+    "secondCategory": 602,
+    "slotsOccupied": [
+      "head"
+    ],
+    "suitName": "office",
+    "colorKey": "default"
+  },
+  {
+    "clothName": "蓝色条纹衬衫",
+    "firstCategory": 1,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "body"
+    ],
+    "suitName": "office",
+    "colorKey": "default"
+  },
+  {
+    "clothName": "棕色办公裤子",
+    "firstCategory": 2,
+    "secondCategory": 301,
+    "slotsOccupied": [
+      "leg"
+    ],
+    "suitName": "office",
+    "colorKey": "default"
+  },
+  {
+    "clothName": "办公皮鞋",
+    "firstCategory": 4,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "shoes"
+    ],
+    "suitName": "office",
+    "colorKey": "default"
+  },
+  {
+    "clothName": "柔边蝴蝶结头饰",
+    "firstCategory": 6,
+    "secondCategory": 601,
+    "slotsOccupied": [
+      "head"
+    ],
+    "suitName": "maid02",
+    "colorKey": "default"
+  },
+  {
+    "clothName": "黄色柔边蝴蝶结头饰",
+    "firstCategory": 6,
+    "secondCategory": 601,
+    "slotsOccupied": [
+      "head"
+    ],
+    "suitName": "maid02",
+    "colorKey": "yellow"
+  },
+  {
+    "clothName": "紫色柔边蝴蝶结头饰",
+    "firstCategory": 6,
+    "secondCategory": 601,
+    "slotsOccupied": [
+      "head"
+    ],
+    "suitName": "maid02",
+    "colorKey": "purple"
+  },
+  {
+    "clothName": "绿色柔边蝴蝶结头饰",
+    "firstCategory": 6,
+    "secondCategory": 601,
+    "slotsOccupied": [
+      "head"
+    ],
+    "suitName": "maid02",
+    "colorKey": "green"
+  },
+  {
+    "clothName": "蓝色柔边蝴蝶结头饰",
+    "firstCategory": 6,
+    "secondCategory": 601,
+    "slotsOccupied": [
+      "head"
+    ],
+    "suitName": "maid02",
+    "colorKey": "blue"
+  },
+  {
+    "clothName": "粉色柔边蝴蝶结头饰",
+    "firstCategory": 6,
+    "secondCategory": 601,
+    "slotsOccupied": [
+      "head"
+    ],
+    "suitName": "maid02",
+    "colorKey": "pink"
+  },
+  {
+    "clothName": "蓝色头戴式耳机",
+    "firstCategory": 6,
+    "secondCategory": 601,
+    "slotsOccupied": [
+      "head"
+    ],
+    "suitName": "white",
+    "colorKey": "default"
+  },
+  {
+    "clothName": "灰色针织连衣裙",
+    "firstCategory": 3,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "body",
+      "leg"
+    ],
+    "suitName": "white",
+    "colorKey": "default"
+  },
+  {
+    "clothName": "灰色堆堆靴子",
+    "firstCategory": 4,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "shoes"
+    ],
+    "suitName": "white",
+    "colorKey": "default"
+  },
+  {
+    "clothName": "粉色蝴蝶单肩包",
+    "firstCategory": 5,
+    "secondCategory": 502,
+    "slotsOccupied": [
+      "bodyFront"
+    ],
+    "suitName": "white",
+    "colorKey": "default"
+  },
+  {
+    "clothName": "浴帽",
+    "firstCategory": 6,
+    "secondCategory": 601,
+    "slotsOccupied": [
+      "head"
+    ],
+    "suitName": "bath",
+    "colorKey": "default"
+  },
+  {
+    "clothName": "浴巾",
+    "firstCategory": 3,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "body",
+      "leg"
+    ],
+    "suitName": "bath",
+    "colorKey": "default"
+  }
+]

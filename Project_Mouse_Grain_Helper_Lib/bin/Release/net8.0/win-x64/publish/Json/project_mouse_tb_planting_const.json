@@ -1,9 +1,0 @@
-[
-  {
-    "id": 1,
-    "pot_wet_decrease_per_minute": 0.00069,
-    "weed_time_in_minute": 4320,
-    "weed_res_path": "Prefabs\\Planting\\Plant\\Weed_Prefab",
-    "no_water_growing_rate": 0.7
-  }
-]

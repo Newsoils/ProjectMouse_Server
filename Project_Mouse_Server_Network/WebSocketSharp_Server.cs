@@ -1,5 +1,4 @@
-﻿using CLIP.Core_Tools;
-using System.Threading.Tasks;
+using CLIP.Core_Tools;
 using WebSocketSharp;
 using WebSocketSharp.Server;
 using GF_LP = CLIP.Core_Tools.Logging_Provider;
@@ -80,7 +79,8 @@ namespace CLIP
             {
                 base.OnClose(e);
                 if (WebSocketSharp_Server_Event._after_disconnect!=null) WebSocketSharp_Server_Event._after_disconnect.Invoke(ID);
-                Console.WriteLine("Project_Mouse_Server_OnClose()_ID_=_" + ID);
+                Console.WriteLine(
+                    $"Project_Mouse_Server_OnClose()_ID_=={ID} code={e.Code} reason={e.Reason} wasClean={e.WasClean}");
                
             }
         }
@@ -182,27 +182,45 @@ namespace CLIP
             //        GF_LP.log($"[Network] 拦截了一次误杀：尝试关闭旧ID {_id_to_close}，但当前新ID是 {_current_active_id}", true);
             //    }
             //}
-            public static async void _close_connection_no_await(string _id)
+            public static void _close_connection_no_await(string _id)
             {
-                //_session = _host.Sessions;
+                if (_session == null || string.IsNullOrEmpty(_id))
+                    return;
 
-                if (_session != null)
+                try
                 {
-                    //send_msg(_id, "server_send_quit_game");
-                    //await Task.Delay(2048);
+                    if (!_session.HasSession(_id))
+                        return;
                     _session.CloseSession(_id);
-
+                }
+                catch (InvalidOperationException)
+                {
+                    // Session already closed or not found — ignore
+                }
+                catch (Exception ex)
+                {
+                    GF_LP._logger.Warning($"[_close_connection_no_await] Failed to close session {_id}: {ex.Message}");
                 }
             }
             public static async Task _close_connection(string _id)
             {
-               // _session = _host.Sessions;
+                if (_session == null || string.IsNullOrEmpty(_id))
+                    return;
 
-                if (_session != null)
+                try
                 {
-                    //send_msg(_id,"server_send_quit_game");
+                    if (!_session.HasSession(_id))
+                        return;
                     await Task.Delay(2048);
                     _session.CloseSession(_id);
+                }
+                catch (InvalidOperationException)
+                {
+                    // Session already closed or not found — ignore
+                }
+                catch (Exception ex)
+                {
+                    GF_LP._logger.Warning($"[_close_connection] Failed to close session {_id}: {ex.Message}");
                 }
             }
             public static void after_send(bool _flag)

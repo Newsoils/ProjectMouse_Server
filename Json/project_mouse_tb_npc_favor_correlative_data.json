@@ -1,0 +1,114 @@
+[
+  {
+    "npcId": 1,
+    "FavorLevelParagraphPairs": [
+      {
+        "FavorLevel": 1,
+        "ParagraphId": 50001
+      },
+      {
+        "FavorLevel": 2,
+        "ParagraphId": 50002
+      },
+      {
+        "FavorLevel": 3,
+        "ParagraphId": 50003
+      },
+      {
+        "FavorLevel": 4,
+        "ParagraphId": 50004
+      },
+      {
+        "FavorLevel": 5,
+        "ParagraphId": 50005
+      },
+      {
+        "FavorLevel": 6,
+        "ParagraphId": 50006
+      },
+      {
+        "FavorLevel": 7,
+        "ParagraphId": 50007
+      }
+    ]
+  },
+  {
+    "npcId": 2,
+    "FavorLevelParagraphPairs": [
+      {
+        "FavorLevel": 1,
+        "ParagraphId": 50008
+      },
+      {
+        "FavorLevel": 2,
+        "ParagraphId": 50009
+      }
+    ]
+  },
+  {
+    "npcId": 3,
+    "FavorLevelParagraphPairs": []
+  },
+  {
+    "npcId": 4,
+    "FavorLevelParagraphPairs": [
+      {
+        "FavorLevel": 1,
+        "ParagraphId": 50010
+      },
+      {
+        "FavorLevel": 2,
+        "ParagraphId": 50011
+      },
+      {
+        "FavorLevel": 3,
+        "ParagraphId": 50012
+      },
+      {
+        "FavorLevel": 4,
+        "ParagraphId": 50013
+      },
+      {
+        "FavorLevel": 5,
+        "ParagraphId": 50014
+      }
+    ]
+  },
+  {
+    "npcId": 5,
+    "FavorLevelParagraphPairs": [
+      {
+        "FavorLevel": 1,
+        "ParagraphId": 50015
+      },
+      {
+        "FavorLevel": 2,
+        "ParagraphId": 50016
+      },
+      {
+        "FavorLevel": 3,
+        "ParagraphId": 50017
+      },
+      {
+        "FavorLevel": 4,
+        "ParagraphId": 50018
+      },
+      {
+        "FavorLevel": 5,
+        "ParagraphId": 50019
+      }
+    ]
+  },
+  {
+    "npcId": 6,
+    "FavorLevelParagraphPairs": []
+  },
+  {
+    "npcId": 7,
+    "FavorLevelParagraphPairs": []
+  },
+  {
+    "npcId": 8,
+    "FavorLevelParagraphPairs": []
+  }
+]

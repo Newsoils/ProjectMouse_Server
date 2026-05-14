@@ -40,7 +40,7 @@
     "wavName": "白天小苔屋",
     "wavFileName": "Day",
     "type": 0,
-    "volume": 0.7,
+    "volume": 1,
     "refKeys": [],
     "resKey": "WAV_DAY"
   },
@@ -49,7 +49,7 @@
     "wavName": "夜晚小苔屋",
     "wavFileName": "Night",
     "type": 0,
-    "volume": 0.7,
+    "volume": 1,
     "refKeys": [],
     "resKey": "WAV_NIGHT"
   },
@@ -63,9 +63,45 @@
     "resKey": "WAV_LOGIN"
   },
   {
+    "id": 8,
+    "wavName": "花与星光",
+    "wavFileName": "FlowerStar",
+    "type": 0,
+    "volume": 0.7,
+    "refKeys": [],
+    "resKey": "WAV_FLOWERSTAR"
+  },
+  {
+    "id": 9,
+    "wavName": "爵士红茶",
+    "wavFileName": "JazzTea",
+    "type": 0,
+    "volume": 0.7,
+    "refKeys": [],
+    "resKey": "WAV_JAZZTEA"
+  },
+  {
+    "id": 10,
+    "wavName": "落叶的想法",
+    "wavFileName": "LeafThinking",
+    "type": 0,
+    "volume": 0.7,
+    "refKeys": [],
+    "resKey": "WAV_LEAFTHINKING"
+  },
+  {
+    "id": 11,
+    "wavName": "绿色的流星",
+    "wavFileName": "GreenStar",
+    "type": 0,
+    "volume": 0.7,
+    "refKeys": [],
+    "resKey": "WAV_GREENSTAR"
+  },
+  {
     "id": 101,
     "wavName": "通用点击音效",
-    "wavFileName": "pop 1",
+    "wavFileName": "pop 4",
     "type": 1,
     "volume": 1,
     "refKeys": [
@@ -109,7 +145,7 @@
   {
     "id": 105,
     "wavName": "家具、花盆|（取）",
-    "wavFileName": "Getting objects 2",
+    "wavFileName": "Release objects 2",
     "type": 1,
     "volume": 1,
     "refKeys": [
@@ -120,7 +156,7 @@
   {
     "id": 106,
     "wavName": "家具、花盆|（放）",
-    "wavFileName": "Release objects 2",
+    "wavFileName": "pop 2",
     "type": 1,
     "volume": 1,
     "refKeys": [

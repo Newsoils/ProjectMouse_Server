@@ -1,442 +1,832 @@
 [
   {
-    "cloth_id": 1,
-    "cloth_name": "柔边蝴蝶结帽子",
-    "desc": "帽子女仆装头饰",
-    "first_category": 5,
-    "second_category": 601,
-    "slots_occupied": [
+    "clothId": 20009,
+    "clothName": "柔边蝴蝶结帽子",
+    "firstCategory": 6,
+    "secondCategory": 601,
+    "slotsOccupied": [
       "head"
     ],
-    "rarity": "珍品",
-    "res_path": "",
-    "parent_cloth_name": "maid01",
-    "cloth_color": "原色"
+    "suitName": "maid01",
+    "colorKey": "default"
   },
   {
-    "cloth_id": 2,
-    "cloth_name": "柔边蝴蝶结连衣裙",
-    "desc": "帽子女仆装连衣裙",
-    "first_category": 3,
-    "second_category": 0,
-    "slots_occupied": [
+    "clothId": 20010,
+    "clothName": "柔边蝴蝶结连衣裙",
+    "firstCategory": 3,
+    "secondCategory": 0,
+    "slotsOccupied": [
       "body",
       "leg"
     ],
-    "rarity": "珍品",
-    "res_path": "",
-    "parent_cloth_name": "maid01",
-    "cloth_color": "原色"
+    "suitName": "maid01",
+    "colorKey": "default"
   },
   {
-    "cloth_id": 4,
-    "cloth_name": "柔边鞋袜套装",
-    "desc": "帽子女仆装鞋袜",
-    "first_category": 4,
-    "second_category": 0,
-    "slots_occupied": [
+    "clothId": 20011,
+    "clothName": "柔边鞋袜套装",
+    "firstCategory": 4,
+    "secondCategory": 0,
+    "slotsOccupied": [
       "shoes"
     ],
-    "rarity": "珍品",
-    "res_path": "",
-    "parent_cloth_name": "maid01",
-    "cloth_color": "原色"
+    "suitName": "maid01",
+    "colorKey": "default"
   },
   {
-    "cloth_id": 5,
-    "cloth_name": "默认帽子",
-    "desc": "默认帽子",
-    "first_category": 5,
-    "second_category": 601,
-    "slots_occupied": [
+    "clothId": 20006,
+    "clothName": "默认帽子",
+    "firstCategory": 6,
+    "secondCategory": 601,
+    "slotsOccupied": [
       "head"
     ],
-    "rarity": "日常",
-    "res_path": "",
-    "parent_cloth_name": "default",
-    "cloth_color": "原色"
+    "suitName": "default",
+    "colorKey": "default"
   },
   {
-    "cloth_id": 6,
-    "cloth_name": "默认上衣",
-    "desc": "默认上衣",
-    "first_category": 1,
-    "second_category": 0,
-    "slots_occupied": [
+    "clothId": 20007,
+    "clothName": "默认上衣",
+    "firstCategory": 1,
+    "secondCategory": 0,
+    "slotsOccupied": [
       "body"
     ],
-    "rarity": "日常",
-    "res_path": "",
-    "parent_cloth_name": "default",
-    "cloth_color": "原色"
+    "suitName": "default",
+    "colorKey": "default"
   },
   {
-    "cloth_id": 7,
-    "cloth_name": "默认裤子",
-    "desc": "默认裤子",
-    "first_category": 2,
-    "second_category": 301,
-    "slots_occupied": [
+    "clothId": 20008,
+    "clothName": "默认裤子",
+    "firstCategory": 2,
+    "secondCategory": 301,
+    "slotsOccupied": [
       "leg"
     ],
-    "rarity": "日常",
-    "res_path": "",
-    "parent_cloth_name": "default",
-    "cloth_color": "原色"
+    "suitName": "default",
+    "colorKey": "default"
   },
   {
-    "cloth_id": 8,
-    "cloth_name": "黄色柔边蝴蝶结帽子",
-    "desc": "黄色帽子女仆装头饰",
-    "first_category": 5,
-    "second_category": 601,
-    "slots_occupied": [
-      "head"
-    ],
-    "rarity": "珍品",
-    "res_path": "",
-    "parent_cloth_name": "maid01",
-    "cloth_color": "黄色"
-  },
-  {
-    "cloth_id": 9,
-    "cloth_name": "黄色柔边蝴蝶结连衣裙",
-    "desc": "黄色帽子女仆装连衣裙",
-    "first_category": 3,
-    "second_category": 0,
-    "slots_occupied": [
-      "body",
-      "leg"
-    ],
-    "rarity": "珍品",
-    "res_path": "",
-    "parent_cloth_name": "maid01",
-    "cloth_color": "黄色"
-  },
-  {
-    "cloth_id": 10,
-    "cloth_name": "黄色柔边鞋袜套装",
-    "desc": "黄色帽子女仆装鞋袜",
-    "first_category": 4,
-    "second_category": 0,
-    "slots_occupied": [
+    "clothId": 20001,
+    "clothName": "默认鞋袜",
+    "firstCategory": 4,
+    "secondCategory": 0,
+    "slotsOccupied": [
       "shoes"
     ],
-    "rarity": "珍品",
-    "res_path": "",
-    "parent_cloth_name": "maid01",
-    "cloth_color": "黄色"
+    "suitName": "default",
+    "colorKey": "default"
   },
   {
-    "cloth_id": 11,
-    "cloth_name": "紫色柔边蝴蝶结帽子",
-    "desc": "紫色帽子女仆装头饰",
-    "first_category": 5,
-    "second_category": 601,
-    "slots_occupied": [
+    "clothId": 20012,
+    "clothName": "黄色柔边蝴蝶结帽子",
+    "firstCategory": 6,
+    "secondCategory": 601,
+    "slotsOccupied": [
       "head"
     ],
-    "rarity": "珍品",
-    "res_path": "",
-    "parent_cloth_name": "maid01",
-    "cloth_color": "紫色"
+    "suitName": "maid01",
+    "colorKey": "yellow"
   },
   {
-    "cloth_id": 12,
-    "cloth_name": "紫色柔边蝴蝶结连衣裙",
-    "desc": "紫色帽子女仆装连衣裙",
-    "first_category": 3,
-    "second_category": 0,
-    "slots_occupied": [
+    "clothId": 20013,
+    "clothName": "黄色柔边蝴蝶结连衣裙",
+    "firstCategory": 3,
+    "secondCategory": 0,
+    "slotsOccupied": [
       "body",
       "leg"
     ],
-    "rarity": "珍品",
-    "res_path": "",
-    "parent_cloth_name": "maid01",
-    "cloth_color": "紫色"
+    "suitName": "maid01",
+    "colorKey": "yellow"
   },
   {
-    "cloth_id": 13,
-    "cloth_name": "紫色柔边鞋袜套装",
-    "desc": "紫色帽子女仆装鞋袜",
-    "first_category": 4,
-    "second_category": 0,
-    "slots_occupied": [
+    "clothId": 20014,
+    "clothName": "黄色柔边鞋袜套装",
+    "firstCategory": 4,
+    "secondCategory": 0,
+    "slotsOccupied": [
       "shoes"
     ],
-    "rarity": "珍品",
-    "res_path": "",
-    "parent_cloth_name": "maid01",
-    "cloth_color": "紫色"
+    "suitName": "maid01",
+    "colorKey": "yellow"
   },
   {
-    "cloth_id": 14,
-    "cloth_name": "绿色柔边蝴蝶结帽子",
-    "desc": "绿色帽子女仆装头饰",
-    "first_category": 5,
-    "second_category": 601,
-    "slots_occupied": [
+    "clothId": 20015,
+    "clothName": "紫色柔边蝴蝶结帽子",
+    "firstCategory": 6,
+    "secondCategory": 601,
+    "slotsOccupied": [
       "head"
     ],
-    "rarity": "珍品",
-    "res_path": "",
-    "parent_cloth_name": "maid01",
-    "cloth_color": "绿色"
+    "suitName": "maid01",
+    "colorKey": "purple"
   },
   {
-    "cloth_id": 15,
-    "cloth_name": "绿色柔边蝴蝶结连衣裙",
-    "desc": "绿色帽子女仆装连衣裙",
-    "first_category": 3,
-    "second_category": 0,
-    "slots_occupied": [
+    "clothId": 20016,
+    "clothName": "紫色柔边蝴蝶结连衣裙",
+    "firstCategory": 3,
+    "secondCategory": 0,
+    "slotsOccupied": [
       "body",
       "leg"
     ],
-    "rarity": "珍品",
-    "res_path": "",
-    "parent_cloth_name": "maid01",
-    "cloth_color": "绿色"
+    "suitName": "maid01",
+    "colorKey": "purple"
   },
   {
-    "cloth_id": 16,
-    "cloth_name": "绿色柔边鞋袜套装",
-    "desc": "绿色帽子女仆装鞋袜",
-    "first_category": 4,
-    "second_category": 0,
-    "slots_occupied": [
+    "clothId": 20017,
+    "clothName": "紫色柔边鞋袜套装",
+    "firstCategory": 4,
+    "secondCategory": 0,
+    "slotsOccupied": [
       "shoes"
     ],
-    "rarity": "珍品",
-    "res_path": "",
-    "parent_cloth_name": "maid01",
-    "cloth_color": "绿色"
+    "suitName": "maid01",
+    "colorKey": "purple"
   },
   {
-    "cloth_id": 17,
-    "cloth_name": "蓝色柔边蝴蝶结帽子",
-    "desc": "蓝色帽子女仆装头饰",
-    "first_category": 5,
-    "second_category": 601,
-    "slots_occupied": [
+    "clothId": 20018,
+    "clothName": "绿色柔边蝴蝶结帽子",
+    "firstCategory": 6,
+    "secondCategory": 601,
+    "slotsOccupied": [
       "head"
     ],
-    "rarity": "珍品",
-    "res_path": "",
-    "parent_cloth_name": "maid01",
-    "cloth_color": "蓝色"
+    "suitName": "maid01",
+    "colorKey": "green"
   },
   {
-    "cloth_id": 18,
-    "cloth_name": "蓝色柔边蝴蝶结连衣裙",
-    "desc": "蓝色帽子女仆装连衣裙",
-    "first_category": 3,
-    "second_category": 0,
-    "slots_occupied": [
+    "clothId": 20019,
+    "clothName": "绿色柔边蝴蝶结连衣裙",
+    "firstCategory": 3,
+    "secondCategory": 0,
+    "slotsOccupied": [
       "body",
       "leg"
     ],
-    "rarity": "珍品",
-    "res_path": "",
-    "parent_cloth_name": "maid01",
-    "cloth_color": "蓝色"
+    "suitName": "maid01",
+    "colorKey": "green"
   },
   {
-    "cloth_id": 19,
-    "cloth_name": "蓝色柔边鞋袜套装",
-    "desc": "蓝色帽子女仆装鞋袜",
-    "first_category": 4,
-    "second_category": 0,
-    "slots_occupied": [
+    "clothId": 20020,
+    "clothName": "绿色柔边鞋袜套装",
+    "firstCategory": 4,
+    "secondCategory": 0,
+    "slotsOccupied": [
       "shoes"
     ],
-    "rarity": "珍品",
-    "res_path": "",
-    "parent_cloth_name": "maid01",
-    "cloth_color": "蓝色"
+    "suitName": "maid01",
+    "colorKey": "green"
   },
   {
-    "cloth_id": 20,
-    "cloth_name": "粉色柔边蝴蝶结帽子",
-    "desc": "粉色帽子女仆装头饰",
-    "first_category": 5,
-    "second_category": 601,
-    "slots_occupied": [
+    "clothId": 20021,
+    "clothName": "蓝色柔边蝴蝶结帽子",
+    "firstCategory": 6,
+    "secondCategory": 601,
+    "slotsOccupied": [
       "head"
     ],
-    "rarity": "珍品",
-    "res_path": "",
-    "parent_cloth_name": "maid01",
-    "cloth_color": "粉色"
+    "suitName": "maid01",
+    "colorKey": "blue"
   },
   {
-    "cloth_id": 21,
-    "cloth_name": "粉色柔边蝴蝶结连衣裙",
-    "desc": "粉色帽子女仆装连衣裙",
-    "first_category": 3,
-    "second_category": 0,
-    "slots_occupied": [
+    "clothId": 20022,
+    "clothName": "蓝色柔边蝴蝶结连衣裙",
+    "firstCategory": 3,
+    "secondCategory": 0,
+    "slotsOccupied": [
       "body",
       "leg"
     ],
-    "rarity": "珍品",
-    "res_path": "",
-    "parent_cloth_name": "maid01",
-    "cloth_color": "粉色"
+    "suitName": "maid01",
+    "colorKey": "blue"
   },
   {
-    "cloth_id": 22,
-    "cloth_name": "粉色柔边鞋袜套装",
-    "desc": "粉色帽子女仆装鞋袜",
-    "first_category": 4,
-    "second_category": 0,
-    "slots_occupied": [
+    "clothId": 20023,
+    "clothName": "蓝色柔边鞋袜套装",
+    "firstCategory": 4,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "shoes"
+    ],
+    "suitName": "maid01",
+    "colorKey": "blue"
+  },
+  {
+    "clothId": 20024,
+    "clothName": "粉色柔边蝴蝶结帽子",
+    "firstCategory": 6,
+    "secondCategory": 601,
+    "slotsOccupied": [
       "head"
     ],
-    "rarity": "珍品",
-    "res_path": "",
-    "parent_cloth_name": "maid01",
-    "cloth_color": "粉色"
+    "suitName": "maid01",
+    "colorKey": "pink"
   },
   {
-    "cloth_id": 23,
-    "cloth_name": "玳瑁方框眼镜",
-    "desc": "玳瑁方框眼镜",
-    "first_category": 5,
-    "second_category": 602,
-    "slots_occupied": [
+    "clothId": 20025,
+    "clothName": "粉色柔边蝴蝶结连衣裙",
+    "firstCategory": 3,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "body",
+      "leg"
+    ],
+    "suitName": "maid01",
+    "colorKey": "pink"
+  },
+  {
+    "clothId": 20026,
+    "clothName": "粉色柔边鞋袜套装",
+    "firstCategory": 4,
+    "secondCategory": 0,
+    "slotsOccupied": [
       "head"
     ],
-    "rarity": "精选",
-    "res_path": "",
-    "parent_cloth_name": "office",
-    "cloth_color": "原色"
+    "suitName": "maid01",
+    "colorKey": "pink"
   },
   {
-    "cloth_id": 24,
-    "cloth_name": "蓝色条纹衬衫",
-    "desc": "蓝色条纹衬衫",
-    "first_category": 1,
-    "second_category": 0,
-    "slots_occupied": [
+    "clothId": 20027,
+    "clothName": "玳瑁方框眼镜",
+    "firstCategory": 6,
+    "secondCategory": 602,
+    "slotsOccupied": [
+      "head"
+    ],
+    "suitName": "office",
+    "colorKey": "default"
+  },
+  {
+    "clothId": 20028,
+    "clothName": "蓝色条纹衬衫",
+    "firstCategory": 1,
+    "secondCategory": 0,
+    "slotsOccupied": [
       "body"
     ],
-    "rarity": "精选",
-    "res_path": "",
-    "parent_cloth_name": "office",
-    "cloth_color": "原色"
+    "suitName": "office",
+    "colorKey": "default"
   },
   {
-    "cloth_id": 25,
-    "cloth_name": "棕色办公裤子",
-    "desc": "棕色办公裤子",
-    "first_category": 2,
-    "second_category": 301,
-    "slots_occupied": [
+    "clothId": 20029,
+    "clothName": "棕色办公裤子",
+    "firstCategory": 2,
+    "secondCategory": 301,
+    "slotsOccupied": [
       "leg"
     ],
-    "rarity": "精选",
-    "res_path": "",
-    "parent_cloth_name": "office",
-    "cloth_color": "原色"
+    "suitName": "office",
+    "colorKey": "default"
   },
   {
-    "cloth_id": 26,
-    "cloth_name": "办公皮鞋",
-    "desc": "办公皮鞋",
-    "first_category": 4,
-    "second_category": 0,
-    "slots_occupied": [
+    "clothId": 20030,
+    "clothName": "办公皮鞋",
+    "firstCategory": 4,
+    "secondCategory": 0,
+    "slotsOccupied": [
       "shoes"
     ],
-    "rarity": "精选",
-    "res_path": "",
-    "parent_cloth_name": "office",
-    "cloth_color": "原色"
+    "suitName": "office",
+    "colorKey": "default"
   },
   {
-    "cloth_id": 27,
-    "cloth_name": "柔边蝴蝶结头饰",
-    "desc": "眼镜女仆装头饰",
-    "first_category": 5,
-    "second_category": 603,
-    "slots_occupied": [
+    "clothId": 20031,
+    "clothName": "柔边蝴蝶结头饰",
+    "firstCategory": 6,
+    "secondCategory": 601,
+    "slotsOccupied": [
       "head"
     ],
-    "rarity": "珍品",
-    "res_path": "",
-    "parent_cloth_name": "maid02",
-    "cloth_color": "原色"
+    "suitName": "maid02",
+    "colorKey": "default"
   },
   {
-    "cloth_id": 28,
-    "cloth_name": "黄色柔边蝴蝶结头饰",
-    "desc": "黄色眼镜女仆装头饰",
-    "first_category": 5,
-    "second_category": 603,
-    "slots_occupied": [
+    "clothId": 20032,
+    "clothName": "黄色柔边蝴蝶结头饰",
+    "firstCategory": 6,
+    "secondCategory": 601,
+    "slotsOccupied": [
       "head"
     ],
-    "rarity": "珍品",
-    "res_path": "",
-    "parent_cloth_name": "maid02",
-    "cloth_color": "黄色"
+    "suitName": "maid02",
+    "colorKey": "yellow"
   },
   {
-    "cloth_id": 29,
-    "cloth_name": "紫色柔边蝴蝶结头饰",
-    "desc": "紫色眼镜女仆装头饰",
-    "first_category": 5,
-    "second_category": 603,
-    "slots_occupied": [
+    "clothId": 20033,
+    "clothName": "紫色柔边蝴蝶结头饰",
+    "firstCategory": 6,
+    "secondCategory": 601,
+    "slotsOccupied": [
       "head"
     ],
-    "rarity": "珍品",
-    "res_path": "",
-    "parent_cloth_name": "maid02",
-    "cloth_color": "紫色"
+    "suitName": "maid02",
+    "colorKey": "purple"
   },
   {
-    "cloth_id": 30,
-    "cloth_name": "绿色柔边蝴蝶结头饰",
-    "desc": "绿色眼镜女仆装头饰",
-    "first_category": 5,
-    "second_category": 603,
-    "slots_occupied": [
+    "clothId": 20034,
+    "clothName": "绿色柔边蝴蝶结头饰",
+    "firstCategory": 6,
+    "secondCategory": 601,
+    "slotsOccupied": [
       "head"
     ],
-    "rarity": "珍品",
-    "res_path": "",
-    "parent_cloth_name": "maid02",
-    "cloth_color": "绿色"
+    "suitName": "maid02",
+    "colorKey": "green"
   },
   {
-    "cloth_id": 31,
-    "cloth_name": "蓝色柔边蝴蝶结头饰",
-    "desc": "蓝色眼镜女仆装头饰",
-    "first_category": 5,
-    "second_category": 603,
-    "slots_occupied": [
+    "clothId": 20035,
+    "clothName": "蓝色柔边蝴蝶结头饰",
+    "firstCategory": 6,
+    "secondCategory": 601,
+    "slotsOccupied": [
       "head"
     ],
-    "rarity": "珍品",
-    "res_path": "",
-    "parent_cloth_name": "maid02",
-    "cloth_color": "蓝色"
+    "suitName": "maid02",
+    "colorKey": "blue"
   },
   {
-    "cloth_id": 32,
-    "cloth_name": "粉色柔边蝴蝶结头饰",
-    "desc": "粉色眼镜女仆装头饰",
-    "first_category": 5,
-    "second_category": 603,
-    "slots_occupied": [
+    "clothId": 20036,
+    "clothName": "粉色柔边蝴蝶结头饰",
+    "firstCategory": 6,
+    "secondCategory": 601,
+    "slotsOccupied": [
       "head"
     ],
-    "rarity": "珍品",
-    "res_path": "",
-    "parent_cloth_name": "maid02",
-    "cloth_color": "粉色"
+    "suitName": "maid02",
+    "colorKey": "pink"
+  },
+  {
+    "clothId": 20037,
+    "clothName": "蓝色头戴式耳机",
+    "firstCategory": 6,
+    "secondCategory": 601,
+    "slotsOccupied": [
+      "head"
+    ],
+    "suitName": "white",
+    "colorKey": "default"
+  },
+  {
+    "clothId": 20038,
+    "clothName": "灰色针织连衣裙",
+    "firstCategory": 3,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "body",
+      "leg"
+    ],
+    "suitName": "white",
+    "colorKey": "default"
+  },
+  {
+    "clothId": 20039,
+    "clothName": "灰色堆堆靴子",
+    "firstCategory": 4,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "leg"
+    ],
+    "suitName": "white",
+    "colorKey": "default"
+  },
+  {
+    "clothId": 20040,
+    "clothName": "粉色蝴蝶单肩包",
+    "firstCategory": 5,
+    "secondCategory": 502,
+    "slotsOccupied": [
+      "bodyFront"
+    ],
+    "suitName": "white",
+    "colorKey": "default"
+  },
+  {
+    "clothId": 36,
+    "clothName": "浴帽",
+    "firstCategory": 6,
+    "secondCategory": 601,
+    "slotsOccupied": [
+      "head"
+    ],
+    "suitName": "bath",
+    "colorKey": "default"
+  },
+  {
+    "clothId": 37,
+    "clothName": "浴巾",
+    "firstCategory": 3,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "body",
+      "leg"
+    ],
+    "suitName": "bath",
+    "colorKey": "default"
+  },
+  {
+    "clothId": 20041,
+    "clothName": "绿色格纹百褶短裙",
+    "firstCategory": 2,
+    "secondCategory": 302,
+    "slotsOccupied": [
+      "leg"
+    ],
+    "suitName": "bottom1",
+    "colorKey": "green"
+  },
+  {
+    "clothId": 20042,
+    "clothName": "粉绿格纹百褶短裙",
+    "firstCategory": 2,
+    "secondCategory": 302,
+    "slotsOccupied": [
+      "leg"
+    ],
+    "suitName": "bottom1",
+    "colorKey": "green"
+  },
+  {
+    "clothId": 20043,
+    "clothName": "红色格纹百褶短裙",
+    "firstCategory": 2,
+    "secondCategory": 302,
+    "slotsOccupied": [
+      "leg"
+    ],
+    "suitName": "bottom1",
+    "colorKey": "red"
+  },
+  {
+    "clothId": 20044,
+    "clothName": "粉色格纹百褶短裙",
+    "firstCategory": 2,
+    "secondCategory": 302,
+    "slotsOccupied": [
+      "leg"
+    ],
+    "suitName": "bottom1",
+    "colorKey": "pink"
+  },
+  {
+    "clothId": 20045,
+    "clothName": "浅蓝格纹百褶短裙",
+    "firstCategory": 2,
+    "secondCategory": 302,
+    "slotsOccupied": [
+      "leg"
+    ],
+    "suitName": "bottom1",
+    "colorKey": "blue"
+  },
+  {
+    "clothId": 20046,
+    "clothName": "深蓝格纹百褶短裙",
+    "firstCategory": 2,
+    "secondCategory": 302,
+    "slotsOccupied": [
+      "leg"
+    ],
+    "suitName": "bottom1",
+    "colorKey": "blue"
+  },
+  {
+    "clothId": 20047,
+    "clothName": "棕色格纹百褶短裙",
+    "firstCategory": 2,
+    "secondCategory": 302,
+    "slotsOccupied": [
+      "leg"
+    ],
+    "suitName": "bottom1",
+    "colorKey": "brown"
+  },
+  {
+    "clothId": 20048,
+    "clothName": "棕色百褶短裙",
+    "firstCategory": 2,
+    "secondCategory": 302,
+    "slotsOccupied": [
+      "leg"
+    ],
+    "suitName": "bottom1",
+    "colorKey": "brown"
+  },
+  {
+    "clothId": 20049,
+    "clothName": "紫色百褶短裙",
+    "firstCategory": 2,
+    "secondCategory": 302,
+    "slotsOccupied": [
+      "leg"
+    ],
+    "suitName": "bottom1",
+    "colorKey": "purple"
+  },
+  {
+    "clothId": 20050,
+    "clothName": "蓝色百褶短裙",
+    "firstCategory": 2,
+    "secondCategory": 302,
+    "slotsOccupied": [
+      "leg"
+    ],
+    "suitName": "bottom1",
+    "colorKey": "blue"
+  },
+  {
+    "clothId": 20051,
+    "clothName": "粉色百褶短裙",
+    "firstCategory": 2,
+    "secondCategory": 302,
+    "slotsOccupied": [
+      "leg"
+    ],
+    "suitName": "bottom1",
+    "colorKey": "pink"
+  },
+  {
+    "clothId": 20052,
+    "clothName": "浅蓝百褶长裙",
+    "firstCategory": 2,
+    "secondCategory": 302,
+    "slotsOccupied": [
+      "leg"
+    ],
+    "suitName": "bottom2",
+    "colorKey": "blue"
+  },
+  {
+    "clothId": 20053,
+    "clothName": "浅粉百褶长裙",
+    "firstCategory": 2,
+    "secondCategory": 302,
+    "slotsOccupied": [
+      "leg"
+    ],
+    "suitName": "bottom2",
+    "colorKey": "pink"
+  },
+  {
+    "clothId": 20054,
+    "clothName": "灰色百褶长裙",
+    "firstCategory": 2,
+    "secondCategory": 302,
+    "slotsOccupied": [
+      "leg"
+    ],
+    "suitName": "bottom2",
+    "colorKey": "grey"
+  },
+  {
+    "clothId": 20055,
+    "clothName": "藏蓝色百褶长裙",
+    "firstCategory": 2,
+    "secondCategory": 302,
+    "slotsOccupied": [
+      "leg"
+    ],
+    "suitName": "bottom2",
+    "colorKey": "blue"
+  },
+  {
+    "clothId": 20056,
+    "clothName": "黑色条纹百褶长裙",
+    "firstCategory": 2,
+    "secondCategory": 302,
+    "slotsOccupied": [
+      "leg"
+    ],
+    "suitName": "bottom2",
+    "colorKey": "black"
+  },
+  {
+    "clothId": 20057,
+    "clothName": "灰色条纹百褶长裙",
+    "firstCategory": 2,
+    "secondCategory": 302,
+    "slotsOccupied": [
+      "leg"
+    ],
+    "suitName": "bottom2",
+    "colorKey": "grey"
+  },
+  {
+    "clothId": 20058,
+    "clothName": "棕色斜格百褶长裙",
+    "firstCategory": 2,
+    "secondCategory": 302,
+    "slotsOccupied": [
+      "leg"
+    ],
+    "suitName": "bottom2",
+    "colorKey": "brown"
+  },
+  {
+    "clothId": 20059,
+    "clothName": "紫色流星短袖",
+    "firstCategory": 1,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "body"
+    ],
+    "suitName": "top1",
+    "colorKey": "purple"
+  },
+  {
+    "clothId": 20060,
+    "clothName": "黄色流星短袖",
+    "firstCategory": 1,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "body"
+    ],
+    "suitName": "top1",
+    "colorKey": "yellow"
+  },
+  {
+    "clothId": 20061,
+    "clothName": "蓝色流星短袖",
+    "firstCategory": 1,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "body"
+    ],
+    "suitName": "top1",
+    "colorKey": "blue"
+  },
+  {
+    "clothId": 20062,
+    "clothName": "小圆领无袖",
+    "firstCategory": 1,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "body"
+    ],
+    "suitName": "top2",
+    "colorKey": "default"
+  },
+  {
+    "clothId": 20063,
+    "clothName": "蓝色小圆领无袖",
+    "firstCategory": 1,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "body"
+    ],
+    "suitName": "top2",
+    "colorKey": "blue"
+  },
+  {
+    "clothId": 20064,
+    "clothName": "粉色小圆领无袖",
+    "firstCategory": 1,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "body"
+    ],
+    "suitName": "top2",
+    "colorKey": "pink"
+  },
+  {
+    "clothId": 20065,
+    "clothName": "棕色斜格领结大衣",
+    "firstCategory": 1,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "body"
+    ],
+    "suitName": "top3",
+    "colorKey": "brown"
+  },
+  {
+    "clothId": 20066,
+    "clothName": "黑色条纹领结大衣",
+    "firstCategory": 1,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "body"
+    ],
+    "suitName": "top3",
+    "colorKey": "black"
+  },
+  {
+    "clothId": 20067,
+    "clothName": "灰色条纹领结大衣",
+    "firstCategory": 1,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "body"
+    ],
+    "suitName": "top3",
+    "colorKey": "grey"
+  },
+  {
+    "clothId": 20068,
+    "clothName": "藏蓝色领结大衣",
+    "firstCategory": 1,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "body"
+    ],
+    "suitName": "top3",
+    "colorKey": "blue"
+  },
+  {
+    "clothId": 20069,
+    "clothName": "深蓝色工装连衣裙",
+    "firstCategory": 3,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "body",
+      "leg"
+    ],
+    "suitName": "bodysuit1",
+    "colorKey": "blue"
+  },
+  {
+    "clothId": 20070,
+    "clothName": "绿色格纹工装连衣裙",
+    "firstCategory": 3,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "body",
+      "leg"
+    ],
+    "suitName": "bodysuit1",
+    "colorKey": "green"
+  },
+  {
+    "clothId": 20071,
+    "clothName": "绿色工装连衣裙",
+    "firstCategory": 3,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "body",
+      "leg"
+    ],
+    "suitName": "bodysuit1",
+    "colorKey": "green"
+  },
+  {
+    "clothId": 20072,
+    "clothName": "粉色工装连衣裙",
+    "firstCategory": 3,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "body",
+      "leg"
+    ],
+    "suitName": "bodysuit1",
+    "colorKey": "pink"
+  },
+  {
+    "clothId": 20073,
+    "clothName": "黄色工装连衣裙",
+    "firstCategory": 3,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "body",
+      "leg"
+    ],
+    "suitName": "bodysuit1",
+    "colorKey": "yellow"
+  },
+  {
+    "clothId": 20074,
+    "clothName": "紫色工装连衣裙",
+    "firstCategory": 3,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "body",
+      "leg"
+    ],
+    "suitName": "bodysuit1",
+    "colorKey": "purple"
+  },
+  {
+    "clothId": 20075,
+    "clothName": "浅蓝色工装连衣裙",
+    "firstCategory": 3,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "body",
+      "leg"
+    ],
+    "suitName": "bodysuit1",
+    "colorKey": "blue"
+  },
+  {
+    "clothId": 20076,
+    "clothName": "灰色工装连衣裙",
+    "firstCategory": 3,
+    "secondCategory": 0,
+    "slotsOccupied": [
+      "body",
+      "leg"
+    ],
+    "suitName": "bodysuit1",
+    "colorKey": "grey"
   }
 ]

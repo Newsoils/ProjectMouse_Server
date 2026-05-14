@@ -1,4 +1,4 @@
-﻿using CLIP.Framework_Core.Network;
+using CLIP.Framework_Core.Network;
 using CLIP.Project_Mouse.Grains_Interfaces;
 using CLIP.Project_Mouse.Kernel;
 using CLIP.Project_Mouse.Kernel.Dispatch;
@@ -38,7 +38,7 @@ namespace CLIP.Project_Mouse_DataLoader.Grains_Implementation
         // 1. 定义一个变量保存计时器引用
         private IDisposable? _game_loop_timer;
 
-        public int _deactive_timeout = 60000;
+        public int _deactive_timeout = 1000000;
         public async Task<int> get_current_msg_id()
         {
 
@@ -112,6 +112,7 @@ namespace CLIP.Project_Mouse_DataLoader.Grains_Implementation
                     + this.GetPrimaryKeyString() + "_@_" + DateTime.Now);
 
                 _game_loop_timer?.Dispose(); // 停止心跳
+                await trigger_close_grain_connection(true);
                 this.DeactivateOnIdle();
                 return false;
             }
@@ -168,16 +169,11 @@ namespace CLIP.Project_Mouse_DataLoader.Grains_Implementation
                 }
 
 
-
                 if (_msg.detail_info == ("Player_LoginReward"))
                 {
                     await get_loginreward_data(_msg, _player_name, _player_id);
                     return;
                 }
-
-
-
-
 
                 if (_msg.detail_info.Contains("Indoor_Data") == true)
                 {
@@ -286,13 +282,10 @@ namespace CLIP.Project_Mouse_DataLoader.Grains_Implementation
                     return;
                 }
                 return;
-
-
             }
 
             if (_msg.action == "Save_Data")
             {
-
                 var _para = GF_SP.DeserializeObject<List<string>>(_msg.detail_info);
                 if (_para == null) return;
                 if (_para[0] == "Game_Inventory")
@@ -323,6 +316,15 @@ namespace CLIP.Project_Mouse_DataLoader.Grains_Implementation
                     });
                     return;
                 }
+
+                if (_para[0] == "Room_Default_Data")
+                {
+                    _ = Task.Run(async () =>
+                    {
+                        await GF_DP.Save_RoomDefault_Data(_para[1]);
+                    });
+                }
+
 
                 if (_para[0].Contains("Player_LoginReward") == true)
                 {
@@ -666,7 +668,6 @@ namespace CLIP.Project_Mouse_DataLoader.Grains_Implementation
                 await on_remove_friend(_msg);
             }
 
-
             if (_msg.action == "Post_Chat")
             {
                 await on_post_chat(_msg);
@@ -728,15 +729,12 @@ namespace CLIP.Project_Mouse_DataLoader.Grains_Implementation
             }
 
 
-
             if (_msg.action == "On_Read_Mail")
             {
                 var _data_list = GF_SP.DeserializeObject<List<int>>(_msg.detail_info);
                 await CLIP.Server.Project_Mouse_Grain_Helper_Lib.Player_Server_General_Helper.update_mail_state(_data_list, "mail_state", "read");
 
                 await sync_mail_with_client();
-
-
                 return;
             }
 
@@ -746,8 +744,6 @@ namespace CLIP.Project_Mouse_DataLoader.Grains_Implementation
                 await CLIP.Server.Project_Mouse_Grain_Helper_Lib.Player_Server_General_Helper.update_mail_state(_data_list, "mail_state", "deleted");
 
                 await sync_mail_with_client();
-
-
                 return;
             }
 
@@ -757,8 +753,6 @@ namespace CLIP.Project_Mouse_DataLoader.Grains_Implementation
                 await Player_Server_General_Helper.update_mail_state(_data_list, "is_get_reward", "true");
 
                 await sync_mail_with_client();
-
-
                 return;
             }
             if (_msg.action == "Post_Player_Action")
@@ -1031,6 +1025,22 @@ namespace CLIP.Project_Mouse_DataLoader.Grains_Implementation
             if (_msg.action == "FertilizePlant")
             {
                 await FertilizePlant(_msg);
+            }
+            if(_msg.action == "SaveClothes")
+            {
+                await SaveClothes(_msg);
+            }
+            if(_msg.action == "LoadClothes")
+            {
+                await LoadClothes(_msg);
+            }
+            if(_msg.action == "LoadRechargeLimit")
+            {
+                await LoadRechargeLimit(_msg);
+            }
+            if(_msg.action == "RechargeWithLimit")
+            {
+                await RechargeWithLimit(_msg);
             }
             await Task.CompletedTask;
 
@@ -1380,7 +1390,7 @@ namespace CLIP.Project_Mouse_DataLoader.Grains_Implementation
                 }
                 else
                 {
-                    
+                
                 }
             }
 
@@ -1612,25 +1622,7 @@ namespace CLIP.Project_Mouse_DataLoader.Grains_Implementation
             List<Func<string, NpgsqlConnection, NpgsqlTransaction, Task<(string, bool)>>> tasks = new List<Func<string, NpgsqlConnection, NpgsqlTransaction, Task<(string, bool)>>> { task };
             return await ExcuteMultiTask(data, tasks);
         }
-        //public async Task ChangeCurrencyMultiTest(Network_Msg msg)
-        //{
-        //    List<Func<string,NpgsqlConnection,NpgsqlTransaction,Task<(string, bool)>>> tasks = new List<Func<string, NpgsqlConnection, NpgsqlTransaction, Task<(string, bool)>>>
-        //    {
-        //        ChangeCurrencyTask,
-        //        ChangeCurrencyTask,
-        //        ChangeCurrencyTask,
-        //        ChangeCurrencyTask,
-        //        RandomFailTask,
-        //    };
-        //    string result = await ExcuteMultiTask(msg.detail_info, tasks);
-        //    SendData(msg.action, result);
-        //}
-        //public async Task<(string, bool)> RandomFailTask(string data, NpgsqlConnection? conn = null, NpgsqlTransaction? tran = null)
-        //{
-        //    List<bool> results = [true, false];
-        //    bool success = results[new Random().Next(results.Count)];
-        //    return (success ? "success" : "fail", success);
-        //}
+
         #region 货币
         public async Task<(string, bool)> ChangeCurrencyTask(string data, NpgsqlConnection? conn = null, NpgsqlTransaction? tran = null)
         {
@@ -1697,6 +1689,83 @@ namespace CLIP.Project_Mouse_DataLoader.Grains_Implementation
                 return (receive ,true);
             }
             return (data, true);
+        }
+        #endregion
+
+        #region 充值限购
+        private const int RECHARGE_DAILY_LIMIT = 30;
+
+        public async Task LoadRechargeLimit(Network_Msg msg)
+        {
+            var result = await ExcuteSingleTask(msg.detail_info, LoadRechargeLimitTask);
+            SendData(msg.action, result);
+        }
+
+        public async Task<(string, bool)> LoadRechargeLimitTask(string receive, NpgsqlConnection? conn = null, NpgsqlTransaction? tran = null)
+        {
+            var raw = await ReadDataFromTable("recharge_daily_limits", conn, tran);
+            var limits = ParseRechargeData(raw);
+            string result = JsonConvert.SerializeObject(limits);
+            return (result, true);
+        }
+
+        public async Task RechargeWithLimit(Network_Msg msg)
+        {
+            var result = await ExcuteSingleTask(msg.detail_info, RechargeWithLimitTask);
+            SendData(msg.action, result);
+        }
+
+        public async Task<(string, bool)> RechargeWithLimitTask(string receive, NpgsqlConnection? conn = null, NpgsqlTransaction? tran = null)
+        {
+            var req = JsonConvert.DeserializeObject<List<string>>(receive);
+            int optionIndex = int.Parse(req[0]);
+            int diamondAmount = int.Parse(req[1]);
+
+            var raw = await ReadDataFromTable("recharge_daily_limits", conn, tran);
+            var limits = ParseRechargeData(raw);
+
+            limits.counts.TryGetValue(optionIndex, out int curCount);
+            if (curCount >= RECHARGE_DAILY_LIMIT)
+            {
+                return ("今日该选项已达购买上限", false);
+            }
+
+            limits.counts[optionIndex] = curCount + 1;
+            string newLimits = JsonConvert.SerializeObject(limits);
+            await GF_DP.Update_column_in_player_table(_player_name, "recharge_daily_limits", newLimits, conn, tran);
+
+            var currencyRaw = await ReadDataFromTable("currency", conn, tran);
+            if (string.IsNullOrEmpty(currencyRaw))
+                return ("nodata", false);
+
+            var currency = JsonConvert.DeserializeObject<Dictionary<string, int>>(currencyRaw);
+            if (!currency.ContainsKey("罐罐"))
+                currency["罐罐"] = 0;
+            currency["罐罐"] += diamondAmount;
+
+            string newCurrency = JsonConvert.SerializeObject(currency);
+            await GF_DP.Update_column_in_player_table(_player_name, "currency", newCurrency, conn, tran);
+
+            var response = new RechargeWithLimitResponse
+            {
+                currencyData = newCurrency,
+                rechargeLimits = limits
+            };
+            return (JsonConvert.SerializeObject(response), true);
+        }
+
+        private RechargeDailyLimits ParseRechargeData(string raw)
+        {
+            RechargeDailyLimits limits = null;
+            if (!string.IsNullOrEmpty(raw))
+                limits = JsonConvert.DeserializeObject<RechargeDailyLimits>(raw);
+
+            string today = DateTime.Now.ToString("yyyy-MM-dd");
+            if (limits == null || limits.date != today)
+            {
+                limits = new RechargeDailyLimits { date = today, counts = new Dictionary<int, int>() };
+            }
+            return limits;
         }
         #endregion
 
@@ -1914,6 +1983,35 @@ namespace CLIP.Project_Mouse_DataLoader.Grains_Implementation
                 return (send, true);
             }
 
+        }
+        #endregion
+        #region 服装
+        public async Task SaveClothes(Network_Msg msg)
+        {
+            var result = await ExcuteSingleTask(msg.detail_info, SaveClothesTask);
+            SendData(msg.action, result);
+        }
+        public async Task<(string, bool)> SaveClothesTask(string receive, NpgsqlConnection? conn = null, NpgsqlTransaction? tran = null)
+        {
+            await GF_DP.Update_column_in_player_table(_player_name, "clothes", receive, conn, tran);
+            return ("success", true);
+        }
+        public async Task LoadClothes(Network_Msg msg)
+        {
+            var result = await ExcuteSingleTask(msg.detail_info, LoadClothesTask);
+            SendData(msg.action, result);
+        }
+        public async Task<(string, bool)> LoadClothesTask(string receive, NpgsqlConnection? conn = null, NpgsqlTransaction? tran = null)
+        {
+            string send = await ReadDataFromTable("clothes", conn, tran);
+            if(string.IsNullOrEmpty(send))
+            {
+                return ("nodata", true);
+            }
+            else
+            {
+                return (send, true);
+            }
         }
         #endregion
         public async Task<string> ReadDataFromTable(string cloumnName, NpgsqlConnection? conn = null, NpgsqlTransaction? tran = null)
@@ -2202,8 +2300,11 @@ namespace CLIP.Project_Mouse_DataLoader.Grains_Implementation
         
         public async Task set_server_id(string server_id)
         {
+            var prev = _server_id;
             _server_id = server_id;
             this._last_player_heart_beat_time = DateTime.Now; // 重置心跳时间，防止刚上线就超时
+            GF_LP._logger.Warning(
+                $"[Grain.set_server_id] player={_player_name ?? this.GetPrimaryKeyString()} prev={prev} neo={server_id} time={DateTime.UtcNow:O}");
             await Task.CompletedTask;
         }
 

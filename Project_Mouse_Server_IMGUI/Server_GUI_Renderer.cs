@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Diagnostics;
 using System.Linq;
@@ -77,20 +77,19 @@ namespace CLIP
                     {
                         ImGui.Begin("IMGUI_Windows");
                         ImGui.Text("Hello_IMGUI");
-                        ImGui.Text("# Force_Player_Offline #");
-                        ImGui.InputText("Player_Name", ref input_Force_Player_Offline_Player_name_str, 1024);
+                        ImGui.Separator();
+                        ImGui.Text("踢人工具（按玩家ID）");
+                        ImGui.TextDisabled("ID 与库表 player_network_state.user_name 一致（登录用户名）");
+                        ImGui.InputText("玩家ID", ref input_Force_Player_Offline_Player_name_str, 1024);
 
-                   
-                        if (ImGui.Button("Force_Player_Offline"))
+                        if (ImGui.Button("踢下线"))
                         {
-                            string _user_name= input_Force_Player_Offline_Player_name_str;
-
-                            GF_LP._logger.Information("Force_Player_Offline_#_user_name = "+ _user_name);
-
-                            if (_force_player_offline_action != null)
-                            {
-                                _force_player_offline_action.Invoke(_user_name);
-                            }
+                            var id = input_Force_Player_Offline_Player_name_str?.Trim() ?? "";
+                            GF_LP._logger.Information("IMGUI_踢人_#_player_id = " + id);
+                            if (id.Length == 0)
+                                GF_LP._logger.Information("IMGUI_踢人_#_skipped_empty_id");
+                            else if (_force_player_offline_action != null)
+                                _ = _force_player_offline_action.Invoke(id);
                         }
                         
                         ImGui.Dummy(new Vector2(0, 32)); // 竖直空白30像素

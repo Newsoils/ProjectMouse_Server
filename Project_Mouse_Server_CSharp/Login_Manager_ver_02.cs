@@ -64,11 +64,12 @@ namespace CLIP.Server_Network
                 // --- 逻辑分支 A：新账号注册 ---
                 if (playerRow == null)
                 {
-                    await GF_DP.Execute_NonQuery_Async(
-                        "INSERT INTO player(user_name, password) VALUES(@name, @pw)",
-                        new Dictionary<string, object?> { ["name"] = userName, ["pw"] = inputPassword });
-
-                    int newId = await GF_DP.Execute_Scalar_Async<int>("SELECT id FROM player WHERE user_name = @name", "name", userName);
+                    int newId = await GF_DP.Create_Player_Account_Async(userName, inputPassword);
+                    if (newId <= 0)
+                    {
+                        SendLoginResponse(connectionId, _msg, "Login_Failure", "Create_New_Account_Failure");
+                        return "Create_New_Account_Failure";
+                    }
 
                     await UpdatePlayerNetworkState(userName, connectionId);
                     await Server_Helper_Function.start_player_server(userName, connectionId);

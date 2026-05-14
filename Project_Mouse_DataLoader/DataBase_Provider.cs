@@ -348,6 +348,73 @@ namespace CLIP
                 return result ?? string.Empty;
             }
 
+            public static async Task<int> Create_Player_Account_Async(string userName, string password)
+            {
+                if (_dataSource == null) return 0;
+
+                await using var conn = await _dataSource.OpenConnectionAsync();
+                await using var trans = await conn.BeginTransactionAsync();
+
+                try
+                {
+                    await using (var lockCmd = new NpgsqlCommand("LOCK TABLE public.player IN EXCLUSIVE MODE;", conn, trans))
+                    {
+                        await lockCmd.ExecuteNonQueryAsync();
+                    }
+
+                    const string syncSequenceSql = @"
+                        WITH player_state AS (
+                            SELECT COALESCE(MAX(id), 0) AS max_id, COUNT(*) AS row_count
+                            FROM public.player
+                        ),
+                        sequence_state AS (
+                            SELECT last_value, is_called
+                            FROM public.player_id_seq
+                        )
+                        SELECT setval(
+                            'public.player_id_seq'::regclass,
+                            CASE
+                                WHEN player_state.row_count = 0 AND sequence_state.is_called = false THEN 1
+                                ELSE GREATEST(player_state.max_id, sequence_state.last_value)
+                            END,
+                            CASE
+                                WHEN player_state.row_count = 0 AND sequence_state.is_called = false THEN false
+                                ELSE true
+                            END
+                        )
+                        FROM player_state, sequence_state;";
+
+                    await using (var syncCmd = new NpgsqlCommand(syncSequenceSql, conn, trans))
+                    {
+                        await syncCmd.ExecuteScalarAsync();
+                    }
+
+                    const string insertSql = @"
+                        INSERT INTO public.player(user_name, password)
+                        VALUES (@name, @pw)
+                        RETURNING id;";
+
+                    int newPlayerId;
+                    await using (var insertCmd = new NpgsqlCommand(insertSql, conn, trans))
+                    {
+                        insertCmd.Parameters.AddWithValue("name", userName);
+                        insertCmd.Parameters.AddWithValue("pw", password);
+
+                        var result = await insertCmd.ExecuteScalarAsync();
+                        newPlayerId = result == null || result == DBNull.Value ? 0 : Convert.ToInt32(result);
+                    }
+
+                    await trans.CommitAsync();
+                    return newPlayerId;
+                }
+                catch (Exception ex)
+                {
+                    await trans.RollbackAsync();
+                    GF_LP._logger.Information($"Create_Player_Account_Async SQL_Error: {ex}");
+                    return 0;
+                }
+            }
+
 
             #region —— 优化后的玩家表操作 ——
 

@@ -1563,6 +1563,12 @@ namespace CLIP.Project_Mouse_DataLoader.Grains_Implementation
         public async Task SaveExpData(Network_Msg msg)
         {
             await GF_DP.Update_column_in_player_table(_player_name, "player_level", msg.detail_info);
+            if (_player_name != null)
+            {
+                await PM_GHL.Server_Social_Helper_Fuction.Ensure_Player_Brief_Info(
+                    _player_name,
+                    playerLevelJson: msg.detail_info);
+            }
         }
         public async Task GetExpData(Network_Msg msg)
          {
@@ -2261,9 +2267,9 @@ namespace CLIP.Project_Mouse_DataLoader.Grains_Implementation
                 var _obj = await PM_GHL.Server_Social_Helper_Fuction.Ensure_Player_Brief_Info(
                     _player_name,
                     _data_from_db,
-                    await GF_DP.Read_int_column_from_player_table(
+                    await GF_DP.Read_column_from_player_table(
                         _player_name,
-                        "affinity_with_main_character"
+                        "player_level"
                     ));
                 _output = GF_SP.SerializeObject(_obj);
             }

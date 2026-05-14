@@ -19,6 +19,76 @@ namespace CLIP
                 public static IMsg_Sender? _ws_msg_sender;
 
 
+                private static Player_Social_Setting CreateDefaultPlayerBrief(int affinity)
+                {
+                    var info = new Player_Social_Setting();
+                    info._main_character_name = "cat_neko";
+                    info._affinity_with_main_character = affinity;
+                    return info;
+                }
+
+                public static async Task<Player_Social_Setting> Ensure_Player_Brief_Info(
+                    string playerName,
+                    string? briefJson = null,
+                    int? affinity = null)
+                {
+                    int finalAffinity = affinity ?? 0;
+                    string? finalBriefJson = briefJson;
+
+                    if (GF_DP._dataSource == null)
+                    {
+                        return CreateDefaultPlayerBrief(finalAffinity);
+                    }
+
+                    if (finalBriefJson == null || affinity == null)
+                    {
+                        const string sql = @"
+                            SELECT player_brief, affinity_with_main_character
+                            FROM player
+                            WHERE user_name = @name
+                            LIMIT 1;";
+
+                        await using var conn = await GF_DP._dataSource.OpenConnectionAsync();
+                        await using var cmd = new NpgsqlCommand(sql, conn);
+                        cmd.Parameters.AddWithValue("name", playerName ?? (object)DBNull.Value);
+
+                        await using var reader = await cmd.ExecuteReaderAsync();
+                        if (await reader.ReadAsync())
+                        {
+                            if (finalBriefJson == null && !reader.IsDBNull(0))
+                            {
+                                finalBriefJson = reader.GetValue(0)?.ToString();
+                            }
+
+                            if (affinity == null && !reader.IsDBNull(1))
+                            {
+                                finalAffinity = reader.GetInt32(1);
+                            }
+                        }
+                    }
+
+                    Player_Social_Setting? briefInfo = null;
+                    if (!string.IsNullOrWhiteSpace(finalBriefJson) && finalBriefJson != "{}" && finalBriefJson != "\"\"")
+                    {
+                        briefInfo = GF_SP.DeserializeObject<Player_Social_Setting>(finalBriefJson);
+                    }
+
+                    if (briefInfo == null)
+                    {
+                        briefInfo = CreateDefaultPlayerBrief(finalAffinity);
+                        await GF_DP.Update_column_in_player_table(
+                            playerName,
+                            "player_brief",
+                            GF_SP.SerializeObject(briefInfo));
+                    }
+                    else
+                    {
+                        briefInfo._affinity_with_main_character = finalAffinity;
+                    }
+
+                    return briefInfo;
+                }
+
                 public async static Task<string> try_query_single_friend_info(int friend_id,string this_player_name)
                 {
                     string ans = "NULL";
@@ -44,8 +114,11 @@ namespace CLIP
                                     {
                                         _friend_info.friend_name = reader.GetString(0);
 
-                                        _friend_info._brief_info = GF_SP.DeserializeObject<Player_Social_Setting>(reader.GetString(3));
-                                        _friend_info._brief_info._affinity_with_main_character = reader.GetInt32(1);
+                                        var rawBrief = reader.IsDBNull(3) ? null : reader.GetValue(3)?.ToString();
+                                        _friend_info._brief_info = await Ensure_Player_Brief_Info(
+                                            _friend_info.friend_name,
+                                            rawBrief,
+                                            reader.GetInt32(1));
                                         var _cloth_info = GF_SP.DeserializeObject<Character_Clothes_Info>(reader.GetString(2));
                                         _friend_info._cloth_suit = _cloth_info.get_current();
                                         ans = GF_SP.SerializeObject(_friend_info);
@@ -88,8 +161,11 @@ namespace CLIP
                                     if (await reader.ReadAsync())
                                     {
                                         _friend_info.friend_id = reader.GetInt32(0).ToString();
-                                        _friend_info._brief_info = GF_SP.DeserializeObject<Player_Social_Setting>(reader.GetString(3));
-                                        _friend_info._brief_info._affinity_with_main_character = reader.GetInt32(1);
+                                        var rawBrief = reader.IsDBNull(3) ? null : reader.GetValue(3)?.ToString();
+                                        _friend_info._brief_info = await Ensure_Player_Brief_Info(
+                                            friend_user_name,
+                                            rawBrief,
+                                            reader.GetInt32(1));
                                         var _cloth_info = GF_SP.DeserializeObject<Character_Clothes_Info>(reader.GetString(2));
                                         _friend_info._cloth_suit = _cloth_info.get_current();
                                         // ans = GF_SP.SerializeObject(_friend_info);
@@ -197,8 +273,11 @@ namespace CLIP
 
                                     _friend_info.friend_id = reader.GetInt32(0).ToString();
                                     _friend_info.friend_name = reader.GetString(1);
-                                    _friend_info._brief_info = GF_SP.DeserializeObject<Player_Social_Setting>(reader.GetString(4));
-                                    _friend_info._brief_info._affinity_with_main_character = reader.GetInt32(2);
+                                    var rawBrief = reader.IsDBNull(4) ? null : reader.GetValue(4)?.ToString();
+                                    _friend_info._brief_info = await Ensure_Player_Brief_Info(
+                                        _friend_info.friend_name,
+                                        rawBrief,
+                                        reader.GetInt32(2));
                                     var _cloth_info = GF_SP.DeserializeObject<Character_Clothes_Info>(reader.GetString(3));
                                     _friend_info._cloth_suit = _cloth_info.get_current();
                                    
@@ -227,12 +306,10 @@ namespace CLIP
                                     _friend_info.friend_id = reader["id"].ToString();
                                     _friend_info.friend_name = reader["user_name"].ToString();
 
-                                    _friend_info._brief_info = GF_SP.DeserializeObject<Player_Social_Setting>(
-                                        reader["player_brief"].ToString()
-                                    );
-
-                                    _friend_info._brief_info._affinity_with_main_character =
-                                        Convert.ToInt32(reader["affinity_with_main_character"]);
+                                    _friend_info._brief_info = await Ensure_Player_Brief_Info(
+                                        _friend_info.friend_name,
+                                        reader["player_brief"]?.ToString(),
+                                        Convert.ToInt32(reader["affinity_with_main_character"]));
 
                                     var _cloth_info = GF_SP.DeserializeObject<Character_Clothes_Info>(
                                         reader["main_character_cloth"].ToString()

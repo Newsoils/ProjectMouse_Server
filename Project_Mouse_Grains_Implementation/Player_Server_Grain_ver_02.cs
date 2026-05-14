@@ -486,6 +486,11 @@ namespace CLIP.Project_Mouse_DataLoader.Grains_Implementation
                 {
 
                     var _brief = GF_SP.DeserializeObject<Player_Social_Setting>(_para[1]);
+                    if (_brief == null)
+                    {
+                        _brief = await PM_GHL.Server_Social_Helper_Fuction.Ensure_Player_Brief_Info(_player_name, _para[1]);
+                        _para[1] = GF_SP.SerializeObject(_brief);
+                    }
                     _ = Task.Run(async () =>
                     {
                         await GF_DP.Update_column_in_player_table(
@@ -2253,29 +2258,14 @@ namespace CLIP.Project_Mouse_DataLoader.Grains_Implementation
                  _player_name, "player_brief"
                );
 
-                if (_data_from_db != null && _data_from_db.Length != 0 && _data_from_db != "{}")
-                {
-                    //_player_inventory = GF_SP.DeserializeObject<Game_Inventory>(_data_from_db);
-                    var _obj = GF_SP.DeserializeObject<Player_Social_Setting>(_data_from_db);
-                    _obj._affinity_with_main_character = await GF_DP.Read_int_column_from_player_table(
-                 _player_name, "affinity_with_main_character"
-               );
-                    _output = GF_SP.SerializeObject(_obj);
-                }
-                else
-                {
-                    var _info = new Player_Social_Setting();
-                    _info._main_character_name = "cat_neko";
-                    //_info.last_friend_event_name="Test_from_server_001";
-                    // _info._current_weather = "default_Snow_001";
-                    _output = GF_SP.SerializeObject(_info);
-
-                    await GF_DP.Update_column_in_player_table(
+                var _obj = await PM_GHL.Server_Social_Helper_Fuction.Ensure_Player_Brief_Info(
+                    _player_name,
+                    _data_from_db,
+                    await GF_DP.Read_int_column_from_player_table(
                         _player_name,
-                        "player_brief",
-                        _output
-                        );
-                }
+                        "affinity_with_main_character"
+                    ));
+                _output = GF_SP.SerializeObject(_obj);
             }
 
 

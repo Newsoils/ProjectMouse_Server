@@ -101,7 +101,6 @@ namespace CLIP.Server.Project_Mouse_Grain_Helper_Lib
            sender, 
            receiver,
            mail_state,
-           send_present_msg_id_related,
            is_get_reward
            
             FROM mail_record
@@ -132,8 +131,7 @@ namespace CLIP.Server.Project_Mouse_Grain_Helper_Lib
                         mail.sender = reader.IsDBNull(5) ? "" : reader.GetString(5);
                         mail.receiver = reader.IsDBNull(6) ? "" : reader.GetString(6);
                         mail.mail_state = reader.IsDBNull(7) ? "unread" : reader.GetString(7);
-                        mail._send_present_msg_id_related = reader.IsDBNull(8) ? -1 : reader.GetInt32(8);
-                        string _reward_state = reader.IsDBNull(9) ? "NULL" : reader.GetString(9);
+                        string _reward_state = reader.IsDBNull(8) ? "NULL" : reader.GetString(8);
                         if (_reward_state == "true")
                         {
                             mail.isGetReward = true;

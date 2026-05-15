@@ -1,4 +1,5 @@
-﻿using CLIP.Project_Mouse.Grains_Interfaces;
+﻿using System;
+using CLIP.Project_Mouse.Grains_Interfaces;
 using CLIP.Project_Mouse.Kernel;
 using CLIP.Project_Mouse.Kernel.Social;
 using Npgsql;
@@ -18,6 +19,70 @@ namespace CLIP
                 public static IGrainFactory? _grain_factory;
                 public static IMsg_Sender? _ws_msg_sender;
 
+                /// <summary>
+                /// 坏掉的 main_character_cloth 不应阻断好友查询/加好友；返回默认套装。
+                /// </summary>
+                private static Cloth_Suit ParseClothSuitOrDefault(string? mainCharacterClothJson, string? playerNameForLog = null)
+                {
+                    if (string.IsNullOrWhiteSpace(mainCharacterClothJson))
+                        return new Cloth_Suit();
+
+                    try
+                    {
+                        var clothInfo = GF_SP.DeserializeObject<Character_Clothes_Info>(mainCharacterClothJson);
+                        if (clothInfo == null)
+                            return new Cloth_Suit();
+                        return clothInfo.get_current();
+                    }
+                    catch (Exception ex)
+                    {
+                        GF_LP.log(
+                            $"Parse main_character_cloth failed{(playerNameForLog != null ? $" user={playerNameForLog}" : "")}: {ex.Message}",
+                            true);
+                        return new Cloth_Suit();
+                    }
+                }
+
+                /// <summary>
+                /// 仅解析玩家 id，用于加好友写库（不依赖服装 JSON）。
+                /// </summary>
+                public static async Task<string?> try_get_user_name_by_player_id(int friend_id)
+                {
+                    if (GF_DP._dataSource == null)
+                        return null;
+
+                    if (!await GF_DP.Check_exist_column_val_equal<int>("player", "id", friend_id))
+                        return null;
+
+                    await using var conn = await GF_DP._dataSource.OpenConnectionAsync();
+                    const string sql = "SELECT user_name FROM player WHERE id = @id LIMIT 1;";
+                    await using var cmd = new NpgsqlCommand(sql, conn);
+                    cmd.Parameters.AddWithValue("id", friend_id);
+                    var result = await cmd.ExecuteScalarAsync();
+                    return result?.ToString();
+                }
+
+                /// <summary>
+                /// 发起好友申请。返回：OK / NOT_FOUND / ALREADY_PENDING / SQL_ERROR
+                /// </summary>
+                public static async Task<string> try_add_friend_request(string senderUserName, int targetFriendId)
+                {
+                    var targetUserName = await try_get_user_name_by_player_id(targetFriendId);
+                    if (string.IsNullOrEmpty(targetUserName))
+                        return "NOT_FOUND";
+
+                    var flag = await GF_DP.Insert_data_to_player_table_array_column<string>(
+                        targetUserName,
+                        "friend_pending",
+                        senderUserName);
+
+                    return flag switch
+                    {
+                        "OK" => "OK",
+                        "NoRowAffected" => "ALREADY_PENDING",
+                        _ => "SQL_ERROR"
+                    };
+                }
 
                 private static int ParsePlayerLevel(string? playerLevelJson)
                 {
@@ -137,8 +202,8 @@ namespace CLIP
                                             _friend_info.friend_name,
                                             rawBrief,
                                             reader.IsDBNull(4) ? null : reader.GetValue(4)?.ToString());
-                                        var _cloth_info = GF_SP.DeserializeObject<Character_Clothes_Info>(reader.GetString(2));
-                                        _friend_info._cloth_suit = _cloth_info.get_current();
+                                        var rawCloth = reader.IsDBNull(2) ? null : reader.GetValue(2)?.ToString();
+                                        _friend_info._cloth_suit = ParseClothSuitOrDefault(rawCloth, _friend_info.friend_name);
                                         ans = GF_SP.SerializeObject(_friend_info);
                                     }
 
@@ -184,8 +249,8 @@ namespace CLIP
                                             friend_user_name,
                                             rawBrief,
                                             reader.IsDBNull(4) ? null : reader.GetValue(4)?.ToString());
-                                        var _cloth_info = GF_SP.DeserializeObject<Character_Clothes_Info>(reader.GetString(2));
-                                        _friend_info._cloth_suit = _cloth_info.get_current();
+                                        var rawCloth = reader.IsDBNull(2) ? null : reader.GetValue(2)?.ToString();
+                                        _friend_info._cloth_suit = ParseClothSuitOrDefault(rawCloth, friend_user_name);
                                         // ans = GF_SP.SerializeObject(_friend_info);
                                     }
                                 }
@@ -296,8 +361,8 @@ namespace CLIP
                                         _friend_info.friend_name,
                                         rawBrief,
                                         reader.IsDBNull(5) ? null : reader.GetValue(5)?.ToString());
-                                    var _cloth_info = GF_SP.DeserializeObject<Character_Clothes_Info>(reader.GetString(3));
-                                    _friend_info._cloth_suit = _cloth_info.get_current();
+                                    var rawCloth = reader.IsDBNull(3) ? null : reader.GetValue(3)?.ToString();
+                                    _friend_info._cloth_suit = ParseClothSuitOrDefault(rawCloth, _friend_info.friend_name);
                                    
                                     _player_social_info._friend_accepted_info_record.Add(_friend_info);
 
@@ -329,12 +394,10 @@ namespace CLIP
                                         reader["player_brief"]?.ToString(),
                                         reader["player_level"]?.ToString());
 
-                                    var _cloth_info = GF_SP.DeserializeObject<Character_Clothes_Info>(
-                                        reader["main_character_cloth"].ToString()
-                                    );
-                                    _friend_info._cloth_suit = _cloth_info.get_current();
-
-                                   
+                                    var rawCloth = reader.IsDBNull(reader.GetOrdinal("main_character_cloth"))
+                                        ? null
+                                        : reader["main_character_cloth"]?.ToString();
+                                    _friend_info._cloth_suit = ParseClothSuitOrDefault(rawCloth, _friend_info.friend_name);
 
                                     _player_social_info._friend_pending_info_record.Add(_friend_info);
                                 }

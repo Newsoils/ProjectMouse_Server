@@ -614,34 +614,36 @@ namespace CLIP.Project_Mouse_DataLoader.Grains_Implementation
 
             if (_msg.action == "Try_Add_Friend")
             {
-                int friend_id = -1;
-                if (int.TryParse(_msg.detail_info, out friend_id) == true)
+                string addResult;
+                if (!int.TryParse(_msg.detail_info, out int friend_id))
                 {
-                    var _friend_info = await PM_GHL.Server_Social_Helper_Fuction.try_query_single_friend_info(friend_id, _player_name);
-
-
-                    if (_friend_info != "NULL")
+                    addResult = "INVALID_ID";
+                }
+                else
+                {
+                    addResult = await PM_GHL.Server_Social_Helper_Fuction.try_add_friend_request(_player_name, friend_id);
+                    if (addResult == "OK")
                     {
-
-                        var _info = GF_SP.DeserializeObject<Friend_Social_Record>(_friend_info);
-                        var _flag = await GF_DP.Insert_data_to_player_table_array_column<string>(
-                            _info.friend_name,
-                            "friend_pending",
-                              _player_name
-                            );
-
-                        if (_flag == "OK")
+                        var targetUserName = await PM_GHL.Server_Social_Helper_Fuction.try_get_user_name_by_player_id(friend_id);
+                        if (!string.IsNullOrEmpty(targetUserName))
                         {
                             Task.Run(async () =>
                             {
-                                await CLIP.Server.
-                                Project_Mouse_Grain_Helper_Lib.
-                                Server_Social_Helper_Fuction.
-                                try_sync_other_player_social_info(_info.friend_name);
+                                await PM_GHL.Server_Social_Helper_Fuction.try_sync_other_player_social_info(targetUserName);
                             });
                         }
                     }
                 }
+
+                var addResMsg = new Network_Msg();
+                addResMsg.player_id = _player_name;
+                addResMsg.msg_id = _current_send_msg_id;
+                addResMsg.sender = "Player_Server";
+                addResMsg.action_target = _msg.sender;
+                addResMsg.action = "Response_Try_Add_Friend";
+                addResMsg.detail_info = addResult;
+                addResMsg._sending_mode = Msg_Sending_Mode.Server_to_Client;
+                send_msg(addResMsg);
             }
 
             if (_msg.action == "Get_Social_Info")

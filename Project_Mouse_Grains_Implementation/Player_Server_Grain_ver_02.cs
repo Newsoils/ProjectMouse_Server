@@ -1355,7 +1355,19 @@ namespace CLIP.Project_Mouse_DataLoader.Grains_Implementation
                 var _data_from_db = await GF_DP.Read_int_column_from_player_table(
                  _query_player_name, "player_loginreward"
                );
-                _output = _data_from_db;
+                if (_data_from_db == int.MinValue)
+                {
+                    _output = 0;
+                    await GF_DP.Update_column_in_player_table(
+                       _query_player_name,
+                       "player_loginreward",
+                       _output
+                       );
+                }
+                else
+                {
+                    _output = _data_from_db;
+                }
             }
 
             var _res_msg = new Network_Msg();

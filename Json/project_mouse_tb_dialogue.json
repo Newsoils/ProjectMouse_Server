@@ -745,7 +745,7 @@
     "_speaker": 2,
     "_nextDialogueId": -1,
     "_isLastDialogue": true,
-    "_contents": "是海里的果冻（假的别信）！",
+    "_contents": "是海里的果冻（假的别信）",
     "Options": [],
     "_chatHints": ""
   },
@@ -802,7 +802,7 @@
     "_speaker": 2,
     "_nextDialogueId": -1,
     "_isLastDialogue": true,
-    "_contents": "是的，那是一个下雨天。",
+    "_contents": "是的，那是一个下雨天",
     "Options": [],
     "_chatHints": ""
   },
@@ -1052,7 +1052,7 @@
     "_speaker": 2,
     "_nextDialogueId": -1,
     "_isLastDialogue": true,
-    "_contents": "听起来……很棒，希望可以延续下去。",
+    "_contents": "听起来……很棒，希望可以延续下去",
     "Options": [],
     "_chatHints": ""
   },
@@ -1131,7 +1131,7 @@
     "_speaker": 2,
     "_nextDialogueId": -1,
     "_isLastDialogue": true,
-    "_contents": "我也是很喜欢牛奶。",
+    "_contents": "我也是很喜欢牛奶",
     "Options": [],
     "_chatHints": ""
   },

@@ -390,8 +390,8 @@ namespace CLIP
                     }
 
                     const string insertSql = @"
-                        INSERT INTO public.player(user_name, password)
-                        VALUES (@name, @pw)
+                        INSERT INTO public.player(user_name, password, player_loginreward)
+                        VALUES (@name, @pw, 0)
                         RETURNING id;";
 
                     int newPlayerId;

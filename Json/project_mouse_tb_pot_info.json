@@ -1,7 +1,7 @@
 [
   {
     "id": 4007,
-    "itemName": "青色圆形大花盆",
+    "itemName": "青铜圆形大花盆",
     "category": 101,
     "potSize": 3,
     "length": 2,
@@ -11,7 +11,7 @@
   },
   {
     "id": 4008,
-    "itemName": "青色椭圆中花盆",
+    "itemName": "青铜椭圆中花盆",
     "category": 102,
     "potSize": 2,
     "length": 2,
@@ -21,7 +21,7 @@
   },
   {
     "id": 4009,
-    "itemName": "青色圆形小花盆",
+    "itemName": "青铜圆形小花盆",
     "category": 103,
     "potSize": 1,
     "length": 1,
@@ -31,7 +31,7 @@
   },
   {
     "id": 4010,
-    "itemName": "青色切角大花盆",
+    "itemName": "青铜切角大花盆",
     "category": 101,
     "potSize": 3,
     "length": 2,
@@ -41,7 +41,7 @@
   },
   {
     "id": 4011,
-    "itemName": "青色椭圆切角中花盆",
+    "itemName": "青铜椭圆切角中花盆",
     "category": 102,
     "potSize": 2,
     "length": 2,
@@ -51,7 +51,7 @@
   },
   {
     "id": 4012,
-    "itemName": "青色花形小盆",
+    "itemName": "青铜花形小盆",
     "category": 103,
     "potSize": 1,
     "length": 1,
@@ -61,7 +61,7 @@
   },
   {
     "id": 4013,
-    "itemName": "青色六边形大花盆",
+    "itemName": "青铜六边形大花盆",
     "category": 101,
     "potSize": 3,
     "length": 2,
@@ -71,7 +71,7 @@
   },
   {
     "id": 4014,
-    "itemName": "青色六边形中花盆",
+    "itemName": "青铜六边形中花盆",
     "category": 102,
     "potSize": 2,
     "length": 2,
@@ -81,7 +81,7 @@
   },
   {
     "id": 4015,
-    "itemName": "青色六边形小花盆",
+    "itemName": "青铜六边形小花盆",
     "category": 103,
     "potSize": 1,
     "length": 1,
@@ -91,7 +91,7 @@
   },
   {
     "id": 4016,
-    "itemName": "青色方形大花盆",
+    "itemName": "青铜方形大花盆",
     "category": 101,
     "potSize": 3,
     "length": 2,
@@ -101,7 +101,7 @@
   },
   {
     "id": 4017,
-    "itemName": "青色方形中花盆",
+    "itemName": "青铜方形中花盆",
     "category": 102,
     "potSize": 2,
     "length": 2,
@@ -111,7 +111,7 @@
   },
   {
     "id": 4018,
-    "itemName": "青色方形小花盆",
+    "itemName": "青铜方形小花盆",
     "category": 103,
     "potSize": 1,
     "length": 1,
